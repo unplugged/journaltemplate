@@ -7,7 +7,7 @@
 				xpageDoc="UnpDocument.xsp" viewName="(UnpSearch)" detailColumn="DiaryDate"
 				summaryColumn="Topic">
 				<xc:this.viewsearch><![CDATA[#{javascript:param.get("query");}]]></xc:this.viewsearch>
-				<xc:this.title><![CDATA[#{javascript:"Results for " + param.get("query");}]]></xc:this.title>
+				<xc:this.title><![CDATA[#{javascript:"Results for: " + param.get("query");}]]></xc:this.title>
 			</xc:unpSearchResults>
 		</xp:this.facets>
 	</xc:unpScrollableArea>
