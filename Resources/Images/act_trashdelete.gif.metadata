@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1e2" sequence="3" unid="4DFAE7D9D11EF59C852573C50067E5E2">
+<created><datetime>20080103T135450,58-05</datetime></created>
+<modified><datetime>20121218T085047,67-05</datetime></modified>
+<revised><datetime dst="true">20090924T132617,52-04</datetime></revised>
+<lastaccessed><datetime>20121218T085047,67-05</datetime></lastaccessed>
+<addedtofile><datetime>20121218T085047,67-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name="$FlagsExt" sign="true"><text>D</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+<item name="$TITLE" sign="true"><text>act_trashdelete.gif</text></item>
+<item name="$DesignerVersion" sign="true"><text>8</text></item>
+<item name="$LANGUAGE" sign="true"><text>en</text></item>
+
+
+<item name="$MimeType" sign="true"><text>image/gif</text></item>
+<item name="$FileModDT" sign="true"><datetime>20070130T160959,95-08</datetime></item>
+<item name="$ImageNames" sign="true"><text>newTrash_18x18.gif</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+<item name="$Flags"><text>34CiQ</text></item></note>

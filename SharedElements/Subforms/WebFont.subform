@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
+ replicaid='85257AD8004C0F2E'>
+<noteinfo noteid='19a' unid='C49D00E8032800FE85256A88004C5E94' sequence='8'>
+<created><datetime dst='true'>20010713T095409,48-04</datetime></created>
+<modified><datetime>20121218T085047,31-05</datetime></modified>
+<revised><datetime dst='true'>20090924T132615,98-04</datetime></revised>
+<lastaccessed><datetime>20121218T085047,31-05</datetime></lastaccessed>
+<addedtofile><datetime>20121218T085047,31-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAEA/gACAAAAAAAAAF//EAABAMAAAgAAAAAAAABf/xAAAgAPAAcAAAAAAAAA
+</rawitemdata></item>
+<item name='$TITLE'><text>WebFont</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAAAAAA
+</rawitemdata></item>
+<item name='$Flags'><text>CUAx3</text></item>
+<item name='$DesignerVersion' sign='true'><text>6</text></item>
+<item name='$LANGUAGE' sign='true'><text>en</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>WebFont</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1IAAQAEAAAAAAAAAKAFAACgBQgA0AKgBXAIQAsQDuAQsBOAFgAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAACBAAAAAJQEoAUKAKAFCgAAAGQAgwQBAMz/CAAAAAAAhf8mAAEAAAg8SEVBRD4APFNU
+WUxFIFRZUEU9InRleHQvY3NzIj6BAoMEAQCF/ygAAQAACCAJQk9EWSB7Zm9udC1mYW1pbHk6IHNh
+bnMtc2VyaWZ9gQKDBAEAhf8YAAEAAAg8L1NUWUxFPgA8L0hFQUQ+zf8IAAAAAAA=
+</rawitemdata></item></note>
+

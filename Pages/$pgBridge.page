@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
+ replicaid='85257AD8004C0F2E'>
+<noteinfo noteid='2be' unid='A25A16338D27DBFA85257436003C6D59' sequence='4'>
+<created><datetime dst='true'>20080425T070001,53-04</datetime></created>
+<modified><datetime>20121218T085048,71-05</datetime></modified>
+<revised><datetime dst='true'>20090924T132617,22-04</datetime></revised>
+<lastaccessed><datetime>20121218T085048,71-05</datetime></lastaccessed>
+<addedtofile><datetime>20121218T085048,71-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name='OriginalModTime' sign='true'><datetime dst='true'>20050504T103656,87-04</datetime></item>
+<item name='$BackgroundRepeat' sign='true'><text>3</text></item>
+<item name='$BackgroundR5' sign='true'>
+<rawitemdata type='1'>
+3QYBAJkAmQAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAH0AHAAAAAEADwAyAAAAAAAAAAAAAAAA
+AAAAAAD2/ykAAAAAAAMAEwAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAJEJyaWRnZQDeBgEAmQA=
+</rawitemdata></item>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><text>$pgBridge</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAAAAATwABAN/k7AAQAAAA
+</rawitemdata></item>
+<item name='$Flags'><text>C34WQ1w</text></item>
+<item name='$DesignerVersion' sign='true'><text>8.5</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>$pgBridge</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8IAAEAAAk=
+</rawitemdata></item>
+<item name='$LANGUAGE' sign='true'><text>en</text></item></note>
+

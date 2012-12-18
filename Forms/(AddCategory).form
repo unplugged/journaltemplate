@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
+ replicaid='85257AD8004C0F2E'>
+<noteinfo noteid='1de' unid='97B055F5C33A23ED852573C5003F2C1B' sequence='4'>
+<created><datetime>20080103T063000,59-05</datetime></created>
+<modified><datetime>20121218T085047,65-05</datetime></modified>
+<revised><datetime dst='true'>20090924T132616,22-04</datetime></revised>
+<lastaccessed><datetime>20121218T085047,65-05</datetime></lastaccessed>
+<addedtofile><datetime>20121218T085047,65-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name='$LANGUAGE' sign='true'><text>en</text></item>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAEAzAAAAAAAAAAAAF//EAACAA8ABwAAAAAAAAA=
+</rawitemdata></item>
+<item name='$TITLE'><text>(AddCategory)</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$Flags'><text>C</text></item>
+<item name='$DesignerVersion' sign='true'><text>8</text></item>
+<item name='$$FormAction2' sign='true'><formula>FIELD Categories := @Trim(@Unique(Categories : AddCategory));
+""</formula></item>
+<item name='$AppHelpFormula' sign='true'><formula>@Command([OpenHelpDocument];[ClientHelp];"(Help)";"pernames_f_helper_groups")</formula></item>
+<item name='CurrentCategories' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='Categories' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='addCategory' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='$Fields'><textlist><text>addCategory</text><text>Categories</text><text
+>CurrentCategories</text></textlist></item>
+<item name='$PublicAccess' sign='true'><text>1</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>(AddCategory)</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+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
+</rawitemdata></item></note>
+

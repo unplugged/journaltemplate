@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xc="http://www.ibm.com/xsp/custom" disableTheme="true"
+	createForm="true">
+	<xp:this.resources>
+		<xp:styleSheet href="/unplugged.css"></xp:styleSheet>
+	</xp:this.resources>
+
+	<xc:unpScrollableArea>
+		<xp:this.facets>
+			<xc:unpFormViewer showbuttons="true" xp:key="facet_1"
+				closexpagename="UnpMain.xsp" formname="JournalEntry"
+				editxpagename="UnpDocumentEdit.xsp">
+				<xc:this.title><![CDATA[#{javascript:document1.getItemValueString("Subject");}]]></xc:this.title>
+				<xp:this.facets>
+					<xp:panel xp:key="facet_1">
+						<xp:label value="Category:" id="label1"
+							for="Category">
+						</xp:label>
+						<xp:text id="Category"
+							value="#{document1.Categories}">
+						</xp:text>
+						<xp:label value="Diary Date:" id="label2"
+							for="Date">
+						</xp:label>
+						<xp:text id="Date"
+							value="#{document1.DiaryDate}">
+						</xp:text>
+						<xp:label value="Notes:" id="label3"
+							for="Body">
+						</xp:label>
+						<xp:inputRichText value="#{document1.Body}"
+							id="body">
+						</xp:inputRichText>
+					</xp:panel>
+				</xp:this.facets>
+			</xc:unpFormViewer>
+		</xp:this.facets>
+
+	</xc:unpScrollableArea>
+</xp:view>

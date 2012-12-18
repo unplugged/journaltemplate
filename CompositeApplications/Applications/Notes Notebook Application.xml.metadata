@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1ae" sequence="6" unid="24C44230205859D5852573C4003FFFBC">
+<created><datetime>20080102T063902,36-05</datetime></created>
+<modified><datetime>20121218T085047,41-05</datetime></modified>
+<revised><datetime dst="true">20090924T132616,08-04</datetime></revised>
+<lastaccessed><datetime>20121218T085047,41-05</datetime></lastaccessed>
+<addedtofile><datetime>20121218T085047,41-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<revisions><datetime>20080102T063902,90-05</datetime></revisions>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name="$TITLE"><text>Notes Notebook Application.xml</text></item>
+<item name="$SourceSeqTime" sign="true"><datetime>20080102T063902,90-05</datetime></item>
+<item name="$SourceSequence" sign="true"><text>00000001</text></item>
+<item name="$FlagsExt" sign="true"><text>1</text></item>
+<item name="$DesignerVersion" sign="true"><text>8</text></item>
+<item name="$Flags"><text>34567C|Q</text></item>
+
+
+<item name="$FileNames" sign="true"><text>Notes Notebook Application.xml</text></item>
+<item name="$LANGUAGE" sign="true"><text>en</text></item></note>

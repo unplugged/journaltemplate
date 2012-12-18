@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ibm-portal-composite xmlns="http://www.ibm.com/xmlns/prod/websphere/portal/v6.0/ibm-portal-composite" xmlns:var="http://www.ibm.com/xmlns/prod/websphere/portal/v6.0/ibm-portal-composite-variable" xmlns:base="http://www.ibm.com/xmlns/prod/websphere/portal/v6.0/ibm-portal-composite-base" xmlns:community="http://www.ibm.com/xmlns/prod/websphere/portal/v6.0/ibm-portal-composite-community">
+<application-info guid="[rep_id]_11_5JMPDRH1000980269G784H2GO4" category="default">
+<base:title>
+<base:nls-string xml:lang="en">Notebook</base:nls-string>
+</base:title>
+<base:description>
+<base:nls-string xml:lang="en">Notebook</base:nls-string>
+</base:description>
+</application-info>
+<business-component guid="[rep_id]_6_T6N1H4420G3SC02AVFRVVJ00H1" name="com.ibm.portal.blank.paa" handlerRef="local:ejb/ejb/com/ibm/wps/internalapp/service/PaaInstantiationServiceHome">
+<var:component-role ref="Manager@6_T6N1H4420G3SC02AVFRVVJ00H1"/>
+<var:component-role ref="Manager@3_T6N1H4420G3SC02AVFRVVJ0090"/>
+<var:component-role ref="Manager@3_T6N1H4420G3SC02AVFRVVJ0097"/>
+<var:component-role ref="Manager@3_T6N1H4420G3SC02AVFRVVJ00P3"/>	<var:component-role ref="User@6_T6N1H4420G3SC02AVFRVVJ00H1"/>
+<object-data>
+<ibm-portal-topology xmlns="http://www.ibm.com/xmlns/prod/websphere/portal/v6.0/ibm-portal-topology" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:base="http://www.ibm.com/xmlns/prod/websphere/portal/v6.0/ibm-portal-composite-base" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.ibm.com/xmlns/prod/websphere/portal/v6.0/ibm-portal-topology ibm-portal-topology.xsd">
+  <component-tree>
+    <portlet-definition id="736d4427149878d31eeda46c115fc5b55857ff6">
+      <description key="Notes Notebook Navigator">
+        <base:nls-string xml:lang="en">Notes Mail Navigator</base:nls-string>
+      </description>
+      <preference name="com.ibm.rcp.csiviews.viewpart.dburl">
+        <base:value value="notes:///[rep_id]/BorderFrame?OpenFrameset" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.viewId">
+        <base:value value="com.ibm.rcp.csiviews.viewpart.CSINavViewPart" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.aaf.createdByAAF">
+        <base:value value="com.ibm.rcp.aaf.createdByAAF" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.closeable">
+        <base:value value="false" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.showTitle">
+        <base:value value="true" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.moveable">
+        <base:value value="false" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.standalone">
+        <base:value value="true" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.visible">
+        <base:value value="true" xsi:type="base:String"/>
+      </preference>
+      <object-id value="[rep_id]_736d4427149878d31eeda46c115fc5b55857ff4"/>
+      <title>
+        <base:nls-string xml:lang="en">Notes Notebook Navigator</base:nls-string>
+      </title>
+    </portlet-definition>
+    <portlet-entity id="736d4427149878d31eeda46c115fc5b55857ff6.1" portletDefinitionRef="736d4427149878d31eeda46c115fc5b55857ff6">
+      <object-id value="[rep_id]_736d4427149878d31eeda46c115fc5b55857ff2"/>
+    </portlet-entity>
+    <portlet-definition id="736d4427149878d318cc1fbc115fc6be9f77ffb">
+      <description key="Notes Mail View">
+        <base:nls-string xml:lang="en">Notes Notebook View</base:nls-string>
+      </description>
+      <preference name="com.ibm.rcp.csiviews.viewpart.dburl">
+        <base:value value="notes:///[rep_id]/BorderFrame?OpenFrameset" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.viewId">
+        <base:value value="com.ibm.rcp.csiviews.viewpart.CSIViewPart" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.aaf.createdByAAF">
+        <base:value value="com.ibm.rcp.aaf.createdByAAF" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.closeable">
+        <base:value value="false" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.showTitle">
+        <base:value value="false" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.moveable">
+        <base:value value="false" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.ratio">
+        <base:value value="0.1997389" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.standalone">
+        <base:value value="true" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.visible">
+        <base:value value="true" xsi:type="base:String"/>
+      </preference>
+      <object-id value="[rep_id]_736d4427149878d318cc1fbc115fc6be9f77ff9"/>
+      <title>
+        <base:nls-string xml:lang="en">Notes Notesbook View</base:nls-string>
+      </title>
+    </portlet-definition>
+    <portlet-entity id="736d4427149878d318cc1fbc115fc6be9f77ffb.1" portletDefinitionRef="736d4427149878d318cc1fbc115fc6be9f77ffb">
+      <object-id value="[rep_id]_736d4427149878d318cc1fbc115fc6be9f77ff7"/>
+    </portlet-entity>
+  </component-tree>
+  <layout-tree>
+    <layout-element id="layout_TMP_10002">
+      <container xsi:type="SimpleContainer" orientation="row">
+        <container xsi:type="SimpleContainer" orientation="column">
+          <window id="736d4427149878d31eeda46c115fc5b55857ff6.1window"/>
+        </container>
+        <container xsi:type="SimpleContainer" orientation="column">
+          <window id="736d4427149878d318cc1fbc115fc6be9f77ffb.1window"/>
+        </container>
+      </container>
+    </layout-element>
+  </layout-tree>
+  <navigation-element id="TMP_10000">
+    <title>
+      <base:nls-string xml:lang="en">Notebook</base:nls-string>
+    </title>
+    <description>
+      <base:nls-string xml:lang="en">Notebook</base:nls-string>
+    </description>
+    <preference name="com.ibm.portal.categoryGuid">
+      <base:value value="1HeDe13PG3IP6G1C03Q46P1DA6R46M9E46OOC6JP4JQ076JPC3Q473JD0" readOnly="false" required="false" xsi:type="base:String"/>
+    </preference>
+    <parent-tree>
+      <parent-tree-ref value="wps.application.root" parameterId="portal.root"/>
+    </parent-tree>
+    <object-id value="[rep_id]_6_5JMPDRH1000980269G784H2GO2"/>
+    <navigation-element id="TMP_10001" layoutElementRef="layout_TMP_10002">
+      <title>
+        <base:nls-string xml:lang="en">Notebook</base:nls-string>
+      </title>
+      <description>
+        <base:nls-string xml:lang="ar">Notebook</base:nls-string>
+        <base:nls-string xml:lang="ca">Notebook</base:nls-string>
+        <base:nls-string xml:lang="cs">Notebook</base:nls-string>
+        <base:nls-string xml:lang="da">Notebook</base:nls-string>
+        <base:nls-string xml:lang="de">Notebook</base:nls-string>
+        <base:nls-string xml:lang="el">Notebook</base:nls-string>
+        <base:nls-string xml:lang="en">Notebook</base:nls-string>
+        <base:nls-string xml:lang="es">Notebook</base:nls-string>
+        <base:nls-string xml:lang="fi">Notebook</base:nls-string>
+        <base:nls-string xml:lang="fr">Notebook</base:nls-string>
+        <base:nls-string xml:lang="hu">Notebook</base:nls-string>
+        <base:nls-string xml:lang="it">Notebook</base:nls-string>
+        <base:nls-string xml:lang="iw">Notebook</base:nls-string>
+        <base:nls-string xml:lang="ja">Notebook</base:nls-string>
+        <base:nls-string xml:lang="ko">Notebook</base:nls-string>
+        <base:nls-string xml:lang="nl">Notebook</base:nls-string>
+        <base:nls-string xml:lang="no">Notebook</base:nls-string>
+        <base:nls-string xml:lang="pl">Notebook</base:nls-string>
+        <base:nls-string xml:lang="pt">Notebook</base:nls-string>
+        <base:nls-string xml:lang="pt-BR">Notebook</base:nls-string>
+        <base:nls-string xml:lang="ro">Notebook</base:nls-string>
+        <base:nls-string xml:lang="ru">Notebook</base:nls-string>
+        <base:nls-string xml:lang="sk">Notebook</base:nls-string>
+        <base:nls-string xml:lang="sl">Notebook</base:nls-string>
+        <base:nls-string xml:lang="sv">Notebook</base:nls-string>
+        <base:nls-string xml:lang="th">Notebook</base:nls-string>
+        <base:nls-string xml:lang="tr">Notebook</base:nls-string>
+        <base:nls-string xml:lang="uk">Notebook</base:nls-string>
+        <base:nls-string xml:lang="zh">Notebook</base:nls-string>
+        <base:nls-string xml:lang="zh-TW">Notebook</base:nls-string>
+      </description>
+      <preference name="com.ibm.rcp.bookmark_level">
+	<base:value value="selection" readOnly="false" required="false" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.portal.PageIcon">
+        <base:value value="tab_notebook_16.png" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.activities">
+        <base:value value="" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.alias">
+        <base:value value="" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.autoStart">
+        <base:value value="false" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.launcher">
+        <base:value value="false" xsi:type="base:String"/>
+      </preference>
+      <preference name="com.ibm.rcp.hidden">
+        <base:value value="false" xsi:type="base:String"/>
+      </preference>
+      <object-id value="[rep_id]_6_5JMPDRH1000980269G784H2GO1"/>
+      <navigation-content windowRef="736d4427149878d31eeda46c115fc5b55857ff6.1window" componentDefinitionRef="736d4427149878d31eeda46c115fc5b55857ff6.1"/>
+      <navigation-content windowRef="736d4427149878d318cc1fbc115fc6be9f77ffb.1window" componentDefinitionRef="736d4427149878d318cc1fbc115fc6be9f77ffb.1"/>
+    </navigation-element>
+  </navigation-element>
+</ibm-portal-topology>
+</object-data>
+</business-component>
+</ibm-portal-composite>
+

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
+ replicaid='85257AD8004C0F2E'>
+<noteinfo noteid='2ae' unid='41E053B05F55594E85257436003C5A1D' sequence='3'>
+<created><datetime dst='true'>20080425T065912,29-04</datetime></created>
+<modified><datetime>20121218T085048,63-05</datetime></modified>
+<revised><datetime dst='true'>20090924T132617,14-04</datetime></revised>
+<lastaccessed><datetime>20121218T085048,63-05</datetime></lastaccessed>
+<addedtofile><datetime>20121218T085048,63-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name='$LANGUAGE' sign='true'><text>en</text></item>
+<item name='$TITLE' sign='true'><text>$fsMainInnerRight|$fsMainInnerRight</text></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$PublicAccess' sign='true'><text>1</text></item>
+<item name='$FrameSet' sign='true'>
+<rawitemdata type='1'>
+7/8YAAIAAwAAAAAAAAAAAAAAAAAAAAAA8P8+AE0AAAAAAAAAAAAAAAAAAQABAAUAAAAAAAUAAAAA
+AAIAAQAAAAAAAQCxsdIAAAADAAEAAgAAAAMAAQDx/0kAAQAAAABAAAADAAEAAQAAAAAACQAAAAwA
+AQCxsdIAAABOb3Rlc1ZpZXdOb3Rlc1ByZXZpZXcBAP///5gDAAAJAQAAAACYP/b/LQAAAAAAAwAC
+AAsAAAAAAAAAAAAAAAAAAAAAAAAAAABCeSBDYXRlZ29yeT/x/1wA5wAAAABgAAADAAAAAAAAAAAA
+DAAAAAAAAQCxsdIAAABOb3Rlc1ByZXZpZXcUABQAAAASAAEACABQcmV2aWV3OgMAAAACACgAAQDf
+5OyYAQAACQEAAAAAmA==
+</rawitemdata></item>
+<item name='$Flags'><text>#34CQw</text></item>
+<item name='$DesignerVersion' sign='true'><text>8.5</text></item></note>
+

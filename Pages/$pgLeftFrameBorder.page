@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
+ replicaid='85257AD8004C0F2E'>
+<noteinfo noteid='2ca' unid='5C9385A4B002C99085257436003C6D5C' sequence='3'>
+<created><datetime dst='true'>20080425T070001,56-04</datetime></created>
+<modified><datetime>20121218T085048,77-05</datetime></modified>
+<revised><datetime dst='true'>20090924T132617,28-04</datetime></revised>
+<lastaccessed><datetime>20121218T085048,77-05</datetime></lastaccessed>
+<addedtofile><datetime>20121218T085048,77-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name='$LANGUAGE' sign='true'><text>en</text></item>
+<item name='$BackgroundRepeat' sign='true'><text>2</text></item>
+<item name='$BackgroundR5' sign='true'>
+<rawitemdata type='1'>
+3QYBAJkAmQAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAH0AHAAAAAEABQA5AAAAAAAAAAAAAAAA
+AAAAAAD2/zAAAAAAAAMAEwAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAJEJvcmRlck91dHNpZGXeBgEA
+mQA=
+</rawitemdata></item>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><textlist><text>$pgLeftFrameBorder</text><text>$pgLeftFrameBorder</text></textlist></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAAAAATwABANTe7AAaAAAA
+</rawitemdata></item>
+<item name='$Flags'><text>C34WQ1</text></item>
+<item name='$DesignerVersion' sign='true'><text>8.5</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>$pgLeftFrameBorder</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAACBAAAAAJWHAAAAAAAAAAAAAAAAAQAAAAYAAACDBAEAhf8IAAEAAAo=
+</rawitemdata></item>
+<item name='$PublicAccess' sign='true'><text>1</text></item></note>
+

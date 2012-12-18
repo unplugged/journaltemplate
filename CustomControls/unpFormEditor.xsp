@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom">
+	<xp:this.resources>
+		<xp:script src="/unp/jquery-1.7.2.min.js" clientSide="true"></xp:script>
+		<xp:script src="/unp/jquery.blockUI.min.js" clientSide="true"></xp:script>
+		<xp:script src="/unp/iScroll.min.js" clientSide="true"></xp:script>
+		<xp:script src="/unplugged.js" clientSide="true"></xp:script>
+		<xp:script src="/unpCommon.jss" clientSide="false"></xp:script>
+	</xp:this.resources>
+
+	<xp:this.data>
+		<xp:dominoDocument var="document1"
+			formName="#{javascript:compositeData.formname}">
+		</xp:dominoDocument>
+	</xp:this.data>
+	<div id="formholder">
+		<xp:div id="customform" styleClass="customform">
+			<h2>
+				<xp:text escape="true" id="title" tagName="span"
+					value="#{javascript:compositeData.title}" styleClass="formtitle">
+				</xp:text>
+			</h2>
+			<xp:callback facetName="facet_1" id="callback1"></xp:callback>
+			<xp:panel id="buttons" styleClass="buttons" tagName="ul"
+				rendered="#{compositeData.showbuttons == true}">
+				<xp:panel tagName="li" id="saveButton" styleClass="saveButton">
+					<xp:this.attrs>
+						<xp:attr name="onclick">
+							<xp:this.value><![CDATA[#{javascript:var out = "saveDocument('" + getClientId("customform") + "', '" + document1.getDocument().getUniversalID() + 
+"', '" + compositeData.viewxpagename + "', '" + compositeData.formname + "'"
+if (context.getUrlParameter("parentunid") != ""){
+	out += ", '" + context.getUrlParameter("parentunid") + "'";
+}
+out += ");"
+return out;}]]></xp:this.value>
+						</xp:attr>
+					</xp:this.attrs>
+					Save
+				</xp:panel>
+				<xp:text id="closebutton" styleClass="cancelButton" tagName="li">
+					<xp:this.value><![CDATA[#{javascript:"Cancel"}]]></xp:this.value>
+					<xp:this.attrs>
+						<xp:attr name="onclick">
+							<xp:this.value><![CDATA[#{javascript:return "$.blockUI(); window.location.href='" + compositeData.closexpagename + "';";}]]></xp:this.value>
+						</xp:attr>
+					</xp:this.attrs>
+				</xp:text>
+			</xp:panel>
+		</xp:div>
+	</div>
+
+
+	<!--
+		<script type="text/javascript" src="unp/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript"
+		src="unp/jquery.blockUI.min.js"></script> <script
+		type="text/javascript" src="unp/iScroll.min.js"></script> <script
+		type="text/javascript" src="unpForm.min.js"></script> <script
+		type="text/javascript" src="unpViewGetMore.min.js"></script> <script
+		type="text/javascript" src="unpViewsList.min.js"></script>
+	-->
+</xp:view>

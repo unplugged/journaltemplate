@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom">
+	<xp:this.resources>
+		<xp:metaData name="viewport"
+			content="width=device-width, initial-scale=2.3, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		</xp:metaData>
+		<xp:metaData name="apple-mobile-web-app-status-bar-style"
+			content="black-translucent">
+		</xp:metaData>
+		<xp:metaData name="apple-mobile-web-app-capable" content="yes">
+		</xp:metaData>
+		<xp:script src="/unp/jquery-1.7.2.min.js" clientSide="true"></xp:script>
+		<xp:script src="/unp/jquery.blockUI.min.js" clientSide="true"></xp:script>
+		<xp:script src="/unp/iScroll.min.js" clientSide="true"></xp:script>
+		<xp:script src="/unplugged.js" clientSide="true"></xp:script>
+		<xp:script src="/unpCommon.jss" clientSide="false"></xp:script>
+	</xp:this.resources>
+	<div id="menu" class="iscrollmenu" style="top: 60px;">
+		<div id="menuPane" class="offScreen" style="height: 100%;">
+			<xp:panel styleClass="navScrollArea" id="navScrollArea" style="height: 100%;">
+				<ul id="menuitems">
+					<xp:repeat id="repeat1" rows="30" disableOutputTag="true"
+						var="menuItem" value="#{javascript:compositeData.menuItem;}">
+						<xp:panel id="viewMenuItem" tagName="li">
+							<xp:this.styleClass><![CDATA[#{javascript:
+if (("/" + getCurrentXPage()) == menuItem.page){
+	return "menuitem" + viewScope.menuItemIndex + " viewMenuItemSelected";
+}else{
+	return "menuitem" + viewScope.menuItemIndex + " viewMenuItem";
+}}]]></xp:this.styleClass>
+							<xp:this.attrs>
+								<xp:attr name="onclick">
+									<xp:this.value><![CDATA[#{javascript:if (menuItem.ajaxloadid != null && menuItem.ajaxloadid != ""){
+	return "loadPage('" + getDbPath() + menuItem.page + " #" + menuItem.ajaxloadid + "', '" + menuItem.ajaxtargetid + "', " + viewScope.menuItemIndex + ");";
+}else{
+	return "openPage('" + getDbPath() + menuItem.page + "', '" + menuItem.ajaxtargetid + "')";
+}}]]></xp:this.value>
+								</xp:attr>
+							</xp:this.attrs>
+							<xp:panel id="menulink" tagName="div" styleClass="menulink">
+								<xp:image url="#{javascript:menuItem.icon}" id="image2"
+									styleClass="iconleft">
+									<xp:this.rendered><![CDATA[#{javascript:if (viewScope.menuItemIndex == null){
+	viewScope.menuItemIndex = 0;
+}else{
+	viewScope.menuItemIndex = viewScope.menuItemIndex + 1;
+}
+menuItem.icon != null && menuItem.icon != ""}]]></xp:this.rendered>
+								</xp:image>
+								<xp:text id="menutext" styleClass="menutext"
+									value="#{javascript:menuItem.label;}">
+								</xp:text>
+								<xp:image url="/unp/right-arrow-trans-white-large.png"
+									id="image1" styleClass="icon">
+								</xp:image>
+							</xp:panel>
+						</xp:panel>
+					</xp:repeat>
+				</ul>
+			</xp:panel>
+			<br />
+			<br />
+			<br />
+			<br />
+			<hr />
+		</div>
+	</div>
+</xp:view>

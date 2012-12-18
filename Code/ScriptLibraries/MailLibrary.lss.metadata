@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1c2" sequence="5" unid="AC0A19F273403FA7852573C4004A8E2C">
+<created><datetime>20080102T083420,60-05</datetime></created>
+<modified><datetime>20121218T085047,51-05</datetime></modified>
+<revised><datetime dst="true">20090924T132615,56-04</datetime></revised>
+<lastaccessed><datetime>20121218T085047,51-05</datetime></lastaccessed>
+<addedtofile><datetime>20121218T085047,51-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<revisions><datetime>20080102T083421,10-05</datetime></revisions>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name="$LANGUAGE" sign="true"><text>en</text></item>
+<item name="$POID"><datetime dst="true">20071022T103955,32-04</datetime></item>
+<item name="$TITLE" sign="true"><text>MailLibrary</text></item>
+<item name="$Flags"><text>s34Q</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+
+</note>

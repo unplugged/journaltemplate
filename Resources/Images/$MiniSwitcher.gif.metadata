@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="28e" sequence="4" unid="02094EC3D854B2CB85257436003B71D2">
+<created><datetime dst="true">20080425T064917,62-04</datetime></created>
+<modified><datetime>20121218T085048,47-05</datetime></modified>
+<revised><datetime dst="true">20090924T132617,00-04</datetime></revised>
+<lastaccessed><datetime>20121218T085048,47-05</datetime></lastaccessed>
+<addedtofile><datetime>20121218T085048,47-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name="$FlagsExt" sign="true"><text>D</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+
+
+<item name="$MimeType" sign="true"><text>image/gif</text></item>
+<item name="$FileModDT" sign="true"><datetime dst="true">20040830T152543,65-04</datetime></item>
+<item name="$ImageNames" sign="true"><text>MiniSwitcher.gif</text></item>
+<item name="$TITLE" sign="true"><textlist><text>$MiniSwitcher.gif</text><text>$MiniSwitcher</text></textlist></item>
+<item name="$DesignerVersion" sign="true"><text>8</text></item>
+<item name="$Flags"><text>34CiQ</text></item>
+<item name="$LANGUAGE" sign="true"><text>en</text></item></note>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="352" sequence="1" unid="5534FC8B50F07F6285257AD70052EDB8">
+<created><datetime>20121217T100548,08-05</datetime></created>
+<modified><datetime>20121218T085049,45-05</datetime></modified>
+<revised><datetime>20121217T100548,20-05</datetime></revised>
+<lastaccessed><datetime>20121218T085049,45-05</datetime></lastaccessed>
+<addedtofile><datetime>20121218T085049,45-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Richard Sharpe/O=Teamstudio</name></updatedby>
+<wassignedby><name>CN=Richard Sharpe/O=Teamstudio</name></wassignedby>
+<item name="$TITLE" sign="true"><text>unplugged.css</text></item>
+<item name="$MimeCharSet"><text>UTF-8</text></item>
+<item name="$FileModDT" sign="true"><datetime>20121214T080104,41-05</datetime></item>
+<item name="$FlagsExt" sign="true"><text>D</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+
+<item name="$FileNames" sign="true"><text>unplugged.css</text></item>
+<item name="$Flags"><text>=34QCP</text></item></note>

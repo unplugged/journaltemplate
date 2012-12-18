@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1ea" sequence="3" unid="C094A163A927492F852573C6003F56E3">
+<created><datetime>20080104T063150,11-05</datetime></created>
+<modified><datetime>20121218T085047,71-05</datetime></modified>
+<revised><datetime dst="true">20090924T132616,26-04</datetime></revised>
+<lastaccessed><datetime>20121218T085047,71-05</datetime></lastaccessed>
+<addedtofile><datetime>20121218T085047,71-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name="$TITLE"><text>animatedFolders.gif</text></item>
+<item name="$FlagsExt" sign="true"><text>D</text></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+
+<item name="$MimeType" sign="true"><text>image/gif</text></item>
+<item name="$FileModDT" sign="true"><datetime>20061218T075525,18-08</datetime></item>
+<item name="$ImageNames" sign="true"><text>animatedFolders.gif</text></item>
+<item name="$WebBrowserCompatible" sign="true"><number>1</number></item>
+
+
+
+
+
+
+
+
+
+<item name="$ImagesWide" sign="true"><number>8</number></item>
+<item name="$DesignerVersion" sign="true"><text>8</text></item>
+<item name="$Flags"><text>34CiQv</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+<item name="$LANGUAGE" sign="true"><text>en</text></item></note>

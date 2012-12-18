@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+	<style>
+		body {
+			padding-bottom: 45px;
+		}
+		@media screen and (min-width: 701px) {
+			body {
+				padding-bottom: 60px;
+			}
+		}
+		@media screen and (max-width: 700px) {
+			body {
+				padding-bottom: 45px;
+			}
+		}
+	</style>
+	<xp:this.resources>
+		<xp:metaData name="viewport"
+			content="width=device-width, initial-scale=2.3, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		</xp:metaData>
+		<xp:metaData name="apple-mobile-web-app-status-bar-style"
+			content="black-translucent">
+		</xp:metaData>
+		<xp:metaData name="apple-mobile-web-app-capable" content="yes">
+		</xp:metaData>
+		<xp:script src="/unp/jquery-1.7.2.min.js" clientSide="true"></xp:script>
+		<xp:script src="/unp/jquery.blockUI.min.js" clientSide="true"></xp:script>
+		<xp:script src="/unp/iScroll.min.js" clientSide="true"></xp:script>
+		<xp:script src="/unplugged.js" clientSide="true"></xp:script>
+		<xp:script src="/unpCommon.jss" clientSide="false"></xp:script>
+	</xp:this.resources>
+
+	<xp:panel styleClass="footer black">
+		<xp:link id="link1" styleClass="syncButton" value="#">
+			<xp:eventHandler event="onclick" submit="true"
+				refreshMode="complete">
+				<xp:this.action>
+					<xp:actionGroup>
+						<xp:executeScript>
+							<xp:this.script><![CDATA[#{javascript:db = session.getCurrentDatabase();
+db.replicate("someserver");}]]></xp:this.script>
+						</xp:executeScript>
+						<xp:openPage name="/UnpMain.xsp" target="openDocument">
+						</xp:openPage>
+					</xp:actionGroup>
+				</xp:this.action>
+			</xp:eventHandler>
+		</xp:link>
+		<!--
+			<xp:text value='#{javascript:var rep =
+			session.getEnvironmentString("ro.last.replicate", true); if (""==rep)
+			rep="(never)"; else rep=@Text(new Date(parseInt(rep))); return
+			"Updated: " + rep.substring(0,14);}' />
+		-->
+		<xp:text
+			value='#{javascript:var rep = session.getEnvironmentString("ro.last.replicate", true);
+		  if (""==rep) { rep="(never)" };
+		 return "Updated: " + rep;}' />
+		<xp:panel tagName="div" id="newButton" styleClass="newButton"
+			rendered="#{javascript:compositeData.newDocTarget != null;}">
+			<xp:this.attrs>
+				<xp:attr name="onclick">
+					<xp:this.value><![CDATA[#{javascript:"openDocument('" + compositeData.newDocTarget + "?action=newDocument', 'content');"}]]></xp:this.value>
+				</xp:attr>
+			</xp:this.attrs>
+		</xp:panel>
+	</xp:panel>
+
+	<!-- <script type="text/javascript" src="unplugged.js"></script> -->
+</xp:view>

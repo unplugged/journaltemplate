@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom">
+	<xp:this.resources>
+		<xp:script src="/unp/jquery-1.7.2.min.js" clientSide="true"></xp:script>
+		<xp:script src="/unp/jquery.blockUI.min.js" clientSide="true"></xp:script>
+		<xp:script src="/unp/iScroll.min.js" clientSide="true"></xp:script>
+		<xp:script src="/unplugged.js" clientSide="true"></xp:script>
+		<xp:script src="/unpCommon.jss" clientSide="false"></xp:script>
+	</xp:this.resources>
+	<xp:this.data>
+		<xp:dominoDocument var="document1"
+			formName="#{javascript:compositeData.formname}">
+		</xp:dominoDocument>
+	</xp:this.data>
+
+	<div id="formholder">
+		<h2>
+			<xp:text escape="true" id="title" tagName="span"
+				value="#{javascript:compositeData.title}" styleClass="formtitle">
+			</xp:text>
+		</h2>
+
+		<xp:callback facetName="facet_1" id="callback1"></xp:callback>
+		<xp:panel id="buttons" styleClass="buttons" tagName="ul"
+			rendered="#{compositeData.showbuttons == true}">
+			<xp:text id="editbutton" styleClass="editButton" tagName="li">
+				<xp:this.value><![CDATA[#{javascript:"Edit"}]]></xp:this.value>
+				<xp:this.attrs>
+					<xp:attr name="onclick">
+						<xp:this.value><![CDATA[#{javascript:"openDocument('" + compositeData.editxpagename + "?action=editDocument&documentId=" + document1.getDocument().getUniversalID() + "', 'content');"}]]></xp:this.value>
+					</xp:attr>
+				</xp:this.attrs>
+			</xp:text>
+			<xp:panel tagName="li" styleClass="proceedButton">
+				<xp:this.rendered><![CDATA[#{javascript:compositeData.newresponsexpagename != null && 
+compositeData.newresponsexpagename != ""}]]></xp:this.rendered>
+				<xp:this.attrs>
+					<xp:attr name="onclick">
+						<xp:this.value><![CDATA[#{javascript:"openDocument('" + compositeData.newresponsexpagename + "?action=newDocument&parentunid=" + document1.getDocument().getUniversalID() + "', 'content');"}]]></xp:this.value>
+					</xp:attr>
+				</xp:this.attrs>
+				New Response
+			</xp:panel>
+			<xp:text id="closebutton" styleClass="cancelButton" tagName="li">
+				<xp:this.value><![CDATA[#{javascript:"Close"}]]></xp:this.value>
+				<xp:this.attrs>
+					<xp:attr name="onclick">
+						<xp:this.value><![CDATA[#{javascript:"$.blockUI();window.location.href='" + compositeData.closexpagename + "';"}]]></xp:this.value>
+					</xp:attr>
+				</xp:this.attrs>
+			</xp:text>
+		</xp:panel>
+	</div>
+
+	<!--
+		<script type="text/javascript" src="unp/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript"
+		src="unp/jquery.blockUI.min.js"></script> <script
+		type="text/javascript" src="unp/iScroll.min.js"></script> <script
+		type="text/javascript" src="unpViewGetMore.min.js"></script> <script
+		type="text/javascript" src="unpViewsList.min.js"></script>
+	-->
+</xp:view>

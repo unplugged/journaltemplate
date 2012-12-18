@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
+ replicaid='85257AD8004C0F2E'>
+<noteinfo noteid='17a' unid='9BD4D91E7B014B2D852569A80059F175' sequence='14'>
+<created><datetime>20001201T112225,17-05</datetime></created>
+<modified><datetime>20121218T085047,15-05</datetime></modified>
+<revised><datetime dst='true'>20090924T132615,82-04</datetime></revised>
+<lastaccessed><datetime>20121218T085047,15-05</datetime></lastaccessed>
+<addedtofile><datetime>20121218T085047,15-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<revisions><datetime>20071218T135948,75-05</datetime><datetime>20080102T063950,51-05</datetime></revisions>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name='$LANGUAGE' sign='true'><text>en</text></item>
+<item name='$TITLE' sign='true'><text>BorderFrame</text></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$FrameSet' sign='true'>
+<rawitemdata type='1'>
+7/8YAAIABwAAAAAAAAAAAAAAAAAAAAAA8P9CAAQAAAABAAAAAAAAAAAAAAAAAAUAAAAAAAUAAAAA
+AAEAAwAAAAAABQAAAAAAAAADAAEAAQAMAAIAXgABAAwA8f80ABEAAAAAQAABAgABAAEAAAAAAAAA
+AAAAAAEAAAAAAAAAAQD///88AQAACQEA////PPb/LAAAAAAAAwAHAAoAAAAAAAAAAAAAAAAAAAAA
+AAAAAABXaGl0ZSBQYWdl8P9CAAAAAAABAAAAAAAAAAAAAAAAAAUAAAAAAAUAAAAAAAMAAQAAAAAA
+BQAAAAAAAAABAAwAAwABAAEADAADAAEA8f80ABAAAAAAQAEBAgABAAEAAAAAAAAAAAAAAAEAAAAA
+AAAAAQD///88AQAACQEA////PPb/LAAAAAAAAwAHAAoAAAAAAAAAAAAAAAAAAAAAAAAAAABXaGl0
+ZSBQYWdl8f80AAAAAAAAQAEAAwABAAEAAAAAAAAAAAAAAAEAAAAAAAAAAQD///88AQAACQEA////
+PPb/bAAAAAAAAwAGAAwAGwAjAAAAAAAAAAAATWFzdGVybG9jay9TZXJ2ZXIvVGVtcGxhdGVzdGVt
+cGxhdGVzXG5vdGVib29rXFI4XG5vdGVib29rOC5uc2YAAAAAAAAAACRmc01haW5Jbm5lcvH/NAAQ
+AAAAAEABAQIAAQABAAAAAAAAAAAAAAABAAAAAAAAAAEA////PAEAAAkBAP///zz2/ywAAAAAAAMA
+BwAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAV2hpdGUgUGFnZfH/NAAQAAAAAEABAQIAAQABAAAAAAAA
+AAAAAAABAAAAAAAAAAEA////PAEAAAkBAP///zz2/ywAAAAAAAMABwAKAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAV2hpdGUgUGFnZQ==
+</rawitemdata></item>
+<item name='$CompAppName' sign='true'><text>Notes Notebook Application.xml</text></item>
+<item name='$CompAppPageName' sign='true'><text>[rep_id]_6_5JMPDRH1000980269G784H2GO1</text></item>
+<item name='$Flags'><text>#34CQ</text></item>
+<item name='$DesignerVersion' sign='true'><text>8.5</text></item></note>
+

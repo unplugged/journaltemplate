@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='8.5'
+ maintenanceversion='3.0' replicaid='85257AD8004C0F2E'>
+<noteinfo noteid='11e' unid='D1C5BA51582FE50F85256207004F3618' sequence='3'>
+<created><datetime dst='true'>19950728T102511,92-04</datetime></created>
+<modified><datetime>20121218T085050,79-05</datetime></modified>
+<revised><datetime>20121218T085050,78-05</datetime></revised>
+<lastaccessed><datetime>20121218T085050,79-05</datetime></lastaccessed>
+<addedtofile><datetime>20121218T085046,73-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name><name
+>CN=Richard Sharpe/O=Teamstudio</name></updatedby>
+<revisions><datetime dst='true'>20070621T132124,26-04</datetime><datetime
+ dst='true'>20070621T132124,30-04</datetime><datetime dst='true'>20070621T132124,32-04</datetime><datetime
+ dst='true'>20070621T132136,81-04</datetime><datetime>20071218T140358,77-05</datetime><datetime
+>20071218T140358,81-05</datetime><datetime>20071218T140358,83-05</datetime><datetime
+>20080102T060300,82-05</datetime><datetime>20080111T073026,29-05</datetime><datetime
+>20080111T073034,93-05</datetime><datetime>20080123T074111,14-05</datetime><datetime
+>20080123T074113,98-05</datetime></revisions>
+<wassignedby><name>CN=Murray Hurvitz/OU=Westford/O=IBM</name></wassignedby>
+<item name='$DefaultFrameset'><text>BorderFrame</text></item>
+<item name='$DefaultWebFrameset'><text>WebJournalFrameset</text></item>
+<item name='$FlagsNoRefresh'><text/></item>
+<item name='$LANGUAGE'><textlist><text>en</text></textlist></item>
+<item name='$PIRCRefreshModTime'><datetime dst='true'>20121101T102132,26-04</datetime></item>
+<item name='$TemplateModTime'><datetime dst='true'>20121101T090549,10-04</datetime></item>
+<item name='$TemplateServerName'><text>CN=Richard Sharpe/O=Teamstudio</text></item>
+<item name='$TemplateFileName'><text>c:\Lotus\Notes\Data\LDC\Notebook_201210090900.ntf</text></item>
+<item name='IconBitmap' summary='true'>
+<rawitemdata type='6'>
+AiAgAQAA//j//+AAAAfAAAAHwAAAB8AAAAfAAAAHwAAAB8AAAAfAAAAHwAAAB8AAAAfAAAAHwAAA
+B8AAAAfAAAADwAAAAcAAAADAAAAAwAAAAcAAAAfAAAAHwAAAB8AAAAfAAAAHwAAAB8AAAAfAAAAH
+wAAAB8AAAAfAAAAP//////////8AAAAAAAAAAAAAAAAAAAAAAA///////h8P///////wAADMzMzM
+zM4R8MzMzMzM8AAAwWHBYWFh4R8GFhYc/PAAAMZmxmZmZm4R8GZmbPzwAADBYcFmZmZm4R8GZhz8
+8AAAxmbGZmZmZm4R8GZs/PAAAMFhwWZmZmZm4R8GHPzwAADGZsYWYWYWYW4R8Gz88AAAwWHBZhZh
+ZhZh4R/s/PAAAMZmxhZhZhZhZh4R/vzwAADBYcERZhFmEWYW4P/s8AAAxhbGYWFhYWFhYW4P/vAA
+AMFhwRYWFhYWFhYW4P/gAADGFsZhYWFhYWFhYW4P/gAAwWHBGRERERkREREc4P/gAMYWxmmWFhaZ
+YWFhbP4P/gDBYcEZGREZGRERERz84f4AxhbGaRGRkRlhYWFs/P7gAMERwRkZGRkZERERHPzwAADG
+FsYZGZGZGWERYWz88AAAwWHBaRmZmRkRYREc/PAAAMYWxhkZOTkZERERbPzwAADBEcFpE5OTGWER
+YRz88AAAxhbGGR4+PhkRERFs/PAAAMERwRkfPz8ZERERHPzwAADGFsYZE2NjGREREWz88AAAwRHB
+GRY2NhkREREc/PAAAMYWxhkREREZYWFhbPzwAADMzMzJmZmZmczMzMzMAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$Flags'><text>JFR4jI7</text></item>
+<item name='$Daos'><text>0</text></item>
+<item name='$TITLE'><text>Journal (200)</text></item></note>
+

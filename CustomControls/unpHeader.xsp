@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+	<style>
+		body {
+			padding-top: 0px;
+		}
+		@media screen and (min-width: 701px) {
+			body {
+				padding-top: 60px;
+			}
+		}
+		@media screen and (max-width: 700px) {
+			body {
+				padding-top: 45px;
+			}
+		}
+	</style>
+	<xp:this.resources>
+		<xp:metaData name="viewport"
+			content="width=device-width, initial-scale=2.3, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		</xp:metaData>
+		<xp:metaData name="apple-mobile-web-app-status-bar-style"
+			content="black-translucent">
+		</xp:metaData>
+		<xp:metaData name="apple-mobile-web-app-capable"
+			content="yes">
+		</xp:metaData>
+		<xp:script src="/unp/jquery-1.7.2.min.js" clientSide="true"></xp:script>
+		<xp:script src="/unp/jquery.blockUI.min.js" clientSide="true"></xp:script>
+		<xp:script src="/unp/iScroll.min.js" clientSide="true"></xp:script>
+		<xp:script src="/unplugged.js" clientSide="true"></xp:script>
+		<xp:script src="/unpCommon.jss" clientSide="false"></xp:script>
+	</xp:this.resources>
+
+	<xp:panel styleClass="iHeader black">
+		<xp:image styleClass="companyLogo" url="/unp/unplugged_logo.png"
+			id="companyLogo"></xp:image>
+		<xp:panel styleClass="backButton">
+			<xp:this.rendered><![CDATA[#{javascript:if(compositeData.backButtonText == '' || compositeData.backButtonText == null){
+	return false;
+}
+else{ return true;
+}}]]></xp:this.rendered>
+			<xp:link escape="true" id="backlink" styleClass="backlabel"
+				value="#{javascript:compositeData.backButtonURL}" text="#{javascript:compositeData.backButtonText}">
+			</xp:link>
+		</xp:panel>
+		<xp:panel styleClass="viewsButton">
+			<xp:this.rendered><![CDATA[#{javascript:if (compositeData.backButtonText != "" && compositeData.backButtonText != null){
+	return false;
+}else{
+	return compositeData.viewsButton;
+}}]]></xp:this.rendered>
+			<xp:label value="Views" id="viewslabel" styleClass="viewslabel">
+			</xp:label>
+		</xp:panel>
+
+		<xp:label styleClass="title" id="title"
+			value="#{javascript:compositeData.title}">
+		</xp:label>
+		<xp:panel id="searchbutton" rendered="#{javascript:compositeData.search != 'none'}"
+			styleClass="searchButton">
+		</xp:panel>
+		<xp:link escape="true" id="homebutton" value="/unpws.unp/"
+			styleClass="homeButton">
+		</xp:link>
+
+	</xp:panel>
+	<xp:div id="input-search-frame" styleClass="input-search-frame"
+		rendered="#{javascript:compositeData.search != 'none'}">
+		<input placeholder="Search..." id="input-search" class="hiddensearch">
+		</input>
+	</xp:div>
+	<xp:panel id="searchscript" tagName="script">
+		<xp:this.attrs>
+			<xp:attr name="type" value="text/javascript"></xp:attr>
+			<xp:attr name="src">
+				<xp:this.value><![CDATA[#{javascript:if (compositeData.search == "local"){
+	return "unpSearchLocal.js";
+}else if (compositeData.search == "database"){
+	return "unpSearchDatabase.js";
+}}]]></xp:this.value>
+			</xp:attr>
+		</xp:this.attrs>
+		<xp:this.rendered><![CDATA[#{javascript:compositeData.search != "none"}]]></xp:this.rendered>
+	</xp:panel>
+	<xp:text id="searchvars" tagName="script" escape="false">
+		<xp:this.rendered><![CDATA[#{javascript:compositeData.search == "database"}]]></xp:this.rendered>
+		<xp:this.attrs>
+			<xp:attr name="type" value="text/javascript"></xp:attr>
+		</xp:this.attrs>
+		<xp:this.value><![CDATA[#{javascript:"var searchPage = \"" + compositeData.searchPage + "\";"}]]></xp:this.value>
+	</xp:text>
+
+	<!--
+		<script type="text/javascript" src="unp/jquery-1.7.2.min.js"></script>
+	-->
+
+</xp:view>

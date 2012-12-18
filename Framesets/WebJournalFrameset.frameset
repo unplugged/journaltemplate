@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
+ replicaid='85257AD8004C0F2E'>
+<noteinfo noteid='182' unid='77029C8A92773A18852569A800628C42' sequence='43'>
+<created><datetime>20001201T125624,34-05</datetime></created>
+<modified><datetime>20121218T085047,19-05</datetime></modified>
+<revised><datetime dst='true'>20090924T132615,86-04</datetime></revised>
+<lastaccessed><datetime>20121218T085047,19-05</datetime></lastaccessed>
+<addedtofile><datetime>20121218T085047,19-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
+<revisions><datetime>20071218T135948,79-05</datetime><datetime>20080123T082200,58-05</datetime><datetime
+>20080123T082201,24-05</datetime><datetime>20080123T111658,52-05</datetime><datetime
+>20080123T111659,18-05</datetime><datetime>20080123T112458,64-05</datetime><datetime
+>20080123T112459,30-05</datetime><datetime>20080123T114316,91-05</datetime><datetime
+>20080123T114317,50-05</datetime><datetime>20080123T115108,77-05</datetime><datetime
+>20080123T115109,41-05</datetime><datetime>20080123T121327,55-05</datetime><datetime
+>20080123T121328,18-05</datetime><datetime>20080123T121741,45-05</datetime></revisions>
+<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<item name='$LANGUAGE' sign='true'><text>en</text></item>
+<item name='$TITLE' sign='true'><text>WebJournalFrameset|WebJournalFrameset</text></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$FrameSet' sign='true'>
+<rawitemdata type='1'>
+7/8YAAIABgAAAAAAAAAAAAAAAAAAAAAA8P8+AEUAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAUAAAAA
+AAEAAgAAAAAAAQAAAAAAAAADAAEAAQC9AAMAAQDw/0IAAQAAAAAAAAAAAAAAAAAAAAAABQAAAAAA
+BQAAAAAAAwABAAAAAAAFAAAAAAAAAAEARgADAAEAAQATAAMAAQDx/zQAFwAAAABAAAECAAMAAQAA
+AAAAAAAAAAAAAQAAAAAAAAABAP///+ABAAAKAQAAAADg9v8vAAAAAAADAAMADQAAAAAAAAAAAAAA
+AAAAAAAAAAAAAFRlbXBsYXRlIE5hbWU/8f9LABEAAAAAQAAAAgABAAEAAAAAAA4AAAAJAAEAAAAA
+AAAATm90ZXNOYXZpZ2F0b3JOb3Rlc1ZpZXcBAP///+ABAAAKAQAAAADgP/b/LgAAAAAAAwAHAAwA
+AAAAAAAAAAAAAAAAAAAAAAAAAABPdXRsaW5lIFBhZ2Xx/zwAFwAAAABAAAECAAEAAQAAAAAACAAA
+AAAAAQAAAAAAAABTd2l0Y2hlcgEA////4AEAAAoBAAAAAOD2/zIAAAAAAAMAAwAQAAAAAAAAAAAA
+AAAAAAAAAAAAAAAARGF0YWJhc2VMb2NhdGlvbvH/SQABAAAAAEAAAAMAAQABAAAAAAAJAAAADAAB
+AAAAAAAAAE5vdGVzVmlld05vdGVzUHJldmlldwEA////4AEAAAoBAAAAAOA/9v8tAAAAAAADAAIA
+CwAAAAAAAAAAAAAAAAAAAAAAAAAAAEJ5IENhdGVnb3J5Pw==
+</rawitemdata></item>
+<item name='$Flags'><text>#4C</text></item>
+<item name='$DesignerVersion' sign='true'><text>8</text></item></note>
+
