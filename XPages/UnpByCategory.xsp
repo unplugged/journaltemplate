@@ -6,6 +6,6 @@
 	<div style="padding:20px;">
 	<xc:unpScrollableArea><xp:this.facets>
 	<xc:unpAccordion xp:key="facet_1" position="menu-aligned"
-		viewName="(UnpByCategory)" xpage="UnpDocument.xsp">
+		viewName="(UnpByCategory)" xpage="UnpDocument.xsp" insetData="true">
 	</xc:unpAccordion></xp:this.facets></xc:unpScrollableArea></div></div>
 </xp:view>

@@ -17,8 +17,8 @@
 						<xp:label value="Category:" id="label1"
 							for="Categories">
 						</xp:label>
-						<xp:listBox id="Categories" value="#{document1.Categories}"
-							multiple="false">
+						<xp:listBox id="Categories"
+							value="#{document1.Categories}" multiple="false">
 							<xp:selectItems>
 								<xp:this.value><![CDATA[#{javascript:@Unique(@Trim(@DbColumn(@DbName(), "(UnpByCategory)", 1)))}]]></xp:this.value>
 							</xp:selectItems>
@@ -26,29 +26,32 @@
 						<xp:label value="Diary Date:" id="label2"
 							for="Date">
 						</xp:label>
-						<xp:inputText id="Date" value="#{document1.DiaryDate}"
-				type="date" showReadonlyAsDisabled="true">
-				<xp:this.converter>
-					<xp:convertDateTime>
-						<xp:this.pattern><![CDATA[${javascript:return "yyyy-MM-dd";
+						<xp:inputText id="Date"
+							value="#{document1.DiaryDate}" type="date"
+							showReadonlyAsDisabled="true">
+							<xp:this.converter>
+								<xp:convertDateTime>
+									<xp:this.pattern><![CDATA[${javascript:return "yyyy-MM-dd";
 }]]></xp:this.pattern>
-					</xp:convertDateTime>
-				</xp:this.converter>
-			</xp:inputText>
+								</xp:convertDateTime>
+							</xp:this.converter>
+						</xp:inputText>
 						<xp:label value="Notes:" id="label3"
 							for="Body">
 						</xp:label>
 						<xp:inputTextarea value="#{document1.Body}"
-							id="body">
+							id="body" htmlFilter="striptags">
 						</xp:inputTextarea>
 					</xp:panel>
 				</xp:this.facets>
-				<xc:this.title><![CDATA[#{javascript:if(document1.isNewNote()){
-  return "New Entry";
-}
-else{
-return document1.getItemValueString("Subject");
-}}]]></xc:this.title>
+
+								<xc:this.title><![CDATA[#{javascript:if(document1.isNewNote()){
+				  return "New Entry";
+				}
+				else{
+				
+				return document1.getItemValueString("Subject");
+				}}]]></xc:this.title>
 			</xc:unpFormEditor>
 		</xp:this.facets>
 	</xc:unpScrollableArea>
