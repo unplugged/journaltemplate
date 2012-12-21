@@ -1,20 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="412" sequence="1" unid="B4829E45E473B56585257AD70054E20F">
-<created><datetime>20121217T102708,95-05</datetime></created>
-<modified><datetime>20121218T085050,41-05</datetime></modified>
-<revised><datetime>20121217T102709,37-05</datetime></revised>
-<lastaccessed><datetime>20121218T085050,41-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085050,41-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Richard Sharpe/O=Teamstudio</name></updatedby>
-<wassignedby><name>CN=Richard Sharpe/O=Teamstudio</name></wassignedby>
-<item name="$TITLE" sign="true"><text>unp/right-arrow-circle.png</text></item>
-<item name="$ImagesWide" sign="true"><number>1</number></item>
-<item name="$ImagesHigh" sign="true"><number>1</number></item>
-<item name="$ImagesColorize" sign="true"><number>0</number></item>
-<item name="$ImageNames" sign="true"><text>right-arrow-circle.png</text></item>
-<item name="$FileModDT" sign="true"><datetime dst="true">20120925T205822,00-04</datetime></item>
-<item name="$FlagsExt" sign="true"><text>D</text></item>
-<item name="$DesignerVersion"><text>8.5.3</text></item>
+<?xml version="1.0" encoding="UTF-8"?><imageresource designerversion="8.5.3" imagename="right-arrow-circle.png" maintenanceversion="3.0" name="unp/right-arrow-circle.png" publicaccess="false" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="582" sequence="1" unid="A0BB4FF24E6245D380257ADB005AFC7A">
+<created><datetime>20121221T163348,74+00</datetime></created>
+<modified><datetime>20121221T163348,99+00</datetime></modified>
+<revised><datetime>20121221T163348,98+00</datetime></revised>
+<lastaccessed><datetime>20121221T163348,99+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163348,99+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby><jpeg>
+iVBORw0KGgoAAAANSUhEUgAAAAsAAAAQCAYAAADAvYV+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA7FpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0
+NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wUmlnaHRzPSJodHRwOi8vbnMuYWRvYmUuY29tL3hh
+cC8xLjAvcmlnaHRzLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9t
+bS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3Vy
+Y2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcFJpZ2h0
+czpNYXJrZWQ9IkZhbHNlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InV1aWQ6QjE4ODdCQTQz
+RDBFRTExMUI2QUFDNkJCMkM3QjBEODQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RjU3MTZB
+RjQ0MDU5MTFFMkE4NkZGMDZGN0JCNkREOTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RjU3
+MTZBRjM0MDU5MTFFMkE4NkZGMDZGN0JCNkREOTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhv
+dG9zaG9wIENTNiAoTWFjaW50b3NoKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5j
+ZUlEPSJ4bXAuaWlkOjdBRUQzQjBBMEMyMDY4MTE4MDgzOEU2MzVBNDgwMEE3IiBzdFJlZjpkb2N1
+bWVudElEPSJ1dWlkOkIxODg3QkE0M0QwRUUxMTFCNkFBQzZCQjJDN0IwRDg0Ii8+IDwvcmRmOkRl
+c2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+uLSb
+sAAAAIhJREFUeNpiYECAQiDuYSACFADxfyjuxqcwH4j/ISkG4S5ciiejKYThDmyKGYF4Gg4Nbbg0
+zMChoQWXhlk4NDSBFDCjadgCxDJAbIQmbg8yjAmLDf9wBAQTWe4mOkRACqfgUNiO7paJpERKARaF
+XfjSRyGSQpwpDxbOJ4D4CxBfBeJiXIoBAgwA019G446kSr4AAAAASUVORK5CYII=
+</jpeg>
 
-
-<item name="$Flags"><text>34CiQP</text></item></note>
+<item name="$FileModDT" sign="true"><datetime>20121219T161545,00+00</datetime></item></imageresource>

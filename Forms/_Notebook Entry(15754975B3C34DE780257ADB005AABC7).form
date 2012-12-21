@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE form SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<form name='_Notebook Entry' alias='CleanSheet|JournalEntry' xmlns='http://www.lotus.com/dxl'
+ version='8.5' maintenanceversion='3.0' replicaid='80257ADB005A7A22' hide='notes'
+ publicaccess='false' designerversion='8.5' language='en'>
+<noteinfo noteid='3ba' unid='15754975B3C34DE780257ADB005AABC7' sequence='2'>
+<created><datetime>20121221T163022,15+00</datetime></created>
+<modified><datetime>20121221T163026,59+00</datetime></modified>
+<revised><datetime>20121221T163026,58+00</datetime></revised>
+<lastaccessed><datetime>20121221T163026,59+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163026,57+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby><code event='windowtitle'><formula
+>@If(@IsNewDoc; "New Notebook Entry " + @Text(@Date(@Created)); Subject)</formula></code>
+<actionbar useappletinbrowser='true' bgcolor='#e7e9f0' bordercolor='black'><actionbarstyle
+ height='10.4000ex' repeat='hrepeat'><font size='3pt'/><imageref name='viewGradient.gif'/></actionbarstyle>
+<actionbuttonstyle showdropdown='true' bgcolor='none'/><font size='9pt' name='multilingual'
+ color='#004080'/><border style='solid' width='0px 0px 1px' color='#a9c0d7'/>
+<action title='_Forward' showinbar='false' systemcommand='forward'/>
+<action title='_Edit Document' hide='preview edit previewedit'><code event='click'><formula
+>@Command([EditDocument])</formula></code></action>
+<sharedactionref id='11'>
+<action title='Save and Close' showinmenu='false' hide='preview read previewedit'><imageref
+ name='act_saveandclose.gif'/><code event='click'><formula>@Command([FileSave]);
+@Command([FileCloseWindow])</formula></code></action></sharedactionref>
+<sharedactionref id='22'>
+<action title='Cancel' showinmenu='false' hide='preview previewedit web'><code
+ event='click'><formula>REM {Notes only};
+FIELD SaveOptions := 0;
+@Command([FileCloseWindow])</formula></code></action></sharedactionref>
+<sharedactionref id='21'>
+<action title='Cancel' showinmenu='false' hide='notes'><code event='click'><formula
+>REM {web non-new docs};
+@Command([FileCloseWindow])</formula></code><code event='hidewhen'><formula
+>REM {Hide if 'Author's Profile' button was clckd};
+hw := @RightBack(QUERY_STRING_DECODED; "hw=");
+hw = "1" | @IsNewDoc</formula></code></action></sharedactionref>
+<sharedactionref id='20'>
+<action title='Cancel' showinmenu='false' hide='notes'><code event='click'><formula
+>CurrentView := @GetProfileField("tempvars"; "viewtitle");
+@Command([OpenView]; CurrentView)</formula></code><code event='hidewhen'><formula
+>REM {Hide if 'Author's Profile' button was clckd};
+hw := @RightBack(QUERY_STRING_DECODED; "hw=");
+hw = "1" | !@IsNewDoc</formula></code></action></sharedactionref></actionbar>
+<body><richtext>
+<pardef id='1' align='none' leftmargin='1in' hide='notes' tabs='L0.5000in L1in L1.5000in L2in L2.5000in L3in L3.5000in L4in'/>
+<par def='1'><run html='true'><font size='8pt'/>&lt;STYLE TYPE="text/css"&gt;</run></par>
+<par def='1'><run html='true'><font size='8pt'/> 	BODY {font-family: sans-serif;margin-left:0px;margin-right:0px;margin-top:8px;}</run></par>
+<par def='1'><run html='true'><font size='8pt'/>&lt;/STYLE&gt;</run></par>
+<pardef id='2' leftmargin='1in' hide='read edit preview previewedit'/>
+<par def='2'><run><font size='9pt' color='red'/>Hidden Fields: </run><run
+><font size='8pt'/><field type='number' kind='editable' name='FolderOptions'><numberformat
+ format='general' digits='2' punctuated='false' parens='false' percent='false'
+ bytes='false'/><code event='defaultvalue'><formula>2</formula></code></field></run><sharedfieldref
+ name='$$Return'/></par>
+<pardef id='3'/>
+<par def='3'><run html='true'>&lt;br/&gt;</run></par>
+<table widthtype='fitmargins' leftmargin='0.9799in' rightmargin='100%' refwidth='7.9993in'><tablecolumn
+ width='0.6771in' sizetofit='true'/><tablecolumn width='100%'/>
+<tablerow>
+<tablecell valign='center' borderwidth='0px'>
+<cellbackground repeat='once'/>
+<pardef id='5' leftmargin='0.0042in' hide='preview' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>@Environment("notebookShowNone")="1"</formula></code></pardef>
+<par def='5'><picture width='65px' height='65px'><imageref name='ltr-personaljournal1.gif'/></picture></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='6' rightmargin='7.3229in' hide='preview' tabs='L3.2500in' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>@Environment("notebookShowNone")="1"</formula></code></pardef>
+<par def='6'><run><font size='9pt' color='gray'/></run></par>
+<table widthtype='fitmargins' leftmargin='0%' rightmargin='100%' refwidth='7.3222in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell valign='center' borderwidth='0px'>
+<pardef id='8' hide='read edit print notes web mobile' keepwithnext='true'
+ keeptogether='true'/>
+<par def='8'><run><font size='1pt' name='multilingual'/></run></par>
+<pardef id='9' hide='read print copy preview previewedit' keepwithnext='true'
+ keeptogether='true'><code event='hidewhen'><formula>@Environment("notebookShowNone")="1"</formula></code></pardef>
+<par def='9'><run><font size='12pt' style='bold' name='multilingual'/></run><run
+><font size='12pt' style='bold' name='multilingual'/><computedtext><code event='value'><formula
+>"Notebook Entry"</formula></code></computedtext></run><run><font size='12pt'
+ style='bold' name='multilingual'/></run></par>
+<pardef id='10' hide='edit preview' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>@Environment("notebookShowNone")="1"</formula></code></pardef>
+<par def='10'><run><font size='12pt' style='bold' name='multilingual'/></run><run
+><font size='12pt' style='bold' name='multilingual'/><computedtext><code event='value'><formula
+>Subject</formula></code></computedtext></run><run><font size='12pt' style='bold'
+ name='multilingual'/></run></par>
+<pardef id='11' hide='preview' keepwithnext='true' keeptogether='true'/>
+<par def='11'><run><font size='2pt' name='multilingual' color='gray'/></run></par>
+<pardef id='12' hide='preview' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>@IsNewDoc|@Environment("notebookShowNone")="1"</formula></code></pardef>
+<par def='12'><run><font size='9pt' name='multilingual' color='#3e6db7'/>Created:</run><run
+><font size='9pt' name='multilingual' color='gray'/> </run><run><font size='9pt'
+ name='multilingual'/><computedtext><code event='value'><formula>@Text(@Date(@Created))</formula></code></computedtext></run><run
+><font size='9pt' name='multilingual' color='gray'/>  </run><run><font size='9pt'
+ name='multilingual' color='#3e6db7'/>Modified:</run><run><font size='9pt'
+ name='multilingual' color='gray'/> </run><run><font size='9pt' name='multilingual'/><computedtext
+><code event='value'><formula>@If(@Created!=@Modified;@Text(@Date(@Modified));"")</formula></code></computedtext></run><run
+><font size='9pt' name='multilingual' color='gray'/></run></par></tablecell></tablerow></table>
+<pardef id='7' leftmargin='0%' rightmargin='100%' hide='read edit print notes web mobile'
+ keepwithnext='true' keeptogether='true'/>
+<par def='7'><run><font size='5pt' name='multilingual' color='gray'/></run></par></tablecell></tablerow></table>
+<pardef id='4' leftmargin='0.9799in' rightmargin='100%'/>
+<par def='4'/>
+<table widthtype='fitmargins' cellbordercolor='#dfe4ec' htmlstyle='padding:4px;border:1px solid #BDCDDE;'
+ rightmargin='99%' refwidth='7.2090in'><tablecolumn width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px' bgcolor='#e6e9f1'>
+<pardef id='14' leftmargin='0.0313in' keepwithnext='true' keeptogether='true'/>
+<par def='14'/>
+<table widthtype='fitmargins' htmlid='NotebookEntryTable' htmlstyle='padding:4px;'
+ leftmargin='0.0313in' refwidth='7.1778in'><tablecolumn width='0.9688in'/><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px' htmlid='NotebookEntryTable_a'>
+<pardef id='15' leftmargin='0.1000in' keepwithnext='true' keeptogether='true'/>
+<par def='15'><run><font size='9pt' color='#3e6db7'/>Subject:</run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='16' leftmargin='0.0104in' hide='read preview embedded' keepwithnext='true'
+ keeptogether='true'/>
+<par def='16'><run><font size='9pt'/></run><run><font size='9pt' style='bold'/><field
+ defaultfocus='true' usenotesstyle='false' height='0.2201in' width='95%' borderstyle='single'
+ type='text' kind='editable' name='Subject' description='Subject of this journal entry'><code
+ event='htmlattributes'><formula>"size=70"</formula></code></field></run><run
+><font size='9pt'/></run></par>
+<pardef id='17' leftmargin='0.0104in' hide='edit previewedit' keepwithnext='true'
+ keeptogether='true'/>
+<par def='17'><run><font size='9pt'/></run><run><font size='9pt'/><field type='text'
+ kind='computedfordisplay' name='dspSubject'><code event='defaultvalue'><formula
+>Subject</formula></code></field></run><compositedata type='98' prevtype='65418'
+ nexttype='222' afterparcount='7' containertype='65418' aftercontainercount='1'
+ afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata><run><font size='9pt'/></run></par>
+<pardef id='18' leftmargin='0.0104in' hide='web' keepwithnext='true' keeptogether='true'/>
+<par def='18'><run><font size='9pt' name='Small Fonts' pitch='variable' truetype='false'
+ familyid='20'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px' htmlid='NotebookEntryTable_b'>
+<par def='15'><run><font size='9pt' color='#3e6db7'/>Category:</run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='19' hide='read notes' keepwithnext='true' keeptogether='true'/>
+<par def='19'><run><font size='9pt'/></run><run><font size='9pt'/><field lookupeachchar='false'
+ lookupaddressonrefresh='false' type='keyword' allowmultivalues='true' kind='editable'
+ name='WebCategories' listinputseparators='comma' listdisplayseparator='comma'
+ htmlid='WebCategories'><keywords columns='1' ui='dialoglist'><formula>@If(@ClientType="Web" &amp; @IsDocBeingEdited ;
+@Unique(@DbColumn("":"nocache"; ""; "By Category"; 1)); "")</formula></keywords><code
+ event='htmlattributes'><formula>"Rows=10"</formula></code></field></run><run
+><font size='9pt'/></run></par>
+<par def='19'><run><font size='9pt'/>Enter a new category:</run></par>
+<par def='19'><run><font size='9pt'/></run><run><font size='9pt'/><field type='text'
+ allowmultivalues='true' kind='editable' name='NewCats' description='Category'
+ listinputseparators='comma semicolon' listdisplayseparator='comma' htmlid='NewCats'
+ htmltitle='Category'><code event='htmlattributes'><formula>"size=50"</formula></code></field></run><compositedata
+ type='98' prevtype='65402' nexttype='222' afterparcount='8' containertype='65418'
+ aftercontainercount='2' afterbegincount='5'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata><run><font size='9pt'/></run></par>
+<pardef id='20' keepwithnext='true' keeptogether='true'><code event='hidewhen'><formula
+>@ClientType != "Notes" &amp; @IsDocBeingEdited</formula></code></pardef>
+<par def='20'><run><font size='9pt'/></run><run><font size='9pt'/><field defaultfocus='true'
+ lookupeachchar='false' lookupaddressonrefresh='false' type='keyword' allowmultivalues='true'
+ kind='editable' name='Categories' description='Press ENTER for list of keywords or to add a new keyword.'
+ listinputseparators='comma' listdisplayseparator='comma' htmlid='Categories'
+ htmltitle='Category'><keywords columns='1' ui='dialoglist' allownew='true'><formula
+>@If(!@ClientType="Web" &amp; @IsDocBeingEdited ;
+@Unique(@DbColumn("":"nocache"; ""; "By Category"; 1)); @DeleteField)</formula></keywords><code
+ event='inputtranslation'><formula>@If(@ClientType = "Notes"; @Trim(@Unique(Categories)); @Trim(@Unique(WebCategories : NewCats)))</formula></code><code
+ event='inputvalidation'><formula>FIELD WebCategories := WebCategories;
+@If(@ClientType = "Notes"; @SetField("WebCategories";@Trim(@Unique(Categories))); @SetField("WebCategories";@Trim(@Unique(WebCategories : NewCats))));
+FIELD NewCats := @DeleteField;
+@Success</formula></code></field></run><run><font size='9pt'/></run></par>
+<pardef id='21' hide='web' keepwithnext='true' keeptogether='true'/>
+<par def='21'><run><font size='9pt' name='Small Fonts' pitch='variable' truetype='false'
+ familyid='20'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px' htmlid='NotebookEntryTable_c'>
+<pardef id='22' leftmargin='0.1000in' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>DiaryDate = ""</formula></code></pardef>
+<par def='22'><run><font size='9pt' color='#3e6db7'/>Entry Date:</run></par></tablecell>
+<tablecell valign='center' borderwidth='0px'>
+<pardef id='23' hide='read preview embedded' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>DiaryDate = ""</formula></code></pardef>
+<par def='23'><run><font size='9pt' color='gray'/></run><run><font size='9pt'/><field
+ usenotesstyle='false' height='0.2201in' width='1.5000in' multiline='true'
+ borderstyle='single' type='datetime' kind='editable' name='DiaryDate' description='Diary date for this journal entry.'><datetimeformat
+ show='date' date='yearmonthday' time='hourminutesecond' zone='never'/><code
+ event='defaultvalue'><formula>@Date(@Today)</formula></code></field></run><run
+><font size='9pt' color='gray'/></run></par>
+<pardef id='24' hide='edit previewedit' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>DiaryDate = ""</formula></code></pardef>
+<par def='24'><run><font size='9pt' color='gray'/></run><run><font size='9pt'/><field
+ type='datetime' kind='computedfordisplay' name='dspDiaryDate'><datetimeformat
+ show='date' date='yearmonthday' fourdigityearfor21stcentury='true' zone='never'
+ dateformat='weekdaymonthdayyear' dayformat='twodigitday' monthformat='twodigitmonth'
+ yearformat='fourdigityear' weekdayformat='shortname' dateseparator1=' ' dateseparator2='/'
+ dateseparator3='/' timeseparator=':' preference='usersetting'/><code event='defaultvalue'><formula
+>DiaryDate</formula></code></field></run><run><font size='9pt' name='Small Fonts'
+ pitch='variable' truetype='false' familyid='20'/></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px' htmlid='NotebookEntryTable_d'>
+<pardef id='25' leftmargin='0.1000in' spacebefore='1.5' hide='read notes'
+ keepwithnext='true' keeptogether='true'/>
+<par def='25'><run><font size='9pt' color='#3e6db7'/>Attach a file:</run></par></tablecell>
+<tablecell borderwidth='0px'>
+<pardef id='26' spacebefore='1.5' hide='read notes' keepwithnext='true' keeptogether='true'/>
+<par def='26'><run><font size='9pt' color='gray'/> </run><embeddedfileuploadcontrol
+/><run><font size='9pt' color='gray'/></run></par></tablecell></tablerow></table></tablecell></tablerow></table>
+<pardef id='27' leftmargin='1in' spaceafter='1.5'/>
+<par def='27'><run html='true'>&lt;br/&gt;</run></par>
+<pardef id='28' leftmargin='1in'/>
+<par def='28'><run><font size='9pt'/></run><run><font size='11pt'/><field
+ useappletinbrowser='true' type='richtext' kind='editable' name='Body' description='Enter your comments, questions, ideas for discussion.'
+ htmlid='Body' htmltitle='Enter your comments, questions, ideas for discussion.'><code
+ event='htmlattributes'><formula>"height = \"300\" width = \"625\""</formula></code></field></run><compositedata
+ type='98' prevtype='65402' nexttype='222' afterparcount='9' containertype='65418'
+ aftercontainercount='2' afterbegincount='5'>
+Yg4BAIQAAAAAAAEAAAA=
+</compositedata></par>
+<par def='28'/></richtext></body>
+<item name='Date' summary='false' sign='true'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='TimeModified' summary='false' sign='true'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='$$XMB_2'><text>AEDE2891FB70A9005AAF8B355F3571A5</text></item>
+<item name='$$XMB_3'><text>67843E4301C6054E658E2C2D65E5AC9D</text></item>
+<item name='SavedOnce' summary='false' sign='true'><number>0</number></item>
+<item name='OriginalModTime' sign='true'><datetime>20050127T101749,32-05</datetime></item>
+<item name='TimeCreated' summary='false' sign='true'>
+<rawitemdata type='400'>
+AAAAAAAAAAA=
+</rawitemdata></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>JournalEntry</text></item>
+<item name='FolderOptions' summary='false' sign='true'><number>0</number></item></form>
+

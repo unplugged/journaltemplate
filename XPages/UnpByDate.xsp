@@ -4,7 +4,7 @@
 	<div id="content">
 	<xc:unpScrollableArea><xp:this.facets>
 	<xc:unpFlatView insetData="true" numberofrows="20"
-		refreshmethod="button" position="menu-aligned" xp:key="facet_1"
+		refreshmethod="pull" position="menu-aligned" xp:key="facet_1"
 		detailColumn="Topic" summaryColumn="DiaryDate" title="By Diary Date"
 		viewName="(UnpByDiaryDate)" xpageDoc="UnpDocument.xsp">
 	</xc:unpFlatView></xp:this.facets>

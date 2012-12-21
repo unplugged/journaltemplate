@@ -1,20 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="42e" sequence="1" unid="CD6EDF527E28D5C485257AD70054E217">
-<created><datetime>20121217T102709,03-05</datetime></created>
-<modified><datetime>20121218T085050,55-05</datetime></modified>
-<revised><datetime>20121217T102709,94-05</datetime></revised>
-<lastaccessed><datetime>20121218T085050,55-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085050,55-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Richard Sharpe/O=Teamstudio</name></updatedby>
-<wassignedby><name>CN=Richard Sharpe/O=Teamstudio</name></wassignedby>
-<item name="$TITLE" sign="true"><text>unp/sync_button.gif</text></item>
-<item name="$ImagesWide" sign="true"><number>1</number></item>
-<item name="$ImagesHigh" sign="true"><number>1</number></item>
-<item name="$ImagesColorize" sign="true"><number>0</number></item>
-<item name="$ImageNames" sign="true"><text>sync_button.gif</text></item>
+<?xml version="1.0" encoding="UTF-8"?><imageresource designerversion="8.5.3" imagename="sync_button.gif" maintenanceversion="3.0" name="unp/sync_button.gif" publicaccess="false" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="5a6" sequence="1" unid="3BF7EDAA87CD352B80257ADB005AFC83">
+<created><datetime>20121221T163348,83+00</datetime></created>
+<modified><datetime>20121221T163349,17+00</datetime></modified>
+<revised><datetime>20121221T163349,16+00</datetime></revised>
+<lastaccessed><datetime>20121221T163349,17+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163349,17+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$FileModDT" sign="true"><datetime dst="true">20121006T125525,00-04</datetime></item>
-<item name="$FlagsExt" sign="true"><text>D</text></item>
-<item name="$DesignerVersion"><text>8.5.3</text></item>
-
-
-<item name="$Flags"><text>34CiQP</text></item></note>
+</imageresource>

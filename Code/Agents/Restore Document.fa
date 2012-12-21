@@ -1,69 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='filter' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='20e' unid='B42F10F8BF29ECE2852573C60059FA71' sequence='6'>
-<created><datetime>20080104T112248,17-05</datetime></created>
-<modified><datetime>20121218T085047,83-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132616,38-04</datetime></revised>
-<lastaccessed><datetime>20121218T085047,83-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085047,83-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
-<item name='$TITLE' sign='true'><text>(Restore Document)</text></item>
-<item name='$AssistType' sign='true'><number>65412</number></item>
-<item name='$AssistLastRun' sign='true'>
-<rawitemdata type='400'>
-AAAAAAAAAAA=
-</rawitemdata></item>
-<item name='$AssistDocCount' sign='true'><number>0</number></item>
-<item name='$FlagsExt' sign='true'><text/></item>
-<item name='$AssistFlags' sign='true'><text>EHs</text></item>
-<item name='$AssistTrigger' sign='true'><text>4</text></item>
-<item name='$AssistInfo' sign='true'>
-<rawitemdata type='11'>
-AQAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-</rawitemdata></item>
-<item name='$AssistQuery' sign='true'>
-<rawitemdata type='f'>
-gQYAAAAA
-</rawitemdata></item>
-<item name='$AssistAction' sign='true'>
-<rawitemdata type='10'>
-gQKE/z4AAAAAADQANAAIABIAAgAmHAAAAAAAAO0BAwAHAAwABQAJMFMwRQAAAAgAZgADAAcADAAF
-AAkwUlJTAA==
-</rawitemdata></item>
-<item name='$AssistAction_Ex' sign='true'>
-<rawitemdata type='14'>
-gQI=
-</rawitemdata></item>
-<item name='$Restricted' sign='true'><number>0</number></item>
-<item name='$DesignerVersion' sign='true'><text>6</text></item>
-<item name='$AssistRunInfo' summary='true'>
-<rawitemdata type='3'>
-BgAAAgAACAAKAgAAAAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAA+I9vALdxJYUAAAAA9GN1ALVxJYXY0G4AtXElhQAAAAAAAAAAAAAAAAAAAAAAAAAAU3RhcnRl
-ZCBydW5uaW5nIGFnZW50ICdSZXN0b3JlIERvY3VtZW50JyBvbiAwNy8yNi8yMDA2IDA0OjE4OjMz
-IFBNDQoxIGRvY3VtZW50KHMpIHdlcmUgbW9kaWZpZWQgYnkgZm9ybXVsYQ0KRG9uZSBydW5uaW5n
-IGFnZW50ICdSZXN0b3JlIERvY3VtZW50JyBvbiAwNy8yNi8yMDA2IDA0OjE4OjMzIFBNDQoADQqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqq
-</rawitemdata></item>
-<item name='$POID'><datetime>20071130T103327,49-05</datetime></item>
-<item name='$Flags'><text>f3</text></item>
-<item name='$AssistVersion'><datetime dst='true'>20090924T132615,84-04</datetime></item></note>
+<!DOCTYPE agent SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<agent name='(Restore Document)' xmlns='http://www.lotus.com/dxl' version='8.5'
+ maintenanceversion='3.0' replicaid='80257ADB005A7A22' hide='v3' publicaccess='false'
+ designerversion='6' language='en' restrictions='unrestricted'>
+<noteinfo noteid='45e' unid='885BCCC9ED2DFAA180257ADB005AAC69' sequence='2'>
+<created><datetime>20121221T163023,77+00</datetime></created>
+<modified><datetime>20121221T163028,75+00</datetime></modified>
+<revised><datetime>20121221T163028,74+00</datetime></revised>
+<lastaccessed><datetime>20121221T163028,75+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163028,73+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<designchange><datetime dst='true'>20090924T132615,84-04</datetime></designchange>
+<trigger type='agentlist'/>
+<documentset type='runonce'/><code event='action'>
+<simpleaction action='runformula'><formula>@Command([EditRestoreDocument]);SELECT
+
+ @All</formula></simpleaction></code>
+<rundata processeddocs='0' exitcode='0'>
+<agentmodified><datetime dst='true'>20060724T172213,00-04</datetime></agentmodified>
+<agentrun><datetime dst='true'>20060726T161833,52-04</datetime></agentrun>
+<runlog>Started running agent 'Restore Document' on 07/26/2006 04:18:33 PM
+1 document(s) were modified by formula
+Done running agent 'Restore Document' on 07/26/2006 04:18:33 PM
+</runlog></rundata>
+<item name='$POID'><datetime>20071130T103327,49-05</datetime></item></agent>
 

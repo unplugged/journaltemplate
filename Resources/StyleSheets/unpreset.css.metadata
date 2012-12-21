@@ -1,18 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="356" sequence="1" unid="25255BC239A0F39C85257AD70052EDB9">
-<created><datetime>20121217T100548,09-05</datetime></created>
-<modified><datetime>20121218T085049,47-05</datetime></modified>
-<revised><datetime>20121217T100548,22-05</datetime></revised>
-<lastaccessed><datetime>20121218T085049,47-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085049,47-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Richard Sharpe/O=Teamstudio</name></updatedby>
-<wassignedby><name>CN=Richard Sharpe/O=Teamstudio</name></wassignedby>
-<item name="$TITLE" sign="true"><text>unpreset.css</text></item>
-<item name="$MimeCharSet"><text>UTF-8</text></item>
-<item name="$FileModDT" sign="true"><datetime>20121214T080104,38-05</datetime></item>
-<item name="$FlagsExt" sign="true"><text>D</text></item>
-<item name="$DesignerVersion"><text>8.5.3</text></item>
-
-
-<item name="$FileNames" sign="true"><text>unpreset.css</text></item>
-<item name="$Flags"><text>=34QCP</text></item></note>
+<?xml version="1.0" encoding="UTF-8"?><stylesheetresource charset="UTF-8" designerversion="8.5.3" maintenanceversion="3.0" name="unpreset.css" publicaccess="false" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="62a" sequence="1" unid="F90241B062EFD55780257ADB005BEF0D">
+<created><datetime>20121221T164409,73+00</datetime></created>
+<modified><datetime>20121221T164409,76+00</datetime></modified>
+<revised><datetime>20121221T164409,75+00</datetime></revised>
+<lastaccessed><datetime>20121221T164409,76+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T164409,76+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby></stylesheetresource>

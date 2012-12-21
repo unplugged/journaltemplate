@@ -4,54 +4,52 @@
 	<xc:unpScrollableArea>
 		<xp:this.facets>
 			<xc:unpFormEditor showbuttons="true" xp:key="facet_1"
-				viewxpagename="UnpMain.xsp" formname="JournalEntry"
-				closexpagename="UnpMain.xsp">
+				viewxpagename="UnpMain.xsp" formname="JournalEntry" closexpagename="UnpMain.xsp"
+				title="Journal Entry">
 				<xp:this.facets>
 					<xp:panel xp:key="facet_1">
-						<xp:label value="Subject:" id="label4"
-							for="Subject">
-						</xp:label>
-						<xp:inputText id="Subject"
-							value="#{document1.Subject}">
-						</xp:inputText>
-						<xp:label value="Category:" id="label1"
-							for="Categories">
-						</xp:label>
-						<xp:listBox id="Categories"
-							value="#{document1.Categories}" multiple="false">
-							<xp:selectItems>
-								<xp:this.value><![CDATA[#{javascript:@Unique(@Trim(@DbColumn(@DbName(), "(UnpByCategory)", 1)))}]]></xp:this.value>
-							</xp:selectItems>
-						</xp:listBox>
-						<xp:label value="Diary Date:" id="label2"
-							for="Date">
-						</xp:label>
-						<xp:inputText id="Date"
-							value="#{document1.DiaryDate}" type="date"
-							showReadonlyAsDisabled="true">
-							<xp:this.converter>
-								<xp:convertDateTime>
-									<xp:this.pattern><![CDATA[${javascript:return "yyyy-MM-dd";
+						<ul class="fieldlist">
+							<li>
+								<xp:label value="Subject:" id="label4" for="Subject">
+								</xp:label>
+								<xp:inputText id="Subject" value="#{document1.Subject}" styleClass="required xspInputFieldEditBox">
+								</xp:inputText>
+							</li>
+							<li>
+								<xp:label value="Category:" id="label1" for="Categories">
+								</xp:label>
+								<xp:listBox id="Categories" value="#{document1.Categories}"
+									multiple="false" styleClass="xspListBox">
+									<xp:selectItems>
+										<xp:this.value><![CDATA[#{javascript:@Unique(@Trim(@DbColumn(@DbName(), "(UnpByCategory)", 1)))}]]></xp:this.value>
+									</xp:selectItems>
+								</xp:listBox>
+							</li>
+							<li>
+								<xp:label value="Diary Date:" id="label2" for="Date">
+								</xp:label>
+								<xp:inputText id="Date" value="#{document1.DiaryDate}"
+									type="date" showReadonlyAsDisabled="true" styleClass="xspInputFieldEditBox">
+									<xp:this.converter>
+										<xp:convertDateTime>
+											<xp:this.pattern><![CDATA[${javascript:return "yyyy-MM-dd";
 }]]></xp:this.pattern>
-								</xp:convertDateTime>
-							</xp:this.converter>
-						</xp:inputText>
-						<xp:label value="Notes:" id="label3"
-							for="Body">
-						</xp:label>
-						<xp:inputTextarea value="#{document1.Body}"
-							id="body" htmlFilter="striptags">
-						</xp:inputTextarea>
+										</xp:convertDateTime>
+									</xp:this.converter>
+								</xp:inputText>
+							</li>
+							<li>
+								<xp:label value="Notes:" id="label3" for="Body">
+								</xp:label>
+								<xp:inputTextarea id="body"
+									styleClass="richtextfield" value="#{document1.Body}">
+								</xp:inputTextarea>
+							</li>
+						</ul>
 					</xp:panel>
 				</xp:this.facets>
 
-								<xc:this.title><![CDATA[#{javascript:if(document1.isNewNote()){
-				  return "New Entry";
-				}
-				else{
-				
-				return document1.getItemValueString("Subject");
-				}}]]></xc:this.title>
+
 			</xc:unpFormEditor>
 		</xp:this.facets>
 	</xc:unpScrollableArea>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config>
+  <faces-config-extension>
+    <namespace-uri>http://www.ibm.com/xsp/custom</namespace-uri>
+    <default-prefix>xc</default-prefix>
+  </faces-config-extension>
+  <composite-component>
+    <component-type>unpWorkspace</component-type>
+    <composite-name>unpWorkspace</composite-name>
+    <composite-file>/unpWorkspace.xsp</composite-file>
+    <composite-extension>
+      <designer-extension>
+        <in-palette>true</in-palette>
+      </designer-extension>
+    </composite-extension>
+    <property>
+      <property-name>linkurlcol</property-name>
+      <property-class>string</property-class>
+    </property>
+    <property>
+      <property-name>imgurlcol</property-name>
+      <property-class>string</property-class>
+    </property>
+    <property>
+      <property-name>labelcol</property-name>
+      <property-class>string</property-class>
+    </property>
+    <property>
+      <property-name>syncbutton</property-name>
+      <property-class>boolean</property-class>
+      <property-extension>
+        <designer-extension>
+          <default-value>true</default-value>
+        </designer-extension>
+      </property-extension>
+    </property>
+    <property>
+      <property-name>aboutbutton</property-name>
+      <property-class>boolean</property-class>
+      <property-extension>
+        <designer-extension>
+          <default-value>true</default-value>
+        </designer-extension>
+      </property-extension>
+    </property>
+  </composite-component>
+</faces-config>

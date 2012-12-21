@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="37a" sequence="6" unid="F2B1C6D1E0B243BD85257AD700532E0A">
-<created><datetime>20121217T100832,74-05</datetime></created>
-<modified><datetime>20121218T085049,65-05</datetime></modified>
-<revised><datetime>20121217T100835,35-05</datetime></revised>
-<lastaccessed><datetime>20121218T085049,65-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085049,65-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Richard Sharpe/O=Teamstudio</name></updatedby>
-<wassignedby><name>CN=Richard Sharpe/O=Teamstudio</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="4f6" sequence="6" unid="044C7467C0870E3E80257ADB005ADBBF">
+<created><datetime>20121221T163224,95+00</datetime></created>
+<modified><datetime>20121221T163432,47+00</datetime></modified>
+<revised><datetime>20121221T163432,46+00</datetime></revised>
+<lastaccessed><datetime>20121221T163432,47+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163224,98+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$TITLE"><text>unpFormEditor.xsp</text></item>
-<item name="$Flags"><text>gC~4;P</text></item>
+<item name="$Flags"><text>gC~4;</text></item>
 
 
 <item name="$FileNames" sign="true"><text>unpFormEditor.xsp</text></item>

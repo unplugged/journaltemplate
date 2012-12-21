@@ -80,7 +80,7 @@ if (sessionScope.rowcount != null){
 									<xp:this.value><![CDATA[#{javascript:if(compositeData.detailColumn == null){
 	return "";
 }else{
-return thisRowData.getColumnValue(compositeData.detailColumn);
+  return thisRowData.getColumnValue(compositeData.detailColumn);
 }}]]></xp:this.value>
 
 								</xp:label>

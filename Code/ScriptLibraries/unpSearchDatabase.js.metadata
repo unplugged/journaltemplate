@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="33a" sequence="1" unid="249F33875512C1F385257AD70052BF35">
-<created><datetime>20121217T100349,01-05</datetime></created>
-<modified><datetime>20121218T085049,33-05</datetime></modified>
-<revised><datetime>20121217T100349,05-05</datetime></revised>
-<lastaccessed><datetime>20121218T085049,33-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085049,33-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Richard Sharpe/O=Teamstudio</name></updatedby>
-<wassignedby><name>CN=Richard Sharpe/O=Teamstudio</name></wassignedby>
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="3.0" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="51e" sequence="1" unid="30577562B55D783980257ADB005AE4B9">
+<created><datetime>20121221T163247,93+00</datetime></created>
+<modified><datetime>20121221T163247,97+00</datetime></modified>
+<revised><datetime>20121221T163247,96+00</datetime></revised>
+<lastaccessed><datetime>20121221T163247,97+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163247,97+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$TITLE" sign="true"><text>unpSearchDatabase.js</text></item>
+<item name="$Flags"><text>h534Q</text></item>
 <item name="$PublicAccess" sign="true"><text>1</text></item>
 <item name="$DesignerVersion"><text>8.5.3</text></item>
-
-<item name="$Flags"><text>h534QP</text></item></note>
+</note>

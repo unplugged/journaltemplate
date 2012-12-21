@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="41a" sequence="1" unid="FBD4CF13E37DEBDD85257AD70054E211">
-<created><datetime>20121217T102708,97-05</datetime></created>
-<modified><datetime>20121218T085050,45-05</datetime></modified>
-<revised><datetime>20121217T102709,41-05</datetime></revised>
-<lastaccessed><datetime>20121218T085050,45-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085050,45-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Richard Sharpe/O=Teamstudio</name></updatedby>
-<wassignedby><name>CN=Richard Sharpe/O=Teamstudio</name></wassignedby>
-<item name="$TITLE" sign="true"><text>unp/right-arrow-trans-white.png</text></item>
-<item name="$ImagesWide" sign="true"><number>1</number></item>
-<item name="$ImagesHigh" sign="true"><number>1</number></item>
-<item name="$ImagesColorize" sign="true"><number>0</number></item>
-<item name="$ImageNames" sign="true"><text>right-arrow-trans-white.png</text></item>
+<?xml version="1.0" encoding="UTF-8"?><imageresource designerversion="8.5.3" imagename="right-arrow-trans-white.png" maintenanceversion="3.0" name="unp/right-arrow-trans-white.png" publicaccess="false" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="58a" sequence="1" unid="44E32C57F5CEA6B880257ADB005AFC7C">
+<created><datetime>20121221T163348,76+00</datetime></created>
+<modified><datetime>20121221T163349,03+00</datetime></modified>
+<revised><datetime>20121221T163349,02+00</datetime></revised>
+<lastaccessed><datetime>20121221T163349,03+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163349,03+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby><jpeg>
+iVBORw0KGgoAAAANSUhEUgAAAAkAAAALCAYAAAHaXpeNAAAAB3RJTUUH3AoeAAIpI9q0FwAAAAlw
+SFlzAABOIAAATiABFn2Z3gAAAARnQU1BAACxjwv8YQUAAABaSURBVHjadU4JCsAwCDPF/3/ZkbKw
+tLpAhTSHoqqCWCHwh6wgjSAhAyVQ3h4S+WSG90GtHBkf4M1y4DzljbWu5eod2c7823LE3HDXuFD2
++q4YkFd6DOQQbG0ProYkGHYir54AAAAASUVORK5CYII=
+</jpeg>
 <item name="$FileModDT" sign="true"><datetime>20121029T190256,00-05</datetime></item>
-<item name="$FlagsExt" sign="true"><text>D</text></item>
-<item name="$DesignerVersion"><text>8.5.3</text></item>
-
-
-<item name="$Flags"><text>34CiQP</text></item></note>
+</imageresource>
