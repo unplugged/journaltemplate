@@ -28,12 +28,15 @@
 							<li>
 								<xp:label value="Diary Date:" id="label2" for="Date">
 								</xp:label>
-								<xp:inputText id="Date" value="#{document1.DiaryDate}"
-									type="date" showReadonlyAsDisabled="true" styleClass="xspInputFieldEditBox">
+								<xp:inputText id="DiaryDate" value="#{document1.DiaryDate}" styleClass="xspInputFieldEditBox"
+									type="date">
 									<xp:this.converter>
 										<xp:convertDateTime>
-											<xp:this.pattern><![CDATA[${javascript:return "yyyy-MM-dd";
-}]]></xp:this.pattern>
+											<xp:this.pattern><![CDATA[${javascript:if (document1.isEditable()){
+	return "yyyy-MM-dd";
+}else{
+	return "dd MMM yyyy";
+}}]]></xp:this.pattern>
 										</xp:convertDateTime>
 									</xp:this.converter>
 								</xp:inputText>
