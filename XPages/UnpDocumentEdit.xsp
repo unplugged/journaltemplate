@@ -42,6 +42,7 @@
 								</xp:inputText>
 							</li>
 							<li>
+								<xp:label value="Details" id="detailslabel" for="description" styleClass="widelabel"></xp:label>
 								<xp:inputTextarea id="body"
 									styleClass="richtextfield" value="#{document1.Body}">
 								</xp:inputTextarea>
