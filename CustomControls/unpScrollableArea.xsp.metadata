@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="1182" sequence="6" unid="F3FD0BD428A3FE7380257AE500302FC3">
-<created><datetime>20121231T084619,55+00</datetime></created>
-<modified><datetime>20121231T084641,12+00</datetime></modified>
-<revised><datetime>20121231T084641,11+00</datetime></revised>
-<lastaccessed><datetime>20121231T084641,12+00</datetime></lastaccessed>
-<addedtofile><datetime>20121231T084619,56+00</datetime></addedtofile></noteinfo>
+<noteinfo noteid="1206" sequence="6" unid="6C3919D9C515C3E780257AE80033DEA3">
+<created><datetime>20130103T092633,31+00</datetime></created>
+<modified><datetime>20130103T092903,12+00</datetime></modified>
+<revised><datetime>20130103T092903,11+00</datetime></revised>
+<lastaccessed><datetime>20130103T092903,12+00</datetime></lastaccessed>
+<addedtofile><datetime>20130103T092633,32+00</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$TITLE"><text>unpScrollableArea.xsp</text></item>
