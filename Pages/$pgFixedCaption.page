@@ -1,40 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='2c6' unid='B21F5DE746A3B27385257436003C6D5B' sequence='3'>
-<created><datetime dst='true'>20080425T070001,55-04</datetime></created>
-<modified><datetime>20121218T085048,75-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132617,26-04</datetime></revised>
-<lastaccessed><datetime>20121218T085048,75-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085048,75-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
-<item name='$HTMLCode' sign='true'>
-<rawitemdata type='1'>
-X/8QAAIADwAHAAAAAAAAAA==
-</rawitemdata></item>
-<item name='$Info' sign='true'>
-<rawitemdata type='1'>
-hhgBAIAAAAAAgAAAAQABAP///wAKAAAA
-</rawitemdata></item>
-<item name='$PublicAccess' sign='true'><text>1</text></item>
-<item name='$TITLE' sign='true'><textlist><text>$pgFixedCaption</text><text
->$pgFixedCaption</text></textlist></item>
-<item name='$DesignerVersion' sign='true'><text>8</text></item>
-<item name='$$ScriptName' summary='false' sign='true'><text>$pgFixedCaption</text></item>
-<item name='$Body' sign='true'>
-<rawitemdata type='1'>
-gQKC/1oAAQAAAAAAAAAAADgEAAA4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAABAAAAABSEOAQAADgEAAAAAGQAAQAAAAQAAACDBAEAhf8IAAIAAAWBAoMEAQDdBgEA
-+//7/ywAYQAAAAEBAAAAAAAAAAAAAO4AAAAAAAAAAAAAAAEAgICAAAAAAAAAAFz/PgAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAEAAAoAAAAAAQAAAAAA/P86AAAA
-AAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCxsdIAAAAAAAAAAAAAAN4GAQD7
-/6MOOARIADwASAAAAAMApBIAAIAEkzOAcJADACEBAQEAgQKC/1oAAgAAAAAAAAAAAIAEkzOABAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIYBAAAAAFSHAAAAAAAAAAAA
-AAAAAQAAAAQAAACDBAIAhf8IAAIAAAGBAoMEAgCF/wgAAgAABuIE7gDTCAkA////AKUGAAAAAIEC
-gwQBAIX/CAABAAAK
-</rawitemdata></item>
-<item name='$Flags'><text>C34WQw1</text></item></note>
+<!DOCTYPE page SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<page name='$pgFixedCaption' alias='$pgFixedCaption' xmlns='http://www.lotus.com/dxl'
+ version='8.5' maintenanceversion='3.0' replicaid='80257ADB005A7A22' hide='web mobile'
+ publicaccess='true' designerversion='8' language='en' noinitialfocus='true'
+ nofocusonf6='true'>
+<noteinfo noteid='382' unid='B09688F971DE12B680257ADB005AABA0' sequence='3'>
+<created><datetime>20121221T163021,76+00</datetime></created>
+<modified><datetime>20130115T081050,99+00</datetime></modified>
+<revised><datetime>20130115T081050,98+00</datetime></revised>
+<lastaccessed><datetime>20130115T081050,99+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163026,01+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<body><richtext>
+<pardef id='1' leftmargin='0.7500in'/>
+<par def='1'><run><font size='5pt' name='multilingual'/></run></par>
+<table widthtype='fitwindow' minrowheight='0.1653in' cellbordercolor='gray'
+ leftmargin='0.7500in' columnspacing='0.0500in' refwidth='8.4688in'><border
+ style='solid' width='0px 0px 1px' color='#b1b1d2'/><tablecolumn width='100%'/>
+<tablerow>
+<tablecell borderwidth='1px 0px 2px' bgcolor='system'>
+<pardef id='2' keepwithnext='true' keeptogether='true'/>
+<par def='2'><run><font size='1pt' name='multilingual'/></run></par>
+<par def='2'><run><font size='6pt' name='multilingual'/></run></par></tablecell></tablerow></table>
+<par def='1'/></richtext></body>
+<item name='$$ScriptName' summary='false' sign='true'><text>$pgFixedCaption</text></item></page>
 

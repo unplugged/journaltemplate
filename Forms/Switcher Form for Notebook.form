@@ -1,93 +1,64 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='246' unid='B2609AD3E6940465852573D800627ABD' sequence='4'>
-<created><datetime>20080122T125539,49-05</datetime></created>
-<modified><datetime>20121218T085048,11-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132617,50-04</datetime></revised>
-<lastaccessed><datetime>20121218T085048,11-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085048,11-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
-<item name='$Fonts'>
-<rawitemdata type='1'>
-i/9KAAIABSJTbWFsbCBGb250cwAAAAAAAAAAAAAAAAAAAAAAAAAAAAYmQXJpYWwAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAA=
-</rawitemdata></item>
+<!DOCTYPE form SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<form name='Switcher Form for Notebook' xmlns='http://www.lotus.com/dxl' version='8.5'
+ maintenanceversion='3.0' replicaid='80257ADB005A7A22' hide='web' nocompose='true'
+ noquery='true' publicaccess='true' designerversion='8' language='en' noinitialfocus='true'>
+<noteinfo noteid='3c6' unid='E910B635CB135E6A80257ADB005AABD5' sequence='3'>
+<created><datetime>20121221T163022,29+00</datetime></created>
+<modified><datetime>20130115T081048,63+00</datetime></modified>
+<revised><datetime>20130115T081048,62+00</datetime></revised>
+<lastaccessed><datetime>20130115T081048,63+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163026,69+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<actionbar borderstyle='none' useappletinbrowser='true' bgcolor='#a9c0d7'
+ bordercolor='#51728f'><actionbarstyle height='8ex' repeat='centertile'><font
+ size='3pt' name='multilingual'/><imageref name='MailFS - Shadow Left Top'/></actionbarstyle>
+<actionbuttonstyle showdropdown='true' bgcolor='none'/><font size='12pt' style='bold'
+ name='multilingual' color='#004080'/><border/>
+<action title='Notebook'><imageref name='Notebook_view.gif'/></action></actionbar>
+<body><richtext>
+<pardef id='1' hide='notes web mobile'/>
+<par def='1'/>
+<table widthtype='fitwindow' leftmargin='0.7500in' refwidth='6.5417in'><border
+ style='image' width='0px 6px 3px 2px'><imageref name='MailFS - Shadow Left Calendar Bottom'/></border><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell valign='center' borderwidth='0px' bgcolor='#a9c0d7'>
+<pardef id='3' leftmargin='0.0597in' keepwithnext='true' keeptogether='true'/>
+<par def='3'><run><font size='9pt' name='multilingual' color='#004080'/></run><run
+><font size='9pt' name='multilingual' color='#004080'/><computedtext><code
+ event='value'><formula>@DbTitle</formula></code></computedtext></run><run
+><font size='9pt' name='multilingual' color='#004080'/></run></par></tablecell></tablerow></table>
+<pardef id='4' leftmargin='0.7500in' hide='notes web mobile'/>
+<par def='4'><run><font size='9pt' name='multilingual' color='#004080'/></run></par>
+<table widthtype='fitwindow' minrowheight='1in' leftmargin='0.7500in' refwidth='6.6250in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='5' hide='web mobile' keepwithnext='true' keeptogether='true'><code
+ event='hidewhen'><formula>REM { Test if this is version 6.1 of Notes and 6.1 of template.};
+OkToShow := @If(@Version &lt; @Text(172);  0; @HasFeature("650Lic"); 1; 0);
+OkToShow != 1 | @IsError(OkToShow)</formula></code></pardef>
+<par def='5'><run><font size='9pt' name='multilingual' color='#004080'/></run></par></tablecell></tablerow></table>
+<par def='4'><run><font size='9pt' name='multilingual' color='#004080'/></run></par>
+<pardef id='6' hide='read edit copy preview previewedit'/>
+<par def='6'><run><font size='9pt' name='multilingual' color='green'/>// This field prevents the form from saving a document.</run></par>
+<par def='6'><run><font size='9pt' name='multilingual' color='gray'/>SaveOptions: </run><run
+><font size='9pt' name='multilingual'/><field type='text' kind='computed'
+ name='SaveOptions'><code event='defaultvalue'><formula>"0"</formula></code></field></run><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='9' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata><run><font size='9pt'
+ name='multilingual'/></run></par>
+<par def='6'><run><font size='9pt' name='multilingual'/>Needed for update of action bar drop-down. </run><run
+><font size='9pt' name='multilingual'/><field type='number' kind='editable'
+ name='$ACABHW'><numberformat format='general' digits='2' punctuated='false'
+ parens='false' percent='false' bytes='false'/></field></run><run><font size='9pt'
+ name='multilingual'/></run></par></richtext></body>
 <item name='OriginalModTime' sign='true'><datetime dst='true'>20050405T095435,98-04</datetime></item>
 <item name='DEBUG_SIG' sign='true'><text>1</text></item>
-<item name='$HTMLCode' sign='true'>
-<rawitemdata type='1'>
-X/8QAAIADwAHAAAAAAAAAA==
-</rawitemdata></item>
-<item name='$TITLE'><text>Switcher Form for Notebook</text></item>
-<item name='$Info' sign='true'>
-<rawitemdata type='1'>
-hhgBAIAAAAAAgAAAAQABAP///wACAAAA
-</rawitemdata></item>
-<item name='$DesignerVersion' sign='true'><text>8</text></item>
-<item name='SaveOptions' placeholder='true'>
-<rawitemdata type='0'>
-</rawitemdata></item>
 <item name='$ACABHW' summary='false' sign='true'><number>0</number></item>
-<item name='$Fields'><textlist><text>$ACABHW</text><text>SaveOptions</text></textlist></item>
-<item name='$V5ACTIONS' sign='true'>
-<rawitemdata type='1'>
-vRzYAIYAAQAAAAAApSAAAAAAAAACAZcMCAABAHn/bAABAKnA1wABAFFyjwABAABAgAABALbO4gAA
-ACAABQAAAAAAAAADAAAAAgAAAwAAAAAAAAAAIEAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAHH/OgAAAAAAAwATABgAAAAAAAAAAAAAAAAAAAAAAAAAAABN
-YWlsRlMgLSBTaGFkb3cgTGVmdCBUb3D8/zoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAvv8eAAAAAQAAAJ8BEAAIAAAAAAAAAE5vdGVib29r9v8z
-AAAAAAADABMAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAE5vdGVib29rX3ZpZXcuZ2lmPw==
-</rawitemdata></item>
-<item name='$ACTIONS' sign='true'>
-<rawitemdata type='1'>
-vRzYAIYAAQAAAAAApSAAAAAAAAACAZcMCAABAL7/HgAAAAEAAACfARAACAAAAAAAAABOb3RlYm9v
-aw==
-</rawitemdata></item>
-<item name='$PublicAccess' sign='true'><text>1</text></item>
-<item name='$Flags'><text>CDw</text></item>
-<item name='$$ScriptName' summary='false' sign='true'><text>Switcher Form for Notebook</text></item>
-<item name='$Body' sign='true'>
-<rawitemdata type='1'>
-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
-AAk=
-</rawitemdata></item></note>
+<item name='$$ScriptName' summary='false' sign='true'><text>Switcher Form for Notebook</text></item></form>
 

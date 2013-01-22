@@ -1,40 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='filter' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='256' unid='312143EE663F4E96852573E2004A548E' sequence='4'>
-<created><datetime>20080201T083153,10-05</datetime></created>
-<modified><datetime>20121218T085048,19-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132616,72-04</datetime></revised>
-<lastaccessed><datetime>20121218T085048,19-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085048,19-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
-<item name='$SiteMapList' sign='true'>
-<rawitemdata type='1a'>
-AQYBAAEABwBIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAHAEgAkAAJCAQAAQAAAAAAAAAOAAAAKgAAAD4AAAAMAAAAAAAAAA4A
-AwACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFQWxsIEVudHJpZXMAAQD2/ygAAAAA
-AAMAAgAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAKCRBbGwpAQD2/zwAAAAAAAMAEwAaAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAQWxsTm90ZWJvb2twYWdlc18xOHgxOC5naWYABU5vdGVzVmlldwAABUFsbCBF
-bnRyaWVzAEgAkAABCAQACAAAAAAAAAAOAAAAMAAAADgAAAAMAAAAAAAAAA4AAwACAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFQnkgQ2F0ZWdvcnkAAQD2/y0AAAAAAAMAAgALAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAQnkgQ2F0ZWdvcnk/AQD2/zYAAAAAAAMAEwAUAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAQnlDYXRlZ29yeV8xOHgxOC5naWYABU5vdGVzVmlldwAABUJ5IENhdGVnb3J5AEgAkgAB
-CAQACwAAAAAAAAAQAAAAMgAAADQAAAAMAAAAAAAAABAAAwACAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAFQnkgRW50cnkgRGF0ZQABAPb/LwAAAAAAAwACAA0AAAAAAAAAAAAAAAAAAAAA
-AAAAAABCeSBEaWFyeSBEYXRlPwEA9v8yAAAAAAADABMAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAEJ5
-RGF0ZV8xOHgxOC5naWYABU5vdGVzVmlldwAABUJ5IEVudHJ5IERhdGUASAAAABIABAACAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-SAA0AAAABAADAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAD9/wAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAQD2/zIAAAAAAAMAEwAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAZm9sZGVy
-XzE4eDE4LmdpZkgAAAAWAAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/P8AAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgANAAEAAQABQAAAAAAAAAAAAAAAAAAADQAAAAAAAAA
-AAAAAAAA/f8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA9v8yAAAAAAADABMAEAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAGZvbGRlcl8xOHgxOC5naWY=
-</rawitemdata></item>
-<item name='$TITLE'><text>WebJournalOutline</text></item>
-<item name='$Flags'><text>m34</text></item>
-<item name='$DesignerVersion' sign='true'><text>8.5</text></item></note>
+<!DOCTYPE outline SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<outline name='WebJournalOutline' xmlns='http://www.lotus.com/dxl' version='8.5'
+ maintenanceversion='3.0' replicaid='80257ADB005A7A22' hide='v3 v4strict'
+ publicaccess='false' designerversion='8.5' language='en'>
+<noteinfo noteid='1ba' unid='C5DEC46A5C6B988F80257ADB005AAA85' sequence='3'>
+<created><datetime>20121221T163018,93+00</datetime></created>
+<modified><datetime>20130115T081050,59+00</datetime></modified>
+<revised><datetime>20130115T081050,58+00</datetime></revised>
+<lastaccessed><datetime>20130115T081050,59+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163019,41+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<outlineentry label='All Entries' alias='All Entries' type='namedelementlink'
+ targetframe='NotesView'><imageref database='80257ADB005A7A22' name='AllNotebookpages_18x18.gif'/><namedelementlink
+ type='view' name='($All)'/></outlineentry>
+<outlineentry label='By Category' alias='By Category' type='namedelementlink'
+ targetframe='NotesView'><imageref database='80257ADB005A7A22' name='ByCategory_18x18.gif'/><namedelementlink
+ type='view' name='By Category'/></outlineentry>
+<outlineentry label='By Entry Date' alias='By Entry Date' type='namedelementlink'
+ targetframe='NotesView'><imageref database='80257ADB005A7A22' name='ByDate_18x18.gif'/><namedelementlink
+ type='view' name='By Diary Date'/></outlineentry>
+<outlineentry type='otherviews' hide='notes web'/>
+<outlineentry type='otherfolders'><imageref database='80257ADB005A7A22' name='folder_18x18.gif'/></outlineentry>
+<outlineentry type='otherprivateviews' hide='notes web'/>
+<outlineentry type='otherprivatefolders'><imageref database='80257ADB005A7A22'
+ name='folder_18x18.gif'/></outlineentry></outline>
 

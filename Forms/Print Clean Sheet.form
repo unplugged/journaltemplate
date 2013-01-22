@@ -1,42 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='1b2' unid='8B867C9ED86CA3AD852573C400401E3F' sequence='5'>
-<created><datetime>20080102T064020,47-05</datetime></created>
-<modified><datetime>20121218T085047,43-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132617,56-04</datetime></revised>
-<lastaccessed><datetime>20121218T085047,43-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085047,43-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$HTMLCode' sign='true'>
-<rawitemdata type='1'>
-X/8QAAIADwAHAAAAAAAAAA==
-</rawitemdata></item>
-<item name='$TITLE'><textlist><text>Print Clean Sheet</text><text>fPrint</text></textlist></item>
-<item name='$Info' sign='true'>
-<rawitemdata type='1'>
-hhgBAIEAAAAAgAAAAQABAP///wAQAAAA
-</rawitemdata></item>
-<item name='$Flags'><text>CD</text></item>
-<item name='$DesignerVersion' sign='true'><text>8</text></item>
-<item name='Body' placeholder='true'>
-<rawitemdata type='0'>
-</rawitemdata></item>
-<item name='$Fields'><text>Body</text></item>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
-<item name='$$ScriptName' summary='false' sign='true'><text>fPrint</text></item>
-<item name='$Body' sign='true'>
-<rawitemdata type='1'>
-gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAABAAAAAJSEoAUJAKAFCQAAAAAAAQAAAAQAAACDBAEAhf8IAAEAAArdBgAAiv/+/1QA
-AAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAC4sJACw/0AAAAAAAEIAAAAAAAAAAAAAACgAAAAoAAAAJgABABwA
-aGVpZ2h0ID0gIjMwMCIgd2lkdGggPSAiNjI1IgMAiv9uAIAAAQAEMAAACAAAAAADAQAACxAAAAAA
-AAAABAA1AAAAEAAAAA4ABQAEAEJvZHkDAEJvZHlFbnRlciB5b3VyIGNvbW1lbnRzLCBxdWVzdGlv
-bnMsIGlkZWFzIGZvciBkaXNjdXNzaW9uLgB6/1QABAAAAAAANQAAAAAAAAAAAAAAAAAAAEJvZHlF
-bnRlciB5b3VyIGNvbW1lbnRzLCBxdWVzdGlvbnMsIGlkZWFzIGZvciBkaXNjdXNzaW9uLgBiDgEA
-hAAAAAAAAQAAAN4GAACK/4X/CAABAAAK
-</rawitemdata></item></note>
+<!DOCTYPE form SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<form name='Print Clean Sheet' alias='fPrint' xmlns='http://www.lotus.com/dxl'
+ version='8.5' maintenanceversion='3.0' replicaid='80257ADB005A7A22' nocompose='true'
+ noquery='true' publicaccess='false' designerversion='8' language='en' inherit='true'
+ renderpassthrough='true'>
+<noteinfo noteid='3ca' unid='5A2E23EFFF42FE3E80257ADB005AABD9' sequence='3'>
+<created><datetime>20121221T163022,33+00</datetime></created>
+<modified><datetime>20130115T081048,55+00</datetime></modified>
+<revised><datetime>20130115T081048,54+00</datetime></revised>
+<lastaccessed><datetime>20130115T081048,55+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163026,73+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<body><richtext>
+<pardef id='1' leftmargin='1in'/>
+<par def='1'><run><font size='11pt'/><field useappletinbrowser='true' type='richtext'
+ kind='computed' name='Body' description='Enter your comments, questions, ideas for discussion.'
+ htmlid='Body' htmltitle='Enter your comments, questions, ideas for discussion.'><code
+ event='htmlattributes'><formula>"height = \"300\" width = \"625\""</formula></code><code
+ event='defaultvalue'><formula>Body</formula></code></field></run><compositedata
+ type='98' prevtype='65402' nexttype='222' afterparcount='9' containertype='65418'
+ aftercontainercount='2' afterbegincount='5'>
+Yg4BAIQAAAAAAAEAAAA=
+</compositedata></par></richtext></body>
+<item name='$$ScriptName' summary='false' sign='true'><text>fPrint</text></item></form>
 

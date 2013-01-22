@@ -1,23 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="252" sequence="6" unid="47ABB672499E31B1852573D9005C1CA2">
-<created><datetime>20080123T114606,42-05</datetime></created>
-<modified><datetime>20121218T085048,17-05</datetime></modified>
-<revised><datetime dst="true">20090924T132616,70-04</datetime></revised>
-<lastaccessed><datetime>20121218T085048,17-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085048,17-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<revisions><datetime>20080123T114606,63-05</datetime><datetime>20080123T114619,33-05</datetime></revisions>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name="$TITLE"><text>web - Corner3 Cal Bot.gif</text></item>
-<item name="$FlagsExt" sign="true"><text>D</text></item>
-<item name="$ImagesWide" sign="true"><number>1</number></item>
-<item name="$ImagesHigh" sign="true"><number>1</number></item>
-<item name="$ImagesColorize" sign="true"><number>0</number></item>
-<item name="$DesignerVersion" sign="true"><text>8</text></item>
-
-
-<item name="$MimeType" sign="true"><text>image/gif</text></item>
+<?xml version="1.0" encoding="UTF-8"?><imageresource designerversion="8.5.3" language="en" maintenanceversion="3.0" name="web - Corner3 Cal Bot.gif" publicaccess="false" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1da" sequence="4" unid="1D07A15C912A728280257ADB005AAA96">
+<created><datetime>20121221T163019,10+00</datetime></created>
+<modified><datetime>20130115T081050,53+00</datetime></modified>
+<revised><datetime>20130115T081050,52+00</datetime></revised>
+<lastaccessed><datetime>20130115T081050,53+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163019,85+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$FileModDT" sign="true"><datetime>20080123T171120,18+00</datetime></item>
-<item name="$Flags"><text>34CiQ</text></item>
-<item name="$ImageNames" sign="true"><text>web - Corner3 Cal Bot.gif</text></item>
-<item name="$LANGUAGE" sign="true"><text>en</text></item></note>
+</imageresource>

@@ -1,23 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="27a" sequence="4" unid="7365D101D532792F85257436003B71CD">
-<created><datetime dst="true">20080425T064917,57-04</datetime></created>
-<modified><datetime>20121218T085048,37-05</datetime></modified>
-<revised><datetime dst="true">20090924T132616,90-04</datetime></revised>
-<lastaccessed><datetime>20121218T085048,37-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085048,37-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name="$FlagsExt" sign="true"><text>D</text></item>
-<item name="$ImagesWide" sign="true"><number>1</number></item>
-<item name="$ImagesHigh" sign="true"><number>1</number></item>
-<item name="$ImagesColorize" sign="true"><number>0</number></item>
-
-
-<item name="$MimeType" sign="true"><text>image/gif</text></item>
+<?xml version="1.0" encoding="UTF-8"?><imageresource alias="$BorderInside" designerversion="8.5.3" imagename="BorderInside.gif" language="en" maintenanceversion="3.0" name="$BorderInside.gif" publicaccess="true" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="356" sequence="4" unid="430393EE6BA489BB80257ADB005AAB77">
+<created><datetime>20121221T163021,35+00</datetime></created>
+<modified><datetime>20130115T081050,67+00</datetime></modified>
+<revised><datetime>20130115T081050,66+00</datetime></revised>
+<lastaccessed><datetime>20130115T081050,67+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163025,49+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$FileModDT" sign="true"><datetime dst="true">20040823T153706,00-04</datetime></item>
-<item name="$ImageNames" sign="true"><text>BorderInside.gif</text></item>
-<item name="$PublicAccess" sign="true"><text>1</text></item>
-<item name="$TITLE" sign="true"><textlist><text>$BorderInside.gif</text><text>$BorderInside</text></textlist></item>
-<item name="$DesignerVersion" sign="true"><text>8</text></item>
-<item name="$Flags"><text>34CiQ</text></item>
-<item name="$LANGUAGE" sign="true"><text>en</text></item></note>
+</imageresource>

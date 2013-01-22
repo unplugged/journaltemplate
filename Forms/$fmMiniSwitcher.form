@@ -1,70 +1,36 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='2d2' unid='78CF4B7F0F83CF8B85257436003C9A4F' sequence='4'>
-<created><datetime dst='true'>20080425T070156,63-04</datetime></created>
-<modified><datetime>20121218T085048,81-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132617,32-04</datetime></revised>
-<lastaccessed><datetime>20121218T085048,81-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085048,81-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
+<!DOCTYPE form SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<form name='$fmMiniSwitcher' alias='$fmMiniSwitcher' xmlns='http://www.lotus.com/dxl'
+ version='8.5' maintenanceversion='3.0' replicaid='80257ADB005A7A22' hide='web mobile'
+ nocompose='true' noquery='true' publicaccess='true' designerversion='8.5'
+ language='en' noinitialfocus='true' renderpassthrough='true' nofieldindex='true'>
+<noteinfo noteid='3ea' unid='E0FDD8450E05883580257ADB005AABF4' sequence='3'>
+<created><datetime>20121221T163022,60+00</datetime></created>
+<modified><datetime>20130115T081050,73+00</datetime></modified>
+<revised><datetime>20130115T081050,72+00</datetime></revised>
+<lastaccessed><datetime>20130115T081050,73+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163027,05+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby><code event='windowtitle'><formula
+>""</formula></code>
+<actionbar borderstyle='none' bgcolor='#d4deec' bordercolor='black'><actionbarstyle
+ height='26px' repeat='centertile'><font size='9pt' style='bold' name='multilingual'/><imageref
+ name='$MiniSwitcher'/></actionbarstyle>
+<actionbuttonstyle showdropdown='true' bgcolor='none' displayborder='never'/><border
+ color='none'/>
+<action title='SwitcherTitle' showinmenu='false'><code event='label'><formula
+>@Subset(@DbName; -1)</formula></code></action></actionbar>
+<background allowoverride='false'/>
+<body><richtext>
+<pardef id='1' leftmargin='1in' hide='notes web mobile'/>
+<par def='1'><run><font size='9pt' name='user-interface' color='gray'/>// SaveOptions: </run><run
+><font size='9pt' name='user-interface'/><field type='text' kind='computed'
+ name='SaveOptions'><code event='defaultvalue'><formula>"0"</formula></code></field></run><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='10' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata><run><font size='9pt'
+ name='user-interface'/></run></par></richtext></body>
 <item name='DEBUG_SIG' sign='true'><text>1</text></item>
-<item name='$HTMLCode' sign='true'>
-<rawitemdata type='1'>
-X/8QAAIADwAHAAAAAAAAAA==
-</rawitemdata></item>
-<item name='$TITLE'><textlist><text>$fmMiniSwitcher</text><text>$fmMiniSwitcher</text></textlist></item>
-<item name='$NoBackgroundOverride' sign='true'><text>1</text></item>
-<item name='$Info' sign='true'>
-<rawitemdata type='1'>
-hhgBAIAAAAAAgAAAAQABAP///wAyAAAA
-</rawitemdata></item>
-<item name='$WindowTitle' sign='true'><formula>""</formula></item>
-<item name='$DesignerVersion' sign='true'><text>8.5</text></item>
-<item name='$$Script_O' sign='true'>
-<rawitemdata type='14'>
-AQAAAkxTT0IDABQIZW4AAAQAAAADAAAAAAAEAIgAAAAAAAAAAAAAAAAAAAAkAP//GAA4AAAA//9U
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAEABQBMb3R1cyBQcm9kdWN0AAAAVjAuMAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAwAAAAAAAAAEAAAAiAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA
-AAAAAABXMzJJgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAwCMAAAAAAD//wgAKgA1ADAAQgA0AEYARgA0AAAAAABsAAMATgBFAFcAAACAAAYARABFAEwA
-RQBUAEUAAAAAAP//CgBJAE4ASQBUAEkAQQBMAEkAWgBFAAAAAAD//wkAVABFAFIATQBJAE4AQQBU
-AEUAAAD//wYATwBCAEoARQBDAFQAAAAAAP//AAAAAAAABQAIAAAAAACpvxZBBAAHAAAAAAAdAAAC
-AAAACgAAAA==
-</rawitemdata></item>
-<item name='$Fields'><text>SaveOptions</text></item>
-<item name='$V5ACTIONS' sign='true'>
-<rawitemdata type='1'>
-vRxPAAAAAQAAAAAAJSAAAAAAAAAAAAAACAACAHn/bAABANTe7AABAAAAAAABAAAAAAABAM/W4QAC
-ABoABQAAAAAAAAADAAAAAgEACQAAAAAAAAAAOkACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAHH/LwAAAAAAAwATAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAk
-TWluaVN3aXRjaGVyP/z/OgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUA
-z9bhAAAAAAAAAAAAAAC+/yQAAAABAAAAngEAAA0AAAAAAAAAU3dpdGNoZXJUaXRsZQBe/z4AAAAA
-AAAAAAAiAAAAAAAAAAAAAAAAAAAAIgAAABYAiwAAAAAAAAAAAPA/EAFrAgMABwAKAAMACTRTAA==
-</rawitemdata></item>
-<item name='$ACTIONS' sign='true'>
-<rawitemdata type='1'>
-vRxPAAAAAQAAAAAAJSAAAAAAAAAAAAAACAACAL7/JAAAAAEAAACeAQAADQAAAAAAAABTd2l0Y2hl
-clRpdGxlDA==
-</rawitemdata></item>
-<item name='$PublicAccess' sign='true'><text>1</text></item>
-<item name='$Flags'><text>CDw1</text></item>
-<item name='$$ScriptName' summary='false' sign='true'><text>$fmMiniSwitcher</text></item>
-<item name='$Body' sign='true'>
-<rawitemdata type='1'>
-gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAACBAAAAAJWEoAUWAKAFFgAAAGQAAQAAAAYAAACDBAEA3QYAAIX/hf8YAAMADgkvLyBT
-YXZlT3B0aW9uczog0ggBAICAgADeBgAAhf/dBgAAiv/+/1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIr/
-PgCIAQAFADACAAgAAAAAAgMAAAkOAAAAAAAAAAsAAAAAAA4AAAAMAAEAAQAwAAMAU2F2ZU9wdGlv
-bnMAYg4BAIQAAAAAAAAAAADeBgAAiv+F/wgAAwAACQ==
-</rawitemdata></item></note>
+<item name='$$ScriptName' summary='false' sign='true'><text>$fmMiniSwitcher</text></item></form>
 

@@ -1,74 +1,34 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='16e' unid='96FDF471DF83D67A852569A800589EF5' sequence='31'>
-<created><datetime>20001201T110758,61-05</datetime></created>
-<modified><datetime>20121218T085047,09-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132615,78-04</datetime></revised>
-<lastaccessed><datetime>20121218T085047,09-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085047,09-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<revisions><datetime>20071218T140155,18-05</datetime><datetime>20080109T052728,91-05</datetime><datetime
->20080123T080839,39-05</datetime><datetime>20080123T114350,72-05</datetime><datetime
->20080201T083445,74-05</datetime></revisions>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
+<!DOCTYPE page SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<page name='Outline Page' alias='Outline Page' xmlns='http://www.lotus.com/dxl'
+ version='8.5' maintenanceversion='3.0' replicaid='80257ADB005A7A22' hide='notes mobile'
+ publicaccess='false' designerversion='8' language='en' noinitialfocus='true'>
+<noteinfo noteid='36e' unid='105C940C8D943F8780257ADB005AAB8B' sequence='3'>
+<created><datetime>20121221T163021,55+00</datetime></created>
+<modified><datetime>20130115T081048,45+00</datetime></modified>
+<revised><datetime>20130115T081048,44+00</datetime></revised>
+<lastaccessed><datetime>20130115T081048,45+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163025,81+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<body><richtext>
+<pardef id='1' leftmargin='0.7500in'/>
+<par def='1'><run html='true'>&lt;style&gt;body{margin-top:0px;}&lt;/style&gt;</run></par>
+<par def='1'><embeddedoutline name='JOutline' outline='WebJournalOutline'
+ useappletinbrowser='true' showtwistie='true' widthtype='fitwindow' heighttype='fixed'
+ width='99%' height='2.7500in'><control><eoutlinebackground normalcolor='white'/></control><title
+><layout labelalign='topleft' labelhoffset='0' labelvoffset='0'/></title><toplevel
+ mouseovercolor='blue'><font size='9pt'/><eoutlinebackground selectedcolor='#d1dfed'
+ mouseovercolor='#d1dfed'/><layout labelalign='topleft' entryvoffset='0.0500in'
+ imagealign='topleft' labelhoffset='0.3000in' labelvoffset='0'/></toplevel><sublevel
+ selectedcolor='white' mouseovercolor='blue'><font size='9pt'/><eoutlinebackground
+ selectedcolor='#d1dfed' mouseovercolor='#d1dfed'/><layout labelalign='topleft'
+ entryhoffset='0.2000in' entryvoffset='0.0500in' imagealign='topleft' imagehoffset='0.1000in'
+ labelhoffset='0.4000in' labelvoffset='0'/></sublevel></embeddedoutline></par></richtext></body>
 <item name='$HTMLDocumentStyles' summary='true' sign='true'>
 <rawitemdata type='1'>
 0ggBAAAA/wDSCAEA/wAAANIIAQCAAIAA
 </rawitemdata></item>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
 <item name='OriginalModTime' sign='true'><datetime>20050127T101806,89-05</datetime></item>
-<item name='$HTMLCode' sign='true'>
-<rawitemdata type='1'>
-X/8QAAIADwAHAAAAAAAAAA==
-</rawitemdata></item>
-<item name='$TITLE'><textlist><text>Outline Page</text><text>Outline Page</text></textlist></item>
-<item name='$NoBackgroundOverride' sign='true'><text>1</text></item>
-<item name='$Info' sign='true'>
-<rawitemdata type='1'>
-hhgBAIAAAAAAgAAAAQABAP///wACAAAA
-</rawitemdata></item>
-<item name='$Flags'><text>C34WQn1</text></item>
-<item name='$DesignerVersion' sign='true'><text>8</text></item>
-<item name='$$Script_O' sign='true'>
-<rawitemdata type='14'>
-AQAABExTT0IDABQAZW4AAAQAAAADAAAAAAAEAIgAAAAAAAAAAAAAAAAAAAAkAP//GAA4AAAA//9U
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAEABABMb3R1cyBQcm9kdWN0AAAAVjAuMAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAwAAAAAAAAAEAAAAiAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAADAIwAAAAAAP//CAAqADQAQgA0AEMAMwA1AEUAAAAAAGwAAwBOAEUAVwAAAIAABgBEAEUATABF
-AFQARQAAAAAA//8KAEkATgBJAFQASQBBAEwASQBaAEUAAAAAAP//CQBUAEUAUgBNAEkATgBBAFQA
-RQAAAP//BgBPAEIASgBFAEMAVAAAAAAA//8AAAAAAAAFAAgAAAAAABo9O/4EAAcAAAAAAB0AAAIA
-AAA=
-</rawitemdata></item>
-<item name='$$ScriptName' summary='false' sign='true'><text>Outline Page</text></item>
-<item name='$Body' sign='true'>
-<rawitemdata type='1'>
-gQKC/1oAAQAAAAAAAAAAADgEAAA4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAABAAAAAJSEOAQKADgECgAAAAAAAQAAAAQAAACDBAEAzP8IAAAAAACF/ywAAQAACjxz
-dHlsZT5ib2R5e21hcmdpbi10b3A6MHB4O308L3N0eWxlPs3/CAAAAAAAgQKDBAEAhf8IAAEAAArd
-BgAArf9x/zQAAAAAAAMAFgASAAAAAAAAAAAAAAAAAAAAAAAAAAAAV2ViSm91cm5hbE91dGxpbmUA
-rf8eABsACAAAABIAV2ViSm91cm5hbE91dGxpbmUA6v8+ABsACUQAAGMAeA8BAAAJAAAAAAAAAAAB
-AAAKAQAACQAAAQD///8AAQAAAAAAAAAAAAAAAAAAAAAAAADs/xYBKAYCAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAASAAAAAAASAAgAQAACAAAAAEAAAoBAAAKAQAACgEAAAoBAAAKAQAACgAAAAAA
-AAAAsAFAAgAAAAAAAAEA////AAUA////AAUA////AAUA////AAUA////AAEA0d/tAAEA0d/tAAUA
-////AAEA0d/tAAEA0d/tAAEAAAAAAAEAAAAAAAEA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAJAAAAAAAAAAAAABAAAAAAABAAAAAAABAAAAAAABAAAAAAABAAAA/wABAAAA/wAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAABKT3V0bGluZa4C3gYAAK4Ahf8IAAEAAAo=
-</rawitemdata></item></note>
+<item name='$$ScriptName' summary='false' sign='true'><text>Outline Page</text></item></page>
 

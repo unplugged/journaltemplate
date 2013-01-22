@@ -1,27 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="286" sequence="3" unid="FDF8188EDA36F9A885257436003B71D0">
-<created><datetime dst="true">20080425T064917,60-04</datetime></created>
-<modified><datetime>20121218T085048,43-05</datetime></modified>
-<revised><datetime dst="true">20090924T132616,96-04</datetime></revised>
-<lastaccessed><datetime>20121218T085048,43-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085048,43-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name="$FlagsExt" sign="true"><text>D</text></item>
-<item name="$ImagesHigh" sign="true"><number>1</number></item>
-<item name="$ImagesWide" sign="true"><number>2</number></item>
-<item name="$PublicAccess" sign="true"><text>1</text></item>
-<item name="$LANGUAGE" sign="true"><text>en</text></item>
+<?xml version="1.0" encoding="UTF-8"?><imageresource across="2" alias="$HinkyMaximized" browsercompatible="true" designerversion="8.5.3" imagename="HinkyMaximized.gif" language="en" maintenanceversion="3.0" name="$HinkyMaximized.gif" publicaccess="true" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="34a" sequence="4" unid="648F9CBEB2B2D29080257ADB005AAB6F">
+<created><datetime>20121221T163021,27+00</datetime></created>
+<modified><datetime>20130115T081050,89+00</datetime></modified>
+<revised><datetime>20130115T081050,88+00</datetime></revised>
+<lastaccessed><datetime>20130115T081050,89+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163025,31+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="DEBUG_SIG" sign="true"><text>1</text></item>
-<item name="$WebBrowserCompatible" sign="true"><number>1</number></item>
-<item name="$ImagesColorize" sign="true"><number>0</number></item>
-
-
-
-
-<item name="$MimeType" sign="true"><text>image/gif</text></item>
 <item name="$FileModDT" sign="true"><datetime dst="true">20040823T143651,54-04</datetime></item>
-<item name="$ImageNames" sign="true"><text>HinkyMaximized.gif</text></item>
-<item name="$TITLE" sign="true"><textlist><text>$HinkyMaximized.gif</text><text>$HinkyMaximized</text></textlist></item>
-<item name="$DesignerVersion" sign="true"><text>8</text></item>
-<item name="$Flags"><text>34CiQv</text></item></note>
+</imageresource>

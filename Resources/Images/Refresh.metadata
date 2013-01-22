@@ -1,22 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="21e" sequence="3" unid="105F4AE7A064C0F5852573C7005D17F0">
-<created><datetime>20080105T115649,76-05</datetime></created>
-<modified><datetime>20121218T085047,91-05</datetime></modified>
-<revised><datetime dst="true">20090924T132616,46-04</datetime></revised>
-<lastaccessed><datetime>20121218T085047,91-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085047,91-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name="$FlagsExt" sign="true"><text>D</text></item>
-<item name="$ImagesWide" sign="true"><number>1</number></item>
-<item name="$ImagesHigh" sign="true"><number>1</number></item>
-<item name="$ImagesColorize" sign="true"><number>0</number></item>
-<item name="$TITLE" sign="true"><textlist><text>Refresh</text><text>act_ViewRefresh.gif</text></textlist></item>
-<item name="$DesignerVersion" sign="true"><text>8</text></item>
-
-
-<item name="$MimeType" sign="true"><text>image/gif</text></item>
+<?xml version="1.0" encoding="UTF-8"?><imageresource alias="act_ViewRefresh.gif" designerversion="8.5.3" imagename="refresh.gif" language="en" maintenanceversion="3.0" name="Refresh" publicaccess="false" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="2fe" sequence="4" unid="8CD9B5609AB26BA680257ADB005AAB4B">
+<created><datetime>20121221T163020,91+00</datetime></created>
+<modified><datetime>20130115T081048,61+00</datetime></modified>
+<revised><datetime>20130115T081048,60+00</datetime></revised>
+<lastaccessed><datetime>20130115T081048,61+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163024,17+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$FileModDT" sign="true"><datetime dst="true">20070607T083513,53-07</datetime></item>
-<item name="$ImageNames" sign="true"><text>refresh.gif</text></item>
-<item name="$LANGUAGE" sign="true"><text>en</text></item>
-<item name="$Flags"><text>34CiQ</text></item></note>
+</imageresource>

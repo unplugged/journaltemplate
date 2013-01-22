@@ -1,23 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="226" sequence="5" unid="6D5B907351DFD5CF852573C90067EEEB">
-<created><datetime>20080107T135513,71-05</datetime></created>
-<modified><datetime>20121218T085047,95-05</datetime></modified>
-<revised><datetime dst="true">20090924T132616,50-04</datetime></revised>
-<lastaccessed><datetime>20121218T085047,95-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085047,95-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<revisions><datetime>20080107T135513,90-05</datetime></revisions>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name="$TITLE"><text>ByCategory_18x18.gif</text></item>
-<item name="$FlagsExt" sign="true"><text>D</text></item>
-<item name="$ImagesWide" sign="true"><number>1</number></item>
-<item name="$ImagesHigh" sign="true"><number>1</number></item>
-<item name="$ImagesColorize" sign="true"><number>0</number></item>
-
-
-<item name="$MimeType" sign="true"><text>image/gif</text></item>
+<?xml version="1.0" encoding="UTF-8"?><imageresource designerversion="8.5.3" language="en" maintenanceversion="3.0" name="ByCategory_18x18.gif" noquery="true" publicaccess="false" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="322" sequence="4" unid="58B4FB2E2B27F5A380257ADB005AAB5C">
+<created><datetime>20121221T163021,08+00</datetime></created>
+<modified><datetime>20130115T081047,75+00</datetime></modified>
+<revised><datetime>20130115T081047,74+00</datetime></revised>
+<lastaccessed><datetime>20130115T081047,75+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163024,71+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$FileModDT" sign="true"><datetime>20080107T162939,68+00</datetime></item>
-<item name="$ImageNames" sign="true"><text>ByCategory_18x18.gif</text></item>
-<item name="$DesignerVersion" sign="true"><text>8</text></item>
-<item name="$Flags"><text>D34CiQ</text></item>
-<item name="$LANGUAGE" sign="true"><text>en</text></item></note>
+</imageresource>

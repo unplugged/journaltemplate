@@ -1,33 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='19a' unid='C49D00E8032800FE85256A88004C5E94' sequence='8'>
-<created><datetime dst='true'>20010713T095409,48-04</datetime></created>
-<modified><datetime>20121218T085047,31-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132615,98-04</datetime></revised>
-<lastaccessed><datetime>20121218T085047,31-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085047,31-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$HTMLCode' sign='true'>
-<rawitemdata type='1'>
-X/8QAAEA/gACAAAAAAAAAF//EAABAMAAAgAAAAAAAABf/xAAAgAPAAcAAAAAAAAA
-</rawitemdata></item>
-<item name='$TITLE'><text>WebFont</text></item>
-<item name='$Info' sign='true'>
-<rawitemdata type='1'>
-hhgBAIAAAAAAgAAAAQABAP///wAAAAAA
-</rawitemdata></item>
-<item name='$Flags'><text>CUAx3</text></item>
-<item name='$DesignerVersion' sign='true'><text>6</text></item>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
-<item name='$$ScriptName' summary='false' sign='true'><text>WebFont</text></item>
-<item name='$Body' sign='true'>
-<rawitemdata type='1'>
-gQKC/1IAAQAEAAAAAAAAAKAFAACgBQgA0AKgBXAIQAsQDuAQsBOAFgAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAACBAAAAAJQEoAUKAKAFCgAAAGQAgwQBAMz/CAAAAAAAhf8mAAEAAAg8SEVBRD4APFNU
-WUxFIFRZUEU9InRleHQvY3NzIj6BAoMEAQCF/ygAAQAACCAJQk9EWSB7Zm9udC1mYW1pbHk6IHNh
-bnMtc2VyaWZ9gQKDBAEAhf8YAAEAAAg8L1NUWUxFPgA8L0hFQUQ+zf8IAAAAAAA=
-</rawitemdata></item></note>
+<!DOCTYPE subform SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<subform name='WebFont' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
+ replicaid='80257ADB005A7A22' designerversion='6' language='en'>
+<noteinfo noteid='1b6' unid='1A9C6B70DAFEDA3E80257ADB005AAA80' sequence='3'>
+<created><datetime>20121221T163018,88+00</datetime></created>
+<modified><datetime>20130115T081050,55+00</datetime></modified>
+<revised><datetime>20130115T081050,54+00</datetime></revised>
+<lastaccessed><datetime>20130115T081050,55+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163019,37+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<body><richtext>
+<pardef id='1' align='none' leftmargin='1in' hide='notes' tabs='L0.5000in L1in L1.5000in L2in L2.5000in L3in L3.5000in L4in'/>
+<par def='1'><run html='true'><font size='8pt'/>&lt;HEAD&gt;<break/>&lt;STYLE TYPE="text/css"&gt;</run></par>
+<par def='1'><run html='true'><font size='8pt'/> 	BODY {font-family: sans-serif}</run></par>
+<par def='1'><run html='true'><font size='8pt'/>&lt;/STYLE&gt;<break/>&lt;/HEAD&gt;</run></par></richtext></body>
+<item name='$$ScriptName' summary='false' sign='true'><text>WebFont</text></item></subform>
 

@@ -1,77 +1,56 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='2d6' unid='33E8B5FF1422606285257436003C9A50' sequence='4'>
-<created><datetime dst='true'>20080425T070156,64-04</datetime></created>
-<modified><datetime>20121218T085048,83-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132617,34-04</datetime></revised>
-<lastaccessed><datetime>20121218T085048,83-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085048,83-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
-<item name='$Fonts'>
-<rawitemdata type='1'>
-i/9KAAIABSJTbWFsbCBGb250cwAAAAAAAAAAAAAAAAAAAAAAAAAAAAYmQXJpYWwAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAA=
-</rawitemdata></item>
+<!DOCTYPE form SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<form name='$fmTopSwitcher' alias='$fmTopSwitcher' xmlns='http://www.lotus.com/dxl'
+ version='8.5' maintenanceversion='3.0' replicaid='80257ADB005A7A22' hide='web mobile'
+ nocompose='true' noquery='true' publicaccess='true' designerversion='8.5'
+ language='en' bgcolor='#d4deec' noinitialfocus='true' renderpassthrough='true'
+ nofieldindex='true'>
+<noteinfo noteid='3e6' unid='5CF6C8FD729A57EE80257ADB005AABF1' sequence='3'>
+<created><datetime>20121221T163022,57+00</datetime></created>
+<modified><datetime>20130115T081050,75+00</datetime></modified>
+<revised><datetime>20130115T081050,74+00</datetime></revised>
+<lastaccessed><datetime>20130115T081050,75+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163027,01+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby><code event='windowtitle'><formula
+>""</formula></code>
+<actionbar borderstyle='none' useappletinbrowser='true' bgcolor='#d4deec'
+ bordercolor='#51728f'><actionbarstyle height='25px' repeat='centertile'><font
+ size='3pt' name='multilingual'/><imageref name='$SwitcherAction'/></actionbarstyle>
+<actionbuttonstyle showdropdown='true' bgcolor='none' displayborder='never'/><font
+ size='12pt' style='bold' color='#004080'/><border color='none'/>
+<action title='Notebook'><imageref name='Notebook_view.gif'/><code event='label'><formula
+>"Notebook"</formula></code></action></actionbar>
+<background allowoverride='false'/>
+<body><richtext>
+<pardef id='1' hide='notes web mobile'/>
+<par def='1'><run><font size='9pt' name='user-interface'/>// </run><run><font
+ size='9pt' name='user-interface'/><field type='text' kind='computed' name='SaveOptions'><code
+ event='defaultvalue'><formula>"0"</formula></code></field></run><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='7' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata><run><font size='9pt'
+ name='user-interface'/></run></par>
+<par def='1'><run><font size='9pt' name='user-interface'/>// Always compute action bar hide whens: </run><run
+><font size='9pt' name='user-interface'/><field type='number' kind='editable'
+ name='$ACABHW'><numberformat format='general' varying='true' digits='2' punctuated='false'
+ parens='false' percent='false' bytes='false'/></field></run><run><font size='9pt'
+ name='user-interface'/></run></par>
+<table widthtype='fitwindow' leftmargin='0.7500in' colorstyle='solid' bgcolor='#d4deec'
+ refwidth='7.4271in'><border style='image' width='0px 5px 4px'><imageref name='$SwitcherBody'/></border><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='3' keepwithnext='true' keeptogether='true'/>
+<par def='3'><run><font size='9pt' name='multilingual' color='#004080'/></run><run
+><font size='9pt' name='multilingual' color='#004080'/><computedtext><code
+ event='value'><formula>@DbTitle</formula></code></computedtext></run><run
+><font size='9pt' name='user-interface'/></run></par></tablecell></tablerow></table>
+<pardef id='4'/>
+<par def='4'><run><font size='9pt' name='user-interface'/></run></par></richtext></body>
 <item name='DEBUG_SIG' sign='true'><text>1</text></item>
 <item name='$ACABHW' summary='false' sign='true'><number>0</number></item>
 <item name='OriginalModTime' sign='true'><datetime dst='true'>20050504T124830,39-04</datetime></item>
-<item name='$HTMLCode' sign='true'>
-<rawitemdata type='1'>
-X/8QAAIADwAHAAAAAAAAAA==
-</rawitemdata></item>
-<item name='$TITLE'><textlist><text>$fmTopSwitcher</text><text>$fmTopSwitcher</text></textlist></item>
-<item name='$NoBackgroundOverride' sign='true'><text>1</text></item>
-<item name='$Info' sign='true'>
-<rawitemdata type='1'>
-hhgBAIAAAAAAgAAATwABANTe7AAyAAAA
-</rawitemdata></item>
-<item name='$WindowTitle' sign='true'><formula>""</formula></item>
-<item name='$DesignerVersion' sign='true'><text>8.5</text></item>
-<item name='$Fields'><textlist><text>$ACABHW</text><text>SaveOptions</text></textlist></item>
-<item name='$V5ACTIONS' sign='true'>
-<rawitemdata type='1'>
-vRxPAIYAAQAAAAAApSAAAAAAAAABAZcMCAABAHn/bAABANTe7AABAFFyjwABAABAgAABALbO4gAC
-ABkABQAAAAAAAAADAAAAAgAAAwAAAAAAAAAAOUACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAHH/MQAAAAAAAwATAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAk
-U3dpdGNoZXJBY3Rpb24//P86AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-BQD//wAAAAAAAAAAAAAAAL7/HgAAAAEAAACfARAACAAAAAAAAABOb3RlYm9va/b/MwAAAAAAAwAT
-ABEAAAAAAAAAAAAAAAAAAAAAAAAAAABOb3RlYm9va192aWV3LmdpZj9e/zAAAAAAAAAAAAAUAAAA
-AAAAAAAAAAAAAAAAFAAAABIAAQAIAE5vdGVib29rAwA=
-</rawitemdata></item>
-<item name='$ACTIONS' sign='true'>
-<rawitemdata type='1'>
-vRxPAIYAAQAAAAAApSAAAAAAAAABAZcMCAABAL7/HgAAAAEAAACfARAACAAAAAAAAABOb3RlYm9v
-aw==
-</rawitemdata></item>
-<item name='$PublicAccess' sign='true'><text>1</text></item>
-<item name='$Flags'><text>CD1w</text></item>
-<item name='$$ScriptName' summary='false' sign='true'><text>$fmTopSwitcher</text></item>
-<item name='$Body' sign='true'>
-<rawitemdata type='1'>
-gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAACBAAAAAJWHAAAAAAAAAAAAAAAAAQAAAAYAAACDBAEAhf8LAAMAAAkvLyAA3QYAAIr/
-/v9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACK/z4AiAEABQAwAgAIAAAAAAIDAAAJDgAAAAAAAAALAAAA
-AAAOAAAADAABAAEAMAADAFNhdmVPcHRpb25zAGIOAQCEAAAAAAAAAAAA3gYAAIr/hf8IAAMAAAmB
-AoMEAQCF/zEAAwAACS8vIEFsd2F5cyBjb21wdXRlIGFjdGlvbiBiYXIgaGlkZSB3aGVuczogAN0G
-AACK//7/VAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALiwkAIr/LACKAAADADACAAgAAAAAAgMAAAkAAAAA
-AAAAAAcAAAAAACRBQ0FCSFcA3gYAAIr/hf8IAAMAAAmBAoL/WgACAAAAAAAAAAAAOAQAADgEAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAAAAAFYQ4BAAAOAQAAAAA
-ZAABAAAABgAAAIMEAgDdBgEA+//7/ywAQQAAAAEBAAAAAAAAAAAAAAAAAADU3uwAgICAAAEAAAAA
-AAAAAAAAAFz/PgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAEA
-AAoAAAAAAQAAAAAA/P86AAAAAAAKAAAABQAEAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA
-AAAAAAAAAAAAAAAAAFv/LwAAAAAAAwATAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAkU3dpdGNoZXJC
-b2R5AN4GAQD7/6MOOAQoADwAAAAAAINvpBIAAIMESi6AcAACAAABAQAAgQKC/1oAAwAAAAAAAAAA
-AIMESi6DBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIYBAAAAAFSH
-AAAAAAAAAAAAAAAAAQAAAAQAAACDBAMA3QYAAIX/hf8IAAIAlwnSCAEAAECAAN4GAACF/90GAACt
-/6n/FgABABgABAAKAAoAAAAIAJwAAwDdBgAAhf+F/wgAAgCXCdIIAQAAQIAA3gYAAIX/qgLeBgAA
-rgCF/wgAAwAACaUGAAAAAIECgv9aAAQAAAAAAAAAAACgBQAAoAUAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAACUhwAAAAAAAAAAAAAAAAEAAAAEAAAAgwQEAIX/
-CAADAAAJ
-</rawitemdata></item></note>
+<item name='$$ScriptName' summary='false' sign='true'><text>$fmTopSwitcher</text></item></form>
 

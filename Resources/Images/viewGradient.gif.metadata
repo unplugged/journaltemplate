@@ -1,23 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="1aa" sequence="3" unid="FA893D10D336A126852573C4003CAA46">
-<created><datetime>20080102T060237,50-05</datetime></created>
-<modified><datetime>20121218T085047,39-05</datetime></modified>
-<revised><datetime dst="true">20090924T132616,06-04</datetime></revised>
-<lastaccessed><datetime>20121218T085047,39-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085047,39-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name="$TITLE"><text>viewGradient.gif</text></item>
-<item name="$FlagsExt" sign="true"><text>D</text></item>
-<item name="$ImagesWide" sign="true"><number>1</number></item>
-<item name="$ImagesHigh" sign="true"><number>1</number></item>
-<item name="$ImagesColorize" sign="true"><number>0</number></item>
-<item name="$DesignerVersion" sign="true"><text>7</text></item>
-<item name="$LANGUAGE" sign="true"><text>en</text></item>
-<item name="$PublicAccess" sign="true"><text>1</text></item>
-
-
-<item name="$MimeType" sign="true"><text>image/gif</text></item>
-<item name="$FileModDT" sign="true"><datetime dst="true">20070316T133219,95-04</datetime></item>
-<item name="$Flags"><text>34CiQ</text></item>
-<item name="$ImageNames" sign="true"><text>viewGradient1.gif</text></item></note>
+<?xml version="1.0" encoding="UTF-8"?><imageresource designerversion="8.5.3" imagename="viewGradient1.gif" language="en" maintenanceversion="3.0" name="viewGradient.gif" publicaccess="true" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1e2" sequence="4" unid="EE7941CB5A5A71AB80257ADB005AAA9C">
+<created><datetime>20121221T163019,16+00</datetime></created>
+<modified><datetime>20130115T081050,41+00</datetime></modified>
+<revised><datetime>20130115T081050,40+00</datetime></revised>
+<lastaccessed><datetime>20130115T081050,41+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163019,97+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<item name="$FileModDT" sign="true"><datetime>20070316T123219,95-05</datetime></item>
+</imageresource>

@@ -1,28 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='17e' unid='7DECB49C529D340D852569A8005A0994' sequence='22'>
-<created><datetime>20001201T112326,92-05</datetime></created>
-<modified><datetime>20121218T085047,17-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132615,84-04</datetime></revised>
-<lastaccessed><datetime>20121218T085047,17-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085047,17-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<revisions><datetime>20071218T135948,77-05</datetime><datetime>20080122T125221,32-05</datetime></revisions>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
-<item name='$TITLE' sign='true'><text>View Frame|View Frame</text></item>
-<item name='$Comment' sign='true'><text/></item>
-<item name='$FrameSet' sign='true'>
-<rawitemdata type='1'>
-7/8YAAIAAwAAAAAAAAAAAAAAAAAAAAAA8P8+AEUAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAUAAAAA
-AAIAAQAAAAAAAQB5qdIAAAACAGIAAQAAAAMAAQDx/0kAAQAAAABAAAADAAEAAQAAAAAACQAAAAwA
-AQB5qdIAAABOb3Rlc1ZpZXdOb3Rlc1ByZXZpZXcBAP///xQBAAAKAQAAAAAUP/b/LQAAAAAAAwAC
-AAsAAAAAAAAAAAAAAAAAAAAAAAAAAABCeSBDYXRlZ29yeT/x/1wA4QAAAABgAAADAAEAAQAAAAAA
-DAAAAAAAAQB5qdIAAABOb3Rlc1ByZXZpZXcUABQAAAASAAEABwBQcmV2aWV3AAMAAAACACgAAQCp
-wNcUAgAACQEAAECAFA==
-</rawitemdata></item>
-<item name='$Flags'><text>#34CQ</text></item>
-<item name='$DesignerVersion' sign='true'><text>8</text></item></note>
+<!DOCTYPE frameset SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<frameset name='View Frame' alias='View Frame' xmlns='http://www.lotus.com/dxl'
+ version='8.5' maintenanceversion='3.0' replicaid='80257ADB005A7A22' publicaccess='false'
+ designerversion='8' language='en' rows='98% 0px' spacing='0px' borderwidth='0px'
+ bordercolor='#79a9d2'>
+<noteinfo noteid='396' unid='67C4497D7A66189F80257ADB005AABAF' sequence='3'>
+<created><datetime>20121221T163021,91+00</datetime></created>
+<modified><datetime>20130115T081050,39+00</datetime></modified>
+<revised><datetime>20130115T081050,38+00</datetime></revised>
+<lastaccessed><datetime>20130115T081050,39+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163026,21+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<frame name='NotesView' targetframe='NotesPreview' border3d='false'><namedelementlink
+ type='view' name='By Category'/></frame>
+<frame name='NotesPreview' border3d='false'><bordercaption show='caption arrows'
+ justify='center' open='40%' bgcolor='#a9c0d7'><code event='value'><formula
+>"Preview"</formula></code><font size='9pt' name='multilingual' color='#004080'/></bordercaption></frame></frameset>
 

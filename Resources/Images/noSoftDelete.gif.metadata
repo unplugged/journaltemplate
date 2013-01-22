@@ -1,22 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="1e6" sequence="3" unid="6DA0CC078A115248852573C50067E5E3">
-<created><datetime>20080103T135450,59-05</datetime></created>
-<modified><datetime>20121218T085047,69-05</datetime></modified>
-<revised><datetime dst="true">20090924T132616,24-04</datetime></revised>
-<lastaccessed><datetime>20121218T085047,69-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085047,69-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name="$FlagsExt" sign="true"><text>D</text></item>
-<item name="$ImagesWide" sign="true"><number>1</number></item>
-<item name="$ImagesHigh" sign="true"><number>1</number></item>
-<item name="$ImagesColorize" sign="true"><number>0</number></item>
-
-
-<item name="$MimeType" sign="true"><text>image/gif</text></item>
+<?xml version="1.0" encoding="UTF-8"?><imageresource designerversion="8.5.3" imagename="xDelete.gif" language="en" maintenanceversion="3.0" name="noSoftDelete.gif" publicaccess="false" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="2a2" sequence="4" unid="58F55F22E0F808A280257ADB005AAB18">
+<created><datetime>20121221T163020,40+00</datetime></created>
+<modified><datetime>20130115T081048,37+00</datetime></modified>
+<revised><datetime>20130115T081048,36+00</datetime></revised>
+<lastaccessed><datetime>20130115T081048,37+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163022,79+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$FileModDT" sign="true"><datetime dst="true">20060927T124838,34-04</datetime></item>
-<item name="$ImageNames" sign="true"><text>xDelete.gif</text></item>
-<item name="$TITLE" sign="true"><text>noSoftDelete.gif</text></item>
-<item name="$DesignerVersion" sign="true"><text>8</text></item>
-<item name="$LANGUAGE" sign="true"><text>en</text></item>
-<item name="$Flags"><text>34CiQ</text></item></note>
+</imageresource>

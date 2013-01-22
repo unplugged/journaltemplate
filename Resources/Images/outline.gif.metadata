@@ -1,18 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="136" sequence="7" unid="BA269FBF09EEE72C8525672200488A46">
-<created><datetime>19990224T081219,90-05</datetime></created>
-<modified><datetime>20121218T085046,85-05</datetime></modified>
-<revised><datetime dst="true">20090924T132615,46-04</datetime></revised>
-<lastaccessed><datetime>20121218T085046,85-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085046,85-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name="$ImagesWide" sign="true"><number>1</number></item>
-<item name="$ImagesHigh" sign="true"><number>1</number></item>
-<item name="$ImagesColorize" sign="true"><number>0</number></item>
-<item name="$TITLE" sign="true"><textlist><text>outline.gif</text><text>outline.gif</text></textlist></item>
-
-
-<item name="$Flags"><text>34CiQ</text></item>
-<item name="$ImageNames" sign="true"><text>outline.gif</text></item>
-<item name="$LANGUAGE" sign="true"><text>en</text></item></note>
+<?xml version="1.0" encoding="UTF-8"?><imageresource alias="outline.gif" designerversion="8.5.3" language="en" maintenanceversion="3.0" name="outline.gif" publicaccess="false" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="29e" sequence="4" unid="350CDCC413D468D080257ADB005AAB15">
+<created><datetime>20121221T163020,37+00</datetime></created>
+<modified><datetime>20130115T081048,49+00</datetime></modified>
+<revised><datetime>20130115T081048,48+00</datetime></revised>
+<lastaccessed><datetime>20130115T081048,49+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163022,73+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+</imageresource>

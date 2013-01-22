@@ -1,53 +1,49 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='242' unid='FB9EB5A1E06F051F852573D800626F29' sequence='3'>
-<created><datetime>20080122T125509,85-05</datetime></created>
-<modified><datetime>20121218T085048,09-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132616,64-04</datetime></revised>
-<lastaccessed><datetime>20121218T085048,09-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085048,09-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
-<item name='$HTMLCode' sign='true'>
-<rawitemdata type='1'>
-X/8QAAIADwAHAAAAAAAAAA==
-</rawitemdata></item>
-<item name='$TITLE'><textlist><text>Switcher Page for Spacing</text><text
->Switcher Page for Spacing</text></textlist></item>
-<item name='$Info' sign='true'>
-<rawitemdata type='1'>
-hhgBAIAAAAAAgAAAAQABAP///wAaAAAA
-</rawitemdata></item>
-<item name='$DesignerVersion' sign='true'><text>7</text></item>
-<item name='$PublicAccess' sign='true'><text>1</text></item>
-<item name='$$ScriptName' summary='false' sign='true'><text>Switcher Page for Spacing</text></item>
-<item name='$Body' sign='true'>
-<rawitemdata type='1'>
-gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAACBAAAAAJWHAAAAAAAAAAAAAAAAAQAAAAYAAACDBAEAhf8IAAIAAAmBAoL/WgACAAAA
-AAAAAAAAOAQAADgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA
-AAAAFIQ4BAAAOAQAAAAAZAABAAAABAAAAIMEAgDdBgEA+//7/ywAYQAAAAEBAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAEAqcDXAAAAAAAAAFz/PgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAOAAAAAAAAAAEAAAoAAAAAAQAAAAAA3gYBAPv/ow44BCgAPAAAAAAAAwCkEgAAOAQNPoBw
-gAMAIAEB2ACBAoL/WgADAAAAAAAAAAAAOAQNPjgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAhgkAAAAAVIcAAAAAAAAAAAAAAAABAAAABAAAALv/NAADABMAsm3wYUkc
-JgAAABgAvAABAAkATWFjaW50b3NoAAoCAwAHAAwABQAJMVMyUwCDBAMAhf8IAAIAAAOBAoMEAwCF
-/wgAAgAAA4ECgwQDAIX/CAACAAADgQKDBAMAhf8IAAIAAAOBAoMEAwCF/wgAAgAAA4ECgwQDAIX/
-CAACAAAD0wgBALDI4AB4/zIAAAAAAAMAEwAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAdmlld0dyYWRp
-ZW50LmdpZqUGAAAAAIECgv9aAAQAAAAAAAAAAACgBQAAoAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAAAAAVhKAFAACgBQAAAABkAAEAAAAGAAAAgwQEAIX/CAAC
-AAADgQKDBAIA3QYBAPv/+/8sAGEAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAKnA1wAAAAAA
-AABc/z4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAABAAAKAAAA
-AAEAAAAAAN4GAQD7/6MOOAQoADwAAAAAAAMApBIAADgEDT6AcIADACABAdgAgQKC/1oABQAAAAAA
-AAAAADgEDT44BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIYJAAAA
-AFSHAAAAAAAAAAAAAAAAAQAAAAQAAAC7/zQABQATALJt8GFJHCYAAAAYALwAAQAJAE1hY2ludG9z
-aAALAgMABwAMAAUACTFTMlMAgwQFAIX/CAACAAADgQKDBAUAhf8IAAIAAAOBAoMEBQCF/wgAAgAA
-A4ECgwQFAIX/CAACAAADgQKDBAUAhf8JAAIAAANhAIECgwQFAIX/CAACAAADgQKDBAUAhf8IAAIA
-AALTCAEAsMjgAHj/MgAAAAAAAwATABAAAAAAAAAAAAAAAAAAAAAAAAAAAAB2aWV3R3JhZGllbnQu
-Z2lmpQYAAAAAgQKDBAEAhf8IAAIAAAk=
-</rawitemdata></item>
-<item name='$Flags'><text>C34WQ</text></item></note>
+<!DOCTYPE page SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<page name='Switcher Page for Spacing' alias='Switcher Page for Spacing' xmlns='http://www.lotus.com/dxl'
+ version='8.5' maintenanceversion='3.0' replicaid='80257ADB005A7A22' publicaccess='true'
+ designerversion='7' language='en' noinitialfocus='true' nofocusonf6='true'
+ renderpassthrough='true'>
+<noteinfo noteid='36a' unid='C5879F0EB290477780257ADB005AAB88' sequence='3'>
+<created><datetime>20121221T163021,52+00</datetime></created>
+<modified><datetime>20130115T081048,65+00</datetime></modified>
+<revised><datetime>20130115T081048,64+00</datetime></revised>
+<lastaccessed><datetime>20130115T081048,65+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163025,77+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<body><richtext>
+<pardef id='1' hide='notes web mobile'/>
+<par def='1'><run><font size='9pt' name='multilingual'/></run></par>
+<table widthtype='fitwindow' cellbordercolor='#a9c0d7' leftmargin='0.7500in'
+ refwidth='10.2813in'><tablecolumn width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px 0px 2px' bgcolor='#b0c8e0'>
+<cellbackground><imageref name='viewGradient.gif'/></cellbackground>
+<pardef id='3' keepwithnext='true' keeptogether='true'><code event='hidewhen'><formula
+>@Platform = "Macintosh"</formula></code></pardef>
+<par def='3'><run><font size='3pt' name='multilingual'/></run></par>
+<par def='3'><run><font size='3pt' name='multilingual'/></run></par>
+<par def='3'><run><font size='3pt' name='multilingual'/></run></par>
+<par def='3'><run><font size='3pt' name='multilingual'/></run></par>
+<par def='3'><run><font size='3pt' name='multilingual'/></run></par>
+<par def='3'><run><font size='3pt' name='multilingual'/></run></par></tablecell></tablerow></table>
+<pardef id='4' leftmargin='1in' hide='notes web mobile'/>
+<par def='4'><run><font size='3pt' name='multilingual'/></run></par>
+<table widthtype='fitwindow' cellbordercolor='#a9c0d7' leftmargin='0.7500in'
+ refwidth='10.2813in'><tablecolumn width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px 0px 2px' bgcolor='#b0c8e0'>
+<cellbackground><imageref name='viewGradient.gif'/></cellbackground>
+<pardef id='5' keepwithnext='true' keeptogether='true'><code event='hidewhen'><formula
+>@Platform != "Macintosh"</formula></code></pardef>
+<par def='5'><run><font size='3pt' name='multilingual'/></run></par>
+<par def='5'><run><font size='3pt' name='multilingual'/></run></par>
+<par def='5'><run><font size='3pt' name='multilingual'/></run></par>
+<par def='5'><run><font size='3pt' name='multilingual'/></run></par>
+<par def='5'><run><font size='3pt' name='multilingual'/>a</run></par>
+<par def='5'><run><font size='3pt' name='multilingual'/></run></par>
+<par def='5'><run><font size='2pt' name='multilingual'/></run></par></tablecell></tablerow></table>
+<par def='1'><run><font size='9pt' name='multilingual'/></run></par></richtext></body>
+<item name='$$ScriptName' summary='false' sign='true'><text>Switcher Page for Spacing</text></item></page>
 

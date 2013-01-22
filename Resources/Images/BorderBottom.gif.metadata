@@ -1,22 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="23e" sequence="4" unid="FBD46ECCB2B0D2CA852573D3005837DF">
-<created><datetime>20080117T110334,71-05</datetime></created>
-<modified><datetime>20121218T085048,07-05</datetime></modified>
-<revised><datetime dst="true">20090924T132616,62-04</datetime></revised>
-<lastaccessed><datetime>20121218T085048,07-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085048,07-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name="$TITLE"><text>BorderBottom.gif</text></item>
-<item name="$FlagsExt" sign="true"><text>D</text></item>
-<item name="$ImagesWide" sign="true"><number>1</number></item>
-<item name="$ImagesHigh" sign="true"><number>1</number></item>
-<item name="$ImagesColorize" sign="true"><number>0</number></item>
-
-
-<item name="$MimeType" sign="true"><text>image/gif</text></item>
+<?xml version="1.0" encoding="UTF-8"?><imageresource designerversion="8.5.3" language="en" maintenanceversion="3.0" name="BorderBottom.gif" publicaccess="false" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="326" sequence="4" unid="220918413B7BACA080257ADB005AAB5E">
+<created><datetime>20121221T163021,10+00</datetime></created>
+<modified><datetime>20130115T081047,65+00</datetime></modified>
+<revised><datetime>20130115T081047,64+00</datetime></revised>
+<lastaccessed><datetime>20130115T081047,65+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163024,77+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$FileModDT" sign="true"><datetime>20080117T141952,37+00</datetime></item>
-<item name="$ImageNames" sign="true"><text>BorderBottom.gif</text></item>
-<item name="$DesignerVersion" sign="true"><text>8</text></item>
-<item name="$Flags"><text>34CiQ</text></item>
-<item name="$LANGUAGE" sign="true"><text>en</text></item></note>
+</imageresource>

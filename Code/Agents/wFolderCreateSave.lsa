@@ -3,15 +3,15 @@
 <agent name='(wFolderCreateSave)' xmlns='http://www.lotus.com/dxl' version='8.5'
  maintenanceversion='3.0' replicaid='80257ADB005A7A22' hide='v3' runaswebuser='true'
  publicaccess='false' designerversion='5' language='en'>
-<noteinfo noteid='44e' unid='383129141C7784D880257ADB005AAC65' sequence='2'>
+<noteinfo noteid='44e' unid='383129141C7784D880257ADB005AAC65' sequence='3'>
 <created><datetime>20121221T163023,73+00</datetime></created>
-<modified><datetime>20121221T163028,67+00</datetime></modified>
-<revised><datetime>20121221T163028,66+00</datetime></revised>
-<lastaccessed><datetime>20121221T163028,67+00</datetime></lastaccessed>
+<modified><datetime>20130115T081051,49+00</datetime></modified>
+<revised><datetime>20130115T081051,48+00</datetime></revised>
+<lastaccessed><datetime>20130115T081051,49+00</datetime></lastaccessed>
 <addedtofile><datetime>20121221T163028,65+00</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
-<designchange><datetime dst='true'>20090924T132615,58-04</datetime></designchange>
+<designchange><datetime>20130115T081048,07+00</datetime></designchange>
 <trigger type='agentlist'/>
 <documentset type='runonce'/><code event='options'><lotusscript>Option Public
 'Use "Common"

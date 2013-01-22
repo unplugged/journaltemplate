@@ -1,7 +1,11 @@
 /**
- *
- * Setup events
- *
+ * Copyright 2013 Teamstudio Inc 
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0 
+ * Unless required by applicable law or agreed to in writing, software distributed under the License is distributed 
+ * on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+ * the specific language governing permissions and limitations under the License
  */
 
 $(window).load( function() {
@@ -35,9 +39,9 @@ var apps_scroll;
 
 function ready () {	
 	// Scroll content
-	var content = document.querySelector('#content > div.scroll');
+	var content = document.querySelector('#wscontent > div.wsscroll');
 	if (content) {
-		content_scroll = new iScroll(content, { hScroll:false, vScrollbar:false });
+		content_scroll = new iScroll(content);
 	}
 
 	// Free some memory
@@ -73,4 +77,9 @@ function allowFormsInIscroll(){
       e.stopPropagation();
     })
   })
+}
+
+function setBadge(badgeid, value){
+	$('span[badgeid="' + badgeid + '"]').html(value);
+	$('span[badgeid="' + badgeid + '"]').show();
 }

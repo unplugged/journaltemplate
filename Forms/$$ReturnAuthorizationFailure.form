@@ -1,84 +1,67 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='192' unid='9BB28A7D4DA92EB185256A77003D2002' sequence='9'>
-<created><datetime dst='true'>20010626T070738,90-04</datetime></created>
-<modified><datetime>20121218T085047,27-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132615,94-04</datetime></revised>
-<lastaccessed><datetime>20121218T085047,27-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085047,27-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$Fields'><textlist><text>db_3</text><text>db_2</text><text>db_1</text></textlist></item>
-<item name='$HTMLCode' sign='true'>
-<rawitemdata type='1'>
-X/8QAAIADwAHAAAAAAAAAA==
-</rawitemdata></item>
-<item name='$TITLE'><text>$$ReturnAuthorizationFailure</text></item>
-<item name='$Info' sign='true'>
-<rawitemdata type='1'>
-hhgBAIAAAAAAgAAAPwABAO/v7wAAAAAA
-</rawitemdata></item>
-<item name='$SubForms' sign='true'><text>WebFont</text></item>
+<!DOCTYPE form SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<form name='$$ReturnAuthorizationFailure' xmlns='http://www.lotus.com/dxl'
+ version='8.5' maintenanceversion='3.0' replicaid='80257ADB005A7A22' nocompose='true'
+ noquery='true' publicaccess='false' designerversion='6' language='en' bgcolor='#efefef'>
+<noteinfo noteid='3f2' unid='6B9884420393885C80257ADB005AABFA' sequence='3'>
+<created><datetime>20121221T163022,66+00</datetime></created>
+<modified><datetime>20130115T081051,21+00</datetime></modified>
+<revised><datetime>20130115T081051,20+00</datetime></revised>
+<lastaccessed><datetime>20130115T081051,21+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163027,13+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<body><richtext>
+<pardef id='1' align='none' leftmargin='1in' hide='notes web' tabs='L0.5000in L1in L1.5000in L2in L2.5000in L3in L3.5000in L4in'/>
+<par def='1'/>
+<pardef id='2' align='none' leftmargin='1in' hide='notes' tabs='L0.5000in L1in L1.5000in L2in L2.5000in L3in L3.5000in L4in'/><subformref
+ name='WebFont'/>
+<par def='2'><run html='true'>&lt;/h3&gt;</run></par>
+<table widthtype='fitmargins' refwidth='9.7813in'><tablecolumn width='100%'/>
+<tablerow>
+<tablecell bgcolor='white'>
+<pardef id='4' leftmargin='0.0104in' keepwithnext='true' keeptogether='true'/>
+<par def='4'><run><font size='11pt'/> </run><picture width='36px' height='36px'
+ align='bottom'><gif>
+R0lGODlhJAAkAPf/AGtpaoiGh5CNj4uIihIREisqK317fXp4enZ0dnJwcnBucDU0NZWTlZGPkYmH
+iYeFh4SChIKAgoF/gXFwcZqXm3RydZaUl4OBhIF/gnRydoyKjoqIjH99gZKQlJGQkk1LUH99gjAv
+MnNxd318f39+gQIBBVBPU3t6fnp5fZaUnTc2O318gXV0eoSDiYB/hUJAU0dFVyUkLUlIURUUIJyZ
+vKqowDo4WCEgMi0sPi8uPZCNt3BujY+Msz07aUE/ZltZj2VjjzY1Snl3pG9tlR4dQCgnTTw7ZgAA
+DwAACgAABQICGgsLFRAQFwUFBnd3fHd3e8DAwDEyCv//APv6APn5APj3APT0APDwAO/vAOblAOPj
+AN/eAN3dANrbANbVANPTAM7OAMvMAMrKAMjIAMfGAMXFAMPDAL69AL29ALq5ALa2ALSzAK2sAKam
+AJ2dAJyaAJqaAJiXAJWUAJSTAJOTAImIAIiGAIaFAIKBAH59AHd3AHJyAF9eAEJCADIyAAYGAJ+d
+Af//Ar6+AsXFA52dAvb2BMrJBcHBBZ2cBP//B+rpB///Cbu6Cf//Df//D7u6DP//Efn4EdTTD///
+E6SjDYCACv//Ffz8FXFwCuDfFuzsGP//G5eWEPf3Hf//IfX1JZubGf//LPT0K6SiIP//N9XVMOvr
+Nvj3PPPyO///Qu3sRfDvSmRjIN3cT//+Xe7tW///ZsC/UqWkU6CfXwcHBQoKCAkJCHNxADEwAKKf
+B4OBDoyIFX17FqqnIHJwFk5NEFJRFHd0I4uJL6qnOoWCNaupR9rYaunndvTyfvDufnRzTcPBhYWE
+X4yIMZiUPZyYQZeTQZ6aSo6KSKyoYNrWiPPwrcLAlb+6hOLfuLeyhbGulODdwAkIAKCacbq0i7y3
+j7q0jbWvjhkYE8W+mYeDb8W+odXQv9DJuMC7rszFtQ8ODK2pobu1qqWhmoF8dJmWkrWwqqKemZSR
+jjg3Njw7Ok5NTJ6al5KPjpeUkyUkJJCOjo2LiwAAAAAAAAAAAAAAACH5BAEAAFAALAAAAAAkACQA
+QAj/AKEIHEhwYLpibhAJI5euoMOHD6/lwiKlokWLoIoACAARojQ2FyvW4UeSH7cyFxdVE2eiBcRr
+b6yEDGnpkxYwohrNtEiJyAQI6AbuyhJmjJijSJMqXXoUTCwgtRo8gICio0Bog6aEtGaDngCrVsPh
+uainJEk0FSGV4rcBBFgozgxp3UkGFz8+FHcu8zGvgT2CcXbObPWDpBBTgitOKlUiwwp2b6mdubgt
+hgp4b99Oe5Q3pCwj9fRlfjiuDpWKyXaUrHGqYhslDzCMFtiNTsiyZtFWvHTsDwIXb5uN2YlMNUnW
+M7HlWKAB4jRGVxKTmkXrmE7BxXrU27du4Dc7iS0S/ypBMomgxIHUHIkdVE7494I9GeNXYQALgvJQ
+SNjPv7////xFAMGAVWUWzRpSXGIOE+6cM9tb0qRxkSN+vOBBOw9CFIwYM6UCDA4W7JNhQZhkIRgs
+ysxgAQkjCpRHFYpp0gUXXHSyiBSwbFDCAAXOls0cc0lRCRIlHXFIRavwYIsBEMzmTS9bkGUWP7pJ
+ockQISSAT2blDMOhlLldVMgHMigQD1jmPHNeSJL8UhIviswUBQwcnNkRMWbs5AgnJWWSyEyW9BFE
+B+9A5IsXiakiQhPaRCJYKqzcQAFHBd3SmWBf7PGeK8wswcAJA4FzB3yvCEESDagk5koK/EBwQlCA
+wFf4HhxhJmaKDgQg4AAUb8AnRSit0AHHK5uEF0gW/GTwwD2jdOHrs5sYA0QBBwQAKhS6qIPEttx2
+6+233fKTDwMDXsAiQfY4QcK67Lbr7rvrcjDCCE8IFBAAOw==
+</gif></picture><run><font size='11pt'/> </run><run><font
+ style='bold' name='Arial' pitch='variable' truetype='true' familyid='20'/>You are not authorized to perform that operation.</run></par></tablecell></tablerow></table>
+<pardef id='5' leftmargin='1in'><code event='hidewhen' enabled='false'><formula
+>@TextToNumber(@Version)&lt;141</formula></code></pardef>
+<par def='5'><run html='true'><font name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>&lt;/h3&gt;</run></par>
+<pardef id='6' align='none' leftmargin='1in' tabs='L0.5000in L1in L1.5000in L2in L2.5000in L3in L3.5000in L4in'/>
+<par def='6'><run html='true'><font name='Arial' pitch='variable' truetype='true'
+ familyid='20'/>&lt;a href="javascript: onClick=history.back()"&gt;</run><run
+ html='true'><font name='Arial' pitch='variable' truetype='true' familyid='20'/><computedtext
+><code event='value'><formula>"Go back"</formula></code></computedtext></run><run
+ html='true'><font name='Arial' pitch='variable' truetype='true' familyid='20'/>&lt;/a&gt;</run></par>
+<pardef id='7' leftmargin='1in' tabs='L0.5000in L1in L1.5000in L2in L2.5000in L3in L3.5000in L4in'/>
+<par def='7'><run><font name='Arial' pitch='variable' truetype='true' familyid='20'/></run></par></richtext></body>
 <item name='$SubForm_RepIDs' sign='true'><text>0000000000000000</text></item>
-<item name='$Flags'><text>CD</text></item>
-<item name='$DesignerVersion' sign='true'><text>6</text></item>
-<item name='$Fonts'>
-<rawitemdata type='1'>
-i/8oAAEABSZBcmlhbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-</rawitemdata></item>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
-<item name='$$ScriptName' summary='false' sign='true'><text>$$ReturnAuthorizationFailure</text></item>
-<item name='$Body' sign='true'>
-<rawitemdata type='1'>
-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
-AAAAZACDBAcAhf8IAAUAAAo=
-</rawitemdata></item></note>
+<item name='$$ScriptName' summary='false' sign='true'><text>$$ReturnAuthorizationFailure</text></item></form>
 

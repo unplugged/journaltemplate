@@ -1,69 +1,46 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='176' unid='C7600A421F3B8872852569A80058F058' sequence='25'>
-<created><datetime>20001201T111126,96-05</datetime></created>
-<modified><datetime>20121218T085047,13-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132617,54-04</datetime></revised>
-<lastaccessed><datetime>20121218T085047,13-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085047,13-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<revisions><datetime>20071218T140155,30-05</datetime><datetime>20080102T062314,71-05</datetime><datetime
->20080123T075109,64-05</datetime><datetime>20080123T111525,58-05</datetime><datetime
->20080123T114716,86-05</datetime></revisions>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
-<item name='$HTMLCode' sign='true'>
-<rawitemdata type='1'>
-X/8QAAIADwAHAAAAAAAAAA==
-</rawitemdata></item>
-<item name='$TITLE'><textlist><text>Template Name</text><text>Template Name</text></textlist></item>
-<item name='$Info' sign='true'>
-<rawitemdata type='1'>
-hhgBAIAAAAAAgAAAAQABAP///wAKAAAA
-</rawitemdata></item>
-<item name='$Flags'><text>CD</text></item>
-<item name='$DesignerVersion' sign='true'><text>8</text></item>
-<item name='$Fonts'>
-<rawitemdata type='1'>
-i/8oAAEABSZBcmlhbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-</rawitemdata></item>
-<item name='SaveOptions' placeholder='true'>
-<rawitemdata type='0'>
-</rawitemdata></item>
-<item name='$Fields'><text>SaveOptions</text></item>
-<item name='$$ScriptName' summary='false' sign='true'><text>Template Name</text></item>
-<item name='$Body' sign='true'>
-<rawitemdata type='1'>
-gQKC/1oAAQAEAAAAAAAAAKAFAACgBQgA0AKgBXAIQAsQDuAQsBOAFgAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAACBAAAAAJSEoAUKAKAFCgAAAGQAAQAAAAQAAACDBAEAzP8IAAAAAACF/x8AAQAACDxT
-VFlMRSBUWVBFPSJ0ZXh0L2NzcyI+AIECgwQBAIX/SQABAAAIIAlCT0RZIHtmb250LWZhbWlseTog
-c2Fucy1zZXJpZjttYXJnaW4tcmlnaHQ6MHB4O21hcmdpbi10b3A6OHB4O30AgQKDBAEAhf8QAAEA
-AAg8L1NUWUxFPs3/CAAAAAAAgQKC/1oAAgAAAAAAAAAAADgEAAA4BAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAJSEOAQAADgEAAAAAAAAAQAAAAQAAACDBAIA
-3QYBAPv/+/8sAEEAAAACAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAABc/z4AAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAABAAAKAAAAAAEAAAAAAN4G
-AQD7/6MOOAQoADwAAAAAAAMApBIAADgESS+AcAAiAAABAQAAgQKC/1oAAwAAAAAAAAAAAMgESS/I
-BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIYBAAAAAFSEkAAAAJAA
-AAAAAAAAAQAAAAQAAACDBAMAhf8IAAEAAArdBgEAmQCZABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAB
-AAAAfQAcAAAAAQAMAAoAAAAAAAAAAAAAAAAAAAAAAPb/MwAAAAAAAwATABEAAAAAAAAAAAAAAAAA
-AAAAAAAAAABOb3RlYm9va192aWV3LmdpZgDeBgEAmQCF/wkAAQAACiAA3QYAAK3/qf8WAAEAGAAE
-AAoACgAAAAgAnAADAN0GAACF/4X/CAABAAoJ0ggBAAAAgADeBgAAhf+qAt4GAACuAMz/CAAAAAAA
-hf8IAAEAAArN/wgAAAAAAO7/CgABAAAAAAB7/6wAAAAAAJIAAAAAAAAAAAAAAAAAAAAAAHBhZGRp
-bmctYm90dG9tOjBweDtiYWNrZ3JvdW5kLWNvbG9yOiNBOUMwRDc7cGFkZGluZzo0cHg7Ym9yZGVy
-LXRvcDpzb2xpZCAxcHggIzcwOUNDMjtib3JkZXItbGVmdDpzb2xpZCAxcHggIzcwOUNDMjtib3Jk
-ZXItcmlnaHQ6c29saWQgMXB4ICM3MDlDQzI7pBIBADgESS+AcAACAAABAQAAgQKC/1oABAAAAAAA
-AAAAADgESS84BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIYBAAAA
-AFSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAQAzP8IAAAAAACF/w4AAQAACiZuYnNwO83/CAAAAAAA
-eP87AAAAAAADABMAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAHdlYiAtIENvcm5lcjMgQ2FsIEJvdC5n
-aWYA7v8KAAEAAAAAAKUGAAAAAIECgv9aAAUAAAAAAAAAAACgBQAAoAUAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwYwAAAACUhwAAAAAAAAAAAAAAAAEAAAAEAAAAgwQF
-AN0GAACF/4X/PwAFAAkJLy8gVGhpcyBmaWVsZCBwcmV2ZW50cyB0aGUgZm9ybSBmcm9tIHNhdmlu
-ZyBhIGRvY3VtZW50LgDSCAEAAIAAAN4GAACF/4ECgwQFAN0GAACF/4X/FQAFAA4JU2F2ZU9wdGlv
-bnM6IADSCAEAgICAAN4GAACF/90GAACK//7/UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiv8+AIgBAAUA
-MAIACAAAAAACBQAACQ4AAAAAAAAACwAAAAAADgAAAAwAAQABADAAAwBTYXZlT3B0aW9ucwBiDgEA
-hAAAAAAAAAAAAN4GAACK/4X/CAABAAAO
-</rawitemdata></item></note>
+<!DOCTYPE form SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<form name='Template Name' alias='Template Name' xmlns='http://www.lotus.com/dxl'
+ version='8.5' maintenanceversion='3.0' replicaid='80257ADB005A7A22' nocompose='true'
+ noquery='true' publicaccess='false' designerversion='8' language='en' noinitialfocus='true'
+ nofocusonf6='true'>
+<noteinfo noteid='3c2' unid='8A9B019D03066BC280257ADB005AABD2' sequence='3'>
+<created><datetime>20121221T163022,26+00</datetime></created>
+<modified><datetime>20130115T081048,75+00</datetime></modified>
+<revised><datetime>20130115T081048,74+00</datetime></revised>
+<lastaccessed><datetime>20130115T081048,75+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163026,65+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<body><richtext>
+<pardef id='1' align='none' leftmargin='1in' hide='notes' tabs='L0.5000in L1in L1.5000in L2in L2.5000in L3in L3.5000in L4in'/>
+<par def='1'><run html='true'><font size='8pt'/>&lt;STYLE TYPE="text/css"&gt;</run></par>
+<par def='1'><run html='true'><font size='8pt'/> 	BODY {font-family: sans-serif;margin-right:0px;margin-top:8px;}</run></par>
+<par def='1'><run html='true'><font size='8pt'/>&lt;/STYLE&gt;</run></par>
+<table widthtype='fitwindow' leftmargin='0.7500in' refwidth='7.6563in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell valign='center' borderwidth='0px' htmlstyle='padding-bottom:0px;background-color:#A9C0D7;padding:4px;border-top:solid 1px #709CC2;border-left:solid 1px #709CC2;border-right:solid 1px #709CC2;'>
+<cellbackground repeat='once'/>
+<pardef id='3' leftmargin='0.1000in' keepwithnext='true' keeptogether='true'/>
+<par def='3'><picture width='12px' height='10px'><imageref name='Notebook_view.gif'/></picture> <run
+><font size='9pt' color='navy'/><computedtext><code event='value'><formula
+>@DbTitle</formula></code></computedtext></run></par></tablecell></tablerow>
+<tablerow>
+<tablecell borderwidth='0px'>
+<cellbackground repeat='once'><imageref name='web - Corner3 Cal Bot.gif'/></cellbackground>
+<pardef id='4' keepwithnext='true' keeptogether='true'/>
+<par def='4'><run html='true'>&amp;nbsp;</run></par></tablecell></tablerow></table>
+<pardef id='5' hide='read edit copy preview previewedit'/>
+<par def='5'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='green'/>// This field prevents the form from saving a document.</run></par>
+<par def='5'><run><font size='9pt' name='Arial' pitch='variable' truetype='true'
+ familyid='20' color='gray'/>SaveOptions: </run><run><font size='9pt' name='Arial'
+ pitch='variable' truetype='true' familyid='20'/><field type='text' kind='computed'
+ name='SaveOptions'><code event='defaultvalue'><formula>"0"</formula></code></field></run><compositedata
+ type='98' prevtype='65418' nexttype='222' afterparcount='9' containertype='65418'
+ aftercontainercount='1' afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata><run><font size='14pt'/></run></par></richtext></body>
+<item name='$$ScriptName' summary='false' sign='true'><text>Template Name</text></item></form>
 

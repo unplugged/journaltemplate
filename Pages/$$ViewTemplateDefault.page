@@ -1,46 +1,24 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='162' unid='8C02750750460EA1852568090066F6AD' sequence='27'>
-<created><datetime dst='true'>19991013T144438,21-04</datetime></created>
-<modified><datetime>20121218T085047,03-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132615,72-04</datetime></revised>
-<lastaccessed><datetime>20121218T085047,03-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085047,03-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<revisions><datetime>20071218T140154,69-05</datetime><datetime>20080123T083827,15-05</datetime><datetime
->20080123T102248,33-05</datetime><datetime>20080123T111559,33-05</datetime><datetime
->20080123T112551,05-05</datetime><datetime>20080123T121805,20-05</datetime></revisions>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
-<item name='$HTMLCode' sign='true'>
-<rawitemdata type='1'>
-X/8QAAIADwAHAAAAAAAAAA==
-</rawitemdata></item>
-<item name='$TITLE'><textlist><text>$$ViewTemplateDefault</text><text>$$ViewTemplateDefault</text></textlist></item>
-<item name='$Info' sign='true'>
-<rawitemdata type='1'>
-hhgBAIAAAAAAgAAAAQABAP///wAAAAAA
-</rawitemdata></item>
-<item name='$Flags'><text>C34WQ</text></item>
-<item name='$WebFlags' sign='true'><text>V</text></item>
-<item name='$DesignerVersion' sign='true'><text>8</text></item>
-<item name='$Fonts'>
-<rawitemdata type='1'>
-i/8oAAEABSZBcmlhbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
-</rawitemdata></item>
-<item name='$$ScriptName' summary='false' sign='true'><text>$$ViewTemplateDefault</text></item>
-<item name='$Body' sign='true'>
-<rawitemdata type='1'>
-gQKC/1oAAQADAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAzP8IAAAAAACF/zQAAQAACjxz
-dHlsZT5ib2R5e21hcmdpbi1sZWZ0OjBweDttYXJnaW4tcmlnaHQ6MHB4hf8YAAEAAAg7bWFyZ2lu
-LXRvcDo4cHg7hf8RAAEAAAp9PC9zdHlsZT4Azf8IAAAAAACBAoMEAQCF/wgAAQEACt0GAACt/6n/
-LAABABgABAAgACAAAAAUAJ0AAAAAAAAAAADwP2sCAwAHAAoAAwAJNFMA3QYAAIX/hf8IAAUBCgnS
-CAEAAACAAN4GAACF/6oC3gYAAK4Ahf8IAAEAAArdBgAArf+t/xMAEwAIAAAABwAoJEFsbCkAAOr/
-PgATAKlEAABkAMQdAQAACgAAAAAAAAAAAQAACgEAAAoAAAUA////AAEAAAAAAAAAAAAAAAAAAAAA
-AAAA7f8gAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1/xYACQAAAAAAAABOb3Rlc1ZpZXcA
-rgLeBgAArgCF/wgAAQAACg==
-</rawitemdata></item></note>
+<!DOCTYPE page SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<page name='$$ViewTemplateDefault' alias='$$ViewTemplateDefault' xmlns='http://www.lotus.com/dxl'
+ version='8.5' maintenanceversion='3.0' replicaid='80257ADB005A7A22' publicaccess='false'
+ designerversion='8' language='en'>
+<noteinfo noteid='38e' unid='300D62AF31307FF680257ADB005AABA9' sequence='3'>
+<created><datetime>20121221T163021,85+00</datetime></created>
+<modified><datetime>20130115T081051,25+00</datetime></modified>
+<revised><datetime>20130115T081051,24+00</datetime></revised>
+<lastaccessed><datetime>20130115T081051,25+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163026,13+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<body><richtext>
+<pardef id='1' align='center'/>
+<par def='1'><run html='true'>&lt;style&gt;body{margin-left:0px;margin-right:0px</run><run
+ html='true'><font size='8pt'/>;margin-top:8px;</run><run html='true'>}&lt;/style&gt;</run></par>
+<par def='1'><run><font style='bold'/></run><run><font size='9pt' style='bold'
+ name='Arial' pitch='variable' truetype='true' familyid='20' color='navy'/><computedtext
+><code event='value'><formula>@Subset(@ViewTitle; 1)</formula></code></computedtext></run><embeddedview
+ name='($All)' widthtype='fitwindow' heighttype='fitwindow' height='5.2917in'
+ dclickframe='NotesView'/></par></richtext></body>
+<item name='$$ScriptName' summary='false' sign='true'><text>$$ViewTemplateDefault</text></item></page>
 

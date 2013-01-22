@@ -1,29 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='sharedfield' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='1a2' unid='044AE2A2D5C1D25B85256C7000711246' sequence='10'>
-<created><datetime>20021113T153502,46-05</datetime></created>
-<modified><datetime>20121218T085047,35-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132616,02-04</datetime></revised>
-<lastaccessed><datetime>20121218T085047,35-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085047,35-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<revisions><datetime dst='true'>20070621T132124,28-04</datetime></revisions>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$TITLE'><text>$TemplateBuild</text></item>
-<item name='$Fields'><text>$TemplateBuild</text></item>
-<item name='$Flags'><text/></item>
-<item name='$Info' sign='true'><text>$TemplateBuild</text></item>
-<item name='$Body' summary='true' sign='true'>
-<rawitemdata type='1'>
-gQKC/1IAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAgwQBAIX/CAAAAAAA3QYAAIr/iv8yAIoAAAUAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAJFRlbXBsYXRlQnVpbGTeBgAAiv+F/wgAAAAAAA==
-</rawitemdata></item>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
+<!DOCTYPE sharedfield SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<sharedfield name='$TemplateBuild' xmlns='http://www.lotus.com/dxl' version='8.5'
+ maintenanceversion='3.0' replicaid='80257ADB005A7A22' language='en'>
+<noteinfo noteid='1c2' unid='07FB495F2CC794CE80257ADB005AAA8A' sequence='3'>
+<created><datetime>20121221T163018,98+00</datetime></created>
+<modified><datetime>20130115T081051,13+00</datetime></modified>
+<revised><datetime>20130115T081051,12+00</datetime></revised>
+<lastaccessed><datetime>20130115T081051,13+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163019,49+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby><field type='text'
+ kind='editable' name='$TemplateBuild'/>
 <item name='$TemplateBuild' sign='true'><text>8.5.1</text></item>
 <item name='$TemplateBuildName' sign='true'><text>Std8Notebook</text></item>
 <item name='$TemplateBuildDate' sign='true'><datetime dst='true'>20090924T132533,00-04</datetime></item>
-<item name='$TemplateBuildTool' sign='true'><text>CICO</text></item></note>
+<item name='$TemplateBuildTool' sign='true'><text>CICO</text></item></sharedfield>
 

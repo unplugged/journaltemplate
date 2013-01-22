@@ -1,25 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='2b6' unid='2E4BFFBCA1426A4685257436003C5A1F' sequence='4'>
-<created><datetime dst='true'>20080425T065912,31-04</datetime></created>
-<modified><datetime>20121218T085048,67-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132617,18-04</datetime></revised>
-<lastaccessed><datetime>20121218T085048,67-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085048,67-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$Comment' sign='true'><text/></item>
-<item name='$FrameSet' sign='true'>
-<rawitemdata type='1'>
-7/8YAAIAAgAAAAAAAAAAAAAAAAAAAAAA8P86AA0AAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAUAAAAA
-AAEAAQAAAAAABQAAAAAAAAADAAEAAwABAPH/NAAXAAAAAEAAAQIAAAAAAAAAAAAAAAAAAAABAAAA
-AAAAAAEA////AAMAAAkBAAAAAAD2/yoAAAAAAAMABwAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAJHBn
-RW1wdHk=
-</rawitemdata></item>
-<item name='$TITLE' sign='true'><text>$fsMiniViewInner|$fsMiniViewInner</text></item>
-<item name='$DesignerVersion' sign='true'><text>8</text></item>
-<item name='$Flags'><text>#34CQw</text></item>
-<item name='$LANGUAGE' sign='true'><text>en</text></item></note>
+<!DOCTYPE frameset SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<frameset name='$fsMiniViewInner' alias='$fsMiniViewInner' xmlns='http://www.lotus.com/dxl'
+ version='8.5' maintenanceversion='3.0' replicaid='80257ADB005A7A22' hide='web'
+ publicaccess='false' designerversion='8' language='en' spacing='0px' borderwidth='0px'
+ bordercolor='none'>
+<noteinfo noteid='3a6' unid='207E98B89504739A80257ADB005AABBA' sequence='3'>
+<created><datetime>20121221T163022,02+00</datetime></created>
+<modified><datetime>20130115T081050,85+00</datetime></modified>
+<revised><datetime>20130115T081050,84+00</datetime></revised>
+<lastaccessed><datetime>20130115T081050,85+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163026,37+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<frame border3d='false' scrolling='never' noresize='true' marginwidth='0px'
+ marginheight='0px'><bordercaption><font size='9pt' name='user-interface'/></bordercaption><namedelementlink
+ type='page' name='$pgEmpty'/></frame></frameset>
 

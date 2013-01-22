@@ -1,42 +1,42 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='2aa' unid='38B922A12714D0B985257436003C5A1C' sequence='3'>
-<created><datetime dst='true'>20080425T065912,28-04</datetime></created>
-<modified><datetime>20121218T085048,61-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132617,12-04</datetime></revised>
-<lastaccessed><datetime>20121218T085048,61-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085048,61-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
-<item name='$TITLE' sign='true'><text>$fsMainInnerLeftFixedCaption|$fsMainInnerLeftFixedCaption</text></item>
-<item name='$Comment' sign='true'><text/></item>
-<item name='$PublicAccess' sign='true'><text>1</text></item>
-<item name='$FrameSet' sign='true'>
-<rawitemdata type='1'>
-7/8YAAIACAAAAAAAAAAAAAAAAAAAAAAA8P8+AEwAAAABAAAAAAAAAAAAAAAAAAUAAAAAAAUAAAAA
-AAIAAQAAAAAAAQD///8AAAABAC0AAwAEAAMAAQDx/0EAFgAAAABAAQECAAAAAAAAAAAADQAAAAAA
-AQD///8AAABOb3Rlc1N3aXRjaGVyAQD////8AQAACQEAAAAA/D/2/zAAAAAAAAMABgAOAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAJGZzVG9wU3dpdGNoZXLw/z4AAAAAAAEAAAAAAAAAAAAAAAAABQAAAAAA
-BQAAAAAAAQACAAAAAAAFAP///wAAAAMAAQABAAQAAwABAPH/NAARAAAAAEAAAQIAAQABAAAAAAAA
-AAAAAAABAP///wAAAAEAsMjg/AIAAAkBAABAgPz2/zQAAAAAAAMABwASAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAJHBnTGVmdEZyYW1lQm9yZGVy8P9CAAAAAAABAAAAAAAAAAAAAAAAAAUAAAAAAAUAAAAA
-AAMAAQAAAAAABQD///8AAAADAAEAAQAZAAEAAAADAAEA8f9AABcAAAAAQAABAgAAAAAAAAAAAAwA
-AAAAAAEA////AAAATm90ZXNPdXRsaW5lAQCwyOD8AQAACQEAAECA/Pb/LAAAAAAAAwAHAAoAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAkcGdPdXRsaW5l8f9GABcAAAAAQAABAgAAAAAAAAAAABIAAAAAAAEA
-////AAAATm90ZXNNaW5pVmlld091dGVyAQD////8AQAACQEAAAAA/Pb/MQAAAAAAAwAGAA8AAAAA
-AAAAAAAAAAAAAAAAAAAAAAAkZnNGaXhlZENhcHRpb24/8f/WATcAAAAAYAABAgAAAAAAAAAAAAAA
-AAAAAAEA////AAAAmgGaAQEAHgAJAF90eHRMb2NhbAABAAgAb24gTG9jYWwDAAcADAAFAAkxUzJT
-AAEAHAAKAF90eHRTZXJ2ZXIBAAYAb24gJXMxAwAHAA4ABwAJMFIxUzJTAAEAIgAHAF9zcGFjZXIA
-AQABACAAAAAAAAAAAAAAQGQCAwAHABAACgAJMFJSMVMyUzZTAQAeAAcAX3NlcnZlcgCLAAAAAAAA
-AAAA8D9rAgMABwAQAAkACTBSMVMyUzZTAAEAJgAFAF9uYW1lAAIABQAAAAAAAAAFAAcAX3NlcnZl
-cgC0AgMABwAQAAkACTBSMVMyUzZTAAEAYgAHAF9vdXRwdXQABQAHAF9zZXJ2ZXIAAQAAAAoCrwA+
-ABQABQAJAF90eHRsb2NhbACuACoABQAKAF90eHRTZXJ2ZXIBAAMAJXMxAAUABQBfbmFtZQCEA64A
-BAC1AwMABwAeABcACTBSUjFTMlM1UzZTOFMxMFMxNFMxNlMAAAAgAAUABwBfc3BhY2VyAAUABwBf
-b3V0cHV0ACICAwAHAA4ACAAJMFJSMVMyUwAAAAAAAAEA3+Ts/AEAAAkBAAAAAPw=
-</rawitemdata></item>
-<item name='$Flags'><text>#34CQw</text></item>
-<item name='$DesignerVersion' sign='true'><text>8.5</text></item></note>
+<!DOCTYPE frameset SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<frameset name='$fsMainInnerLeftFixedCaption' alias='$fsMainInnerLeftFixedCaption'
+ xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0' replicaid='80257ADB005A7A22'
+ hide='web' publicaccess='true' designerversion='8.5' language='en' rows='45px 4'
+ spacing='0px' borderwidth='0px' bordercolor='white'>
+<noteinfo noteid='3ae' unid='854E2DBE1589EB4C80257ADB005AABBF' sequence='3'>
+<created><datetime>20121221T163022,07+00</datetime></created>
+<modified><datetime>20130115T081050,79+00</datetime></modified>
+<revised><datetime>20130115T081050,78+00</datetime></revised>
+<lastaccessed><datetime>20130115T081050,79+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163026,45+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<frame name='NotesSwitcher' scrolling='never' noresize='true' marginwidth='0px'
+ marginheight='0px'><bordercaption><font size='9pt'/></bordercaption><namedelementlink
+ type='frameset' name='$fsTopSwitcher'/></frame>
+<frameset columns='4px 1' spacing='0px'>
+<frame border3d='false' scrolling='never' noresize='true'><bordercaption bgcolor='#b0c8e0'><font
+ size='9pt' name='multilingual' color='#004080'/></bordercaption><namedelementlink
+ type='page' name='$pgLeftFrameBorder'/></frame>
+<frameset rows='1 25px 0px' spacing='0px'>
+<frame name='NotesOutline' border3d='false' scrolling='never' noresize='true'
+ marginwidth='0px' marginheight='0px'><bordercaption bgcolor='#b0c8e0'><font
+ size='9pt' color='#004080'/></bordercaption><namedelementlink type='page'
+ name='$pgOutline'/></frame>
+<frame name='NotesMiniViewOuter' border3d='false' scrolling='never' noresize='true'
+ marginwidth='0px' marginheight='0px'><bordercaption><font size='9pt'/></bordercaption><namedelementlink
+ type='frameset' name='$fsFixedCaption'/></frame>
+<frame border3d='false' scrolling='never' noresize='true' marginwidth='0px'
+ marginheight='0px'><bordercaption show='caption' bgcolor='#dfe4ec'><code
+ event='value'><formula>_txtLocal := "on Local";
+_txtServer := "on %s1";
+
+_spacer := @Repeat(" "; 2);
+_server := @Subset(@DbName; 1);
+_name := @Name([Abbreviate]; _server);
+
+_output := @If(_server = ""; _txtlocal; @ReplaceSubstring(_txtServer; "%s1"; _name));
+
+_spacer + _output</formula></code><font size='9pt'/></bordercaption></frame></frameset></frameset></frameset>
 

@@ -1,32 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257AD8004C0F2E" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="1f2" sequence="3" unid="7DDA7D68AA150C91852573C6003F56E5">
-<created><datetime>20080104T063150,13-05</datetime></created>
-<modified><datetime>20121218T085047,75-05</datetime></modified>
-<revised><datetime dst="true">20090924T132616,30-04</datetime></revised>
-<lastaccessed><datetime>20121218T085047,75-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085047,75-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name="$TITLE"><text>animateprivatefolders.gif</text></item>
-<item name="$FlagsExt" sign="true"><text>D</text></item>
-<item name="$ImagesHigh" sign="true"><number>1</number></item>
-<item name="$ImagesColorize" sign="true"><number>0</number></item>
-
-<item name="$MimeType" sign="true"><text>image/gif</text></item>
+<?xml version="1.0" encoding="UTF-8"?><imageresource across="8" browsercompatible="true" designerversion="8.5.3" language="en" maintenanceversion="3.0" name="animateprivatefolders.gif" publicaccess="true" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="2e6" sequence="4" unid="6F8E8BE9AB7DDD1A80257ADB005AAB3C">
+<created><datetime>20121221T163020,76+00</datetime></created>
+<modified><datetime>20130115T081047,59+00</datetime></modified>
+<revised><datetime>20130115T081047,58+00</datetime></revised>
+<lastaccessed><datetime>20130115T081047,59+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163023,81+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$FileModDT" sign="true"><datetime>20070209T062945,58-08</datetime></item>
-<item name="$ImageNames" sign="true"><text>animateprivatefolders.gif</text></item>
-<item name="$WebBrowserCompatible" sign="true"><number>1</number></item>
-
-
-
-
-
-
-
-
-
-<item name="$Flags"><text>34CiQv</text></item>
-<item name="$ImagesWide" sign="true"><number>8</number></item>
-<item name="$DesignerVersion" sign="true"><text>8</text></item>
-<item name="$PublicAccess" sign="true"><text>1</text></item>
-<item name="$LANGUAGE" sign="true"><text>en</text></item></note>
+</imageresource>

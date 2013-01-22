@@ -1,59 +1,48 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='18a' unid='AED4585E58B853CB85256A53005E77A6' sequence='14'>
-<created><datetime dst='true'>20010521T131150,14-04</datetime></created>
-<modified><datetime>20121218T085047,23-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132615,90-04</datetime></revised>
-<lastaccessed><datetime>20121218T085047,23-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085047,23-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<revisions><datetime>20071218T140155,10-05</datetime></revisions>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
-<item name='$HTMLCode' sign='true'>
-<rawitemdata type='1'>
-X/8QAAIADwAHAAAAAAAAAA==
-</rawitemdata></item>
-<item name='$TITLE'><textlist><text>Database Location</text><text>DatabaseLocation</text></textlist></item>
-<item name='$Info' sign='true'>
-<rawitemdata type='1'>
-hhgBAIAAAAAAgAAAAQABAP///wAKAAAA
-</rawitemdata></item>
-<item name='$SubForms' sign='true'><text>WebFont</text></item>
+<!DOCTYPE form SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<form name='Database Location' alias='DatabaseLocation' xmlns='http://www.lotus.com/dxl'
+ version='8.5' maintenanceversion='3.0' replicaid='80257ADB005A7A22' nocompose='true'
+ noquery='true' publicaccess='false' designerversion='8' language='en' noinitialfocus='true'
+ nofocusonf6='true'>
+<noteinfo noteid='3d2' unid='AC32501E9630002F80257ADB005AABE0' sequence='3'>
+<created><datetime>20121221T163022,40+00</datetime></created>
+<modified><datetime>20130115T081047,89+00</datetime></modified>
+<revised><datetime>20130115T081047,88+00</datetime></revised>
+<lastaccessed><datetime>20130115T081047,89+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163026,81+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<body><richtext>
+<pardef id='1' align='none' leftmargin='1in' hide='notes web' tabs='L0.5000in L1in L1.5000in L2in L2.5000in L3in L3.5000in L4in'/>
+<par def='1'/>
+<pardef id='2' align='none' leftmargin='1in' hide='notes' tabs='L0.5000in L1in L1.5000in L2in L2.5000in L3in L3.5000in L4in'/><subformref
+ name='WebFont'/>
+<par def='1'/>
+<table widthtype='fitwindow' leftmargin='0.7500in' refwidth='7.6563in'><tablecolumn
+ width='100%'/>
+<tablerow>
+<tablecell borderwidth='0px'>
+<pardef id='4' leftmargin='0.1000in' hide='web' keepwithnext='true' keeptogether='true'/>
+<par def='4'><run><font size='9pt'/></run><run><font size='9pt' color='white'/><computedtext
+><code event='value'><formula>REM {Notes only};
+LocalTxt:="Local";
+onTxt := "on";
+server := @Subset(@DbName;1);
+serverString := onTxt + " " + @Name([Abbreviate]; Server);
+@If(server=""; LocalTxt; serverString)</formula></code></computedtext></run><run
+><font size='9pt'/></run></par>
+<pardef id='5' leftmargin='0.1000in' hide='notes' tabs='L3.1458in L3.6458in L4.1458in L4.6458in L5.1458in L5.6458in L6.1458in L6.6458in'
+ keepwithnext='true' keeptogether='true'/>
+<par def='5'><run><font size='9pt' name='user-interface'/>  </run><run><font
+ size='9pt' color='navy'/><field type='text' kind='computedfordisplay' name='SERVER_NAME'><code
+ event='defaultvalue'><formula>REM {cgi variable for web};
+SERVER_NAME</formula></code></field></run><compositedata type='98' prevtype='65418'
+ nexttype='222' afterparcount='7' containertype='65418' aftercontainercount='1'
+ afterbegincount='3'>
+Yg4BAIQAAAAAAAAAAAA=
+</compositedata><run><font size='9pt' color='white'/></run></par></tablecell></tablerow></table>
+<pardef id='6' leftmargin='0.7500in' hide='notes'/>
+<par def='6'><run><font size='9pt'/></run></par></richtext></body>
 <item name='$SubForm_RepIDs' sign='true'><text>0000000000000000</text></item>
-<item name='$Flags'><text>CD</text></item>
-<item name='$DesignerVersion' sign='true'><text>8</text></item>
-<item name='$$ScriptName' summary='false' sign='true'><text>DatabaseLocation</text></item>
-<item name='$Body' sign='true'>
-<rawitemdata type='1'>
-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
-BgCF/wgAAQAACQ==
-</rawitemdata></item></note>
+<item name='$$ScriptName' summary='false' sign='true'><text>DatabaseLocation</text></item></form>
 

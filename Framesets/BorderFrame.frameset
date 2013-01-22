@@ -1,37 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
-<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
- replicaid='85257AD8004C0F2E'>
-<noteinfo noteid='17a' unid='9BD4D91E7B014B2D852569A80059F175' sequence='14'>
-<created><datetime>20001201T112225,17-05</datetime></created>
-<modified><datetime>20121218T085047,15-05</datetime></modified>
-<revised><datetime dst='true'>20090924T132615,82-04</datetime></revised>
-<lastaccessed><datetime>20121218T085047,15-05</datetime></lastaccessed>
-<addedtofile><datetime>20121218T085047,15-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></updatedby>
-<revisions><datetime>20071218T135948,75-05</datetime><datetime>20080102T063950,51-05</datetime></revisions>
-<wassignedby><name>CN=Lotus Notes Template Development/O=Lotus Notes</name></wassignedby>
-<item name='$LANGUAGE' sign='true'><text>en</text></item>
-<item name='$TITLE' sign='true'><text>BorderFrame</text></item>
-<item name='$Comment' sign='true'><text/></item>
-<item name='$FrameSet' sign='true'>
-<rawitemdata type='1'>
-7/8YAAIABwAAAAAAAAAAAAAAAAAAAAAA8P9CAAQAAAABAAAAAAAAAAAAAAAAAAUAAAAAAAUAAAAA
-AAEAAwAAAAAABQAAAAAAAAADAAEAAQAMAAIAXgABAAwA8f80ABEAAAAAQAABAgABAAEAAAAAAAAA
-AAAAAAEAAAAAAAAAAQD///88AQAACQEA////PPb/LAAAAAAAAwAHAAoAAAAAAAAAAAAAAAAAAAAA
-AAAAAABXaGl0ZSBQYWdl8P9CAAAAAAABAAAAAAAAAAAAAAAAAAUAAAAAAAUAAAAAAAMAAQAAAAAA
-BQAAAAAAAAABAAwAAwABAAEADAADAAEA8f80ABAAAAAAQAEBAgABAAEAAAAAAAAAAAAAAAEAAAAA
-AAAAAQD///88AQAACQEA////PPb/LAAAAAAAAwAHAAoAAAAAAAAAAAAAAAAAAAAAAAAAAABXaGl0
-ZSBQYWdl8f80AAAAAAAAQAEAAwABAAEAAAAAAAAAAAAAAAEAAAAAAAAAAQD///88AQAACQEA////
-PPb/bAAAAAAAAwAGAAwAGwAjAAAAAAAAAAAATWFzdGVybG9jay9TZXJ2ZXIvVGVtcGxhdGVzdGVt
-cGxhdGVzXG5vdGVib29rXFI4XG5vdGVib29rOC5uc2YAAAAAAAAAACRmc01haW5Jbm5lcvH/NAAQ
-AAAAAEABAQIAAQABAAAAAAAAAAAAAAABAAAAAAAAAAEA////PAEAAAkBAP///zz2/ywAAAAAAAMA
-BwAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAV2hpdGUgUGFnZfH/NAAQAAAAAEABAQIAAQABAAAAAAAA
-AAAAAAABAAAAAAAAAAEA////PAEAAAkBAP///zz2/ywAAAAAAAMABwAKAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAV2hpdGUgUGFnZQ==
-</rawitemdata></item>
+<!DOCTYPE frameset SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<frameset name='BorderFrame' xmlns='http://www.lotus.com/dxl' version='8.5'
+ maintenanceversion='3.0' replicaid='80257ADB005A7A22' publicaccess='false'
+ designerversion='8.5' language='en' columns='12px 94% 12px' spacing='0px'
+ borderwidth='0px' bordercolor='none'>
+<noteinfo noteid='39e' unid='2670CDC5D76DD4C480257ADB005AABB4' sequence='3'>
+<created><datetime>20121221T163021,96+00</datetime></created>
+<modified><datetime>20130115T081047,67+00</datetime></modified>
+<revised><datetime>20130115T081047,66+00</datetime></revised>
+<lastaccessed><datetime>20130115T081047,67+00</datetime></lastaccessed>
+<addedtofile><datetime>20121221T163026,29+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<frame border3d='false' scrolling='never' noresize='true'><bordercaption><font
+ size='9pt' color='white'/></bordercaption><namedelementlink type='page' name='White Page'/></frame>
+<frameset rows='12px 1 12px' spacing='0px'>
+<frame scrolling='never' noresize='true'><bordercaption><font size='9pt' color='white'/></bordercaption><namedelementlink
+ type='page' name='White Page'/></frame>
+<frame><bordercaption><font size='9pt' color='white'/></bordercaption><namedelementlink
+ type='frameset' name='$fsMainInner'/></frame>
+<frame scrolling='never' noresize='true'><bordercaption><font size='9pt' color='white'/></bordercaption><namedelementlink
+ type='page' name='White Page'/></frame></frameset>
+<frame scrolling='never' noresize='true'><bordercaption><font size='9pt' color='white'/></bordercaption><namedelementlink
+ type='page' name='White Page'/></frame>
 <item name='$CompAppName' sign='true'><text>Notes Notebook Application.xml</text></item>
-<item name='$CompAppPageName' sign='true'><text>[rep_id]_6_5JMPDRH1000980269G784H2GO1</text></item>
-<item name='$Flags'><text>#34CQ</text></item>
-<item name='$DesignerVersion' sign='true'><text>8.5</text></item></note>
+<item name='$CompAppPageName' sign='true'><text>[rep_id]_6_5JMPDRH1000980269G784H2GO1</text></item></frameset>
 
