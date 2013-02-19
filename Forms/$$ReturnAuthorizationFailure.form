@@ -3,11 +3,11 @@
 <form name='$$ReturnAuthorizationFailure' xmlns='http://www.lotus.com/dxl'
  version='8.5' maintenanceversion='3.0' replicaid='80257ADB005A7A22' nocompose='true'
  noquery='true' publicaccess='false' designerversion='6' language='en' bgcolor='#efefef'>
-<noteinfo noteid='3f2' unid='6B9884420393885C80257ADB005AABFA' sequence='3'>
+<noteinfo noteid='3f2' unid='6B9884420393885C80257ADB005AABFA' sequence='4'>
 <created><datetime>20121221T163022,66+00</datetime></created>
-<modified><datetime>20130115T081051,21+00</datetime></modified>
-<revised><datetime>20130115T081051,20+00</datetime></revised>
-<lastaccessed><datetime>20130115T081051,21+00</datetime></lastaccessed>
+<modified><datetime>20130219T091905,57+00</datetime></modified>
+<revised><datetime>20130219T091905,56+00</datetime></revised>
+<lastaccessed><datetime>20130219T091905,57+00</datetime></lastaccessed>
 <addedtofile><datetime>20121221T163027,13+00</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>

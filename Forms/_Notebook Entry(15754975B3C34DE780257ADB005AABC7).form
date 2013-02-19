@@ -3,11 +3,11 @@
 <form name='_Notebook Entry' alias='CleanSheet|JournalEntry' xmlns='http://www.lotus.com/dxl'
  version='8.5' maintenanceversion='3.0' replicaid='80257ADB005A7A22' hide='notes'
  publicaccess='false' designerversion='8.5' language='en'>
-<noteinfo noteid='3ba' unid='15754975B3C34DE780257ADB005AABC7' sequence='3'>
+<noteinfo noteid='3ba' unid='15754975B3C34DE780257ADB005AABC7' sequence='4'>
 <created><datetime>20121221T163022,15+00</datetime></created>
-<modified><datetime>20130115T081058,81+00</datetime></modified>
-<revised><datetime>20130115T081058,80+00</datetime></revised>
-<lastaccessed><datetime>20130115T081058,81+00</datetime></lastaccessed>
+<modified><datetime>20130219T091918,37+00</datetime></modified>
+<revised><datetime>20130219T091918,36+00</datetime></revised>
+<lastaccessed><datetime>20130219T091918,37+00</datetime></lastaccessed>
 <addedtofile><datetime>20121221T163026,57+00</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby><code event='windowtitle'><formula

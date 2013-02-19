@@ -19,7 +19,7 @@ the specific language governing permissions and limitations under the License
 	<xc:unpHeader search="database" searchPage="UnpSearch.xsp"
 		viewsButton="true" title="Notebook">
 	</xc:unpHeader>
-	<xc:unpViewsList>
+	<xc:unpNavigator>
 		<xc:this.menuItem>
 			<xc:menuItem ajaxloadid="content" ajaxtargetid="content"
 				label="All Documents" page="/UnpMain.xsp">
@@ -31,7 +31,7 @@ the specific language governing permissions and limitations under the License
 				label="By Category" page="/UnpByCategory.xsp">
 			</xc:menuItem>
 		</xc:this.menuItem>
-	</xc:unpViewsList>
+	</xc:unpNavigator>
 	<div id="content">
 		<xc:unpScrollableArea>
 			<xp:this.facets>
@@ -44,5 +44,7 @@ the specific language governing permissions and limitations under the License
 			</xp:this.facets>
 		</xc:unpScrollableArea>
 	</div>
-	<xc:unpFooter newDocTarget="UnpDocumentEdit.xsp"></xc:unpFooter>
+	<xc:unpFooter newDocTarget="UnpDocumentEdit.xsp"
+		newDocLoadType="ajax" synctype="currentdb">
+	</xc:unpFooter>
 </xp:view>

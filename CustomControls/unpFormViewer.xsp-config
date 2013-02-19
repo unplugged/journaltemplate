@@ -42,6 +42,11 @@
       </designer-extension>
     </composite-extension>
     <property>
+      <property-name>dbName</property-name>
+      <property-class>string</property-class>
+      <description>Optional parameter if you want to use data from a different database (make sure you use forward slashes eg mydir/mydb.nsf)</description>
+    </property>
+    <property>
       <property-name>formname</property-name>
       <property-class>string</property-class>
     </property>
@@ -69,6 +74,18 @@
     <property>
       <property-name>newresponsexpagename</property-name>
       <property-class>string</property-class>
+    </property>
+    <property>
+      <property-name>editxpagewithajax</property-name>
+      <property-class>string</property-class>
+      <property-extension>
+        <designer-extension>
+          <editor>com.ibm.workplace.designer.property.editors.comboParameterEditor</editor>
+          <editor-parameter>yes&#xd;
+no</editor-parameter>
+          <default-value>yes</default-value>
+        </designer-extension>
+      </property-extension>
     </property>
   </composite-component>
 </faces-config>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="3.0" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="15c2" sequence="1" unid="999C07B2827D0F2880257AFB002BD104">
-<created><datetime>20130122T075835,56+00</datetime></created>
-<modified><datetime>20130122T075835,61+00</datetime></modified>
-<revised><datetime>20130122T075835,60+00</datetime></revised>
-<lastaccessed><datetime>20130122T075835,61+00</datetime></lastaccessed>
-<addedtofile><datetime>20130122T075835,61+00</datetime></addedtofile></noteinfo>
+<noteinfo noteid="1a7e" sequence="1" unid="10C2CF755D99573A80257B160057ECB6">
+<created><datetime>20130218T160022,30+00</datetime></created>
+<modified><datetime>20130218T160022,36+00</datetime></modified>
+<revised><datetime>20130218T160022,35+00</datetime></revised>
+<lastaccessed><datetime>20130218T160022,36+00</datetime></lastaccessed>
+<addedtofile><datetime>20130218T160022,36+00</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$TITLE" sign="true"><text>unpSearchDatabase.js</text></item>

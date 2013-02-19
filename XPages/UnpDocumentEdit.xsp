@@ -13,7 +13,7 @@ the specific language governing permissions and limitations under the License
 
 	<xc:unpScrollableArea>
 		<xp:this.facets>
-			<xc:unpFormEditor showbuttons="true" xp:key="facet_1"
+			<xc:unpFormEditor showbuttons="yes" xp:key="facet_1"
 				viewxpagename="UnpMain.xsp" formname="JournalEntry" closexpagename="UnpMain.xsp"
 				title="Journal Entry">
 				<xp:this.facets>

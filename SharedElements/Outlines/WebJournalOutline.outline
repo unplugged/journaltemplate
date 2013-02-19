@@ -3,11 +3,11 @@
 <outline name='WebJournalOutline' xmlns='http://www.lotus.com/dxl' version='8.5'
  maintenanceversion='3.0' replicaid='80257ADB005A7A22' hide='v3 v4strict'
  publicaccess='false' designerversion='8.5' language='en'>
-<noteinfo noteid='1ba' unid='C5DEC46A5C6B988F80257ADB005AAA85' sequence='3'>
+<noteinfo noteid='1ba' unid='C5DEC46A5C6B988F80257ADB005AAA85' sequence='4'>
 <created><datetime>20121221T163018,93+00</datetime></created>
-<modified><datetime>20130115T081050,59+00</datetime></modified>
-<revised><datetime>20130115T081050,58+00</datetime></revised>
-<lastaccessed><datetime>20130115T081050,59+00</datetime></lastaccessed>
+<modified><datetime>20130219T091904,63+00</datetime></modified>
+<revised><datetime>20130219T091904,62+00</datetime></revised>
+<lastaccessed><datetime>20130219T091904,63+00</datetime></lastaccessed>
 <addedtofile><datetime>20121221T163019,41+00</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <outlineentry label='All Entries' alias='All Entries' type='namedelementlink'

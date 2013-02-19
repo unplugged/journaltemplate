@@ -65,7 +65,7 @@ function stopViewSpinner() {
 	$("#loadmorespinner").hide();
 }
 
-function loadmore(viewName, summarycol, detailcol, category, xpage,
+function loadmore(dbName, viewName, summarycol, detailcol, category, xpage,
 		refreshmethod) {
 	try {
 		$(".loadmorelink").hide();
@@ -87,6 +87,7 @@ function loadmore(viewName, summarycol, detailcol, category, xpage,
 				+ encodeURIComponent(summarycol) + "&detailcol="
 				+ encodeURIComponent(detailcol) + "&category="
 				+ encodeURIComponent(category) + "&xpage=" + xpage
+				+ "&dbName=" + dbName
 				+ "&refreshmethod=" + refreshmethod + "&start=" + pos;
 		thisArea.load(url + " #results", function() {
 			$("#flatViewRowSet").append($(".summaryDataRow li"));
@@ -138,13 +139,18 @@ function openDocument(url, target) {
 			});
 }
 
-function saveDocument(formid, unid, viewxpagename, formname, parentunid) {
-	scrollContent.scrollTo(0, -60, 0);
+function saveDocument(formid, unid, viewxpagename, formname, parentunid, dbname) {
+	try{
+		scrollContent.scrollTo(0, -60, 0);
+	}catch(e){}
 	var data = $(".customform :input").serialize();
 	var url = 'UnpSaveDocument.xsp?unid=' + unid + "&formname=" + formname
 			+ "&rnd=" + Math.floor(Math.random() * 1001);
 	if (parentunid){
 		url += "&parentunid=" + parentunid;
+	}
+	if (dbname){
+		url += "&dbname=" + dbname;
 	}
 	var valid = validate();
 	if (valid) {
@@ -242,79 +248,83 @@ function openPage(url, target) {
 var scrollContent;
 var scrollMenu;
 function initiscroll() {
-	document.addEventListener('touchmove', function(e) {
-		e.preventDefault()
-	});
-	// Initialise any iScroll that needs it
-	try {
-		pullUpEl = document.getElementById('pullUp');
-		pullUpOffset = pullUpEl.offsetHeight;
-	} catch (e) {
-	}
-	try {
-		scrollContent.destroy();
-		delete scrollContent;
-	} catch (e) {
-	}
-	
-	try {
-		scrollMenu.destroy();
-		delete scrollMenu;
-	}catch(e){
-	}
-	try{
-		scrollMenu = new iScroll('menu', {bounce: true, momentum: false});
-	}catch(e){}
-	
-	$(".iscrollcontent")
-			.each(
-					function() {
-						scrollContent = new iScroll(
-								$(this).attr("id"),
-								{
-									useTransition : true,
-									onRefresh : function() {
-										if (pullUpEl) {
-											if (pullUpEl.className
-													.match('loading')) {
-												pullUpEl.className = '';
-												pullUpEl
-														.querySelector('.pullUpLabel').innerHTML = 'Pull up to load more...';
+	if (unpluggedserver){
+		document.addEventListener('touchmove', function(e) {
+			e.preventDefault()
+		});
+		// Initialise any iScroll that needs it
+		try {
+			pullUpEl = document.getElementById('pullUp');
+			pullUpOffset = pullUpEl.offsetHeight;
+		} catch (e) {
+		}
+		try {
+			scrollContent.destroy();
+			delete scrollContent;
+		} catch (e) {
+		}
+		
+		try {
+			scrollMenu.destroy();
+			delete scrollMenu;
+		}catch(e){
+		}
+		try{
+			scrollMenu = new iScroll('menu', {bounce: true, momentum: false});
+		}catch(e){}
+		
+		$(".iscrollcontent")
+				.each(
+						function() {
+							scrollContent = new iScroll(
+									$(this).attr("id"),
+									{
+										useTransition : true,
+										onRefresh : function() {
+											if (pullUpEl) {
+												if (pullUpEl.className
+														.match('loading')) {
+													pullUpEl.className = '';
+													pullUpEl
+															.querySelector('.pullUpLabel').innerHTML = 'Pull up to load more...';
+												}
+											}
+										},
+										onScrollMove : function() {
+											if (pullUpEl) {
+												if (this.y < (this.maxScrollY - 5)
+														&& !pullUpEl.className
+																.match('flip')) {
+													pullUpEl.className = 'flip';
+													pullUpEl
+															.querySelector('.pullUpLabel').innerHTML = 'Release to refresh...';
+													this.maxScrollY = this.maxScrollY;
+												} else if (this.y > (this.maxScrollY + 5)
+														&& pullUpEl.className
+																.match('flip')) {
+													pullUpEl.className = '';
+													pullUpEl
+															.querySelector('.pullUpLabel').innerHTML = 'Pull up to load more...';
+													this.maxScrollY = pullUpOffset;
+												}
+											}
+										},
+										onScrollEnd : function() {
+											if (pullUpEl) {
+												if (pullUpEl.className
+														.match('flip')) {
+													pullUpEl.className = 'loading';
+													pullUpEl
+															.querySelector('.pullUpLabel').innerHTML = 'Loading...';
+													$(".loadmorebutton").click();
+												}
 											}
 										}
-									},
-									onScrollMove : function() {
-										if (pullUpEl) {
-											if (this.y < (this.maxScrollY - 5)
-													&& !pullUpEl.className
-															.match('flip')) {
-												pullUpEl.className = 'flip';
-												pullUpEl
-														.querySelector('.pullUpLabel').innerHTML = 'Release to refresh...';
-												this.maxScrollY = this.maxScrollY;
-											} else if (this.y > (this.maxScrollY + 5)
-													&& pullUpEl.className
-															.match('flip')) {
-												pullUpEl.className = '';
-												pullUpEl
-														.querySelector('.pullUpLabel').innerHTML = 'Pull up to load more...';
-												this.maxScrollY = pullUpOffset;
-											}
-										}
-									},
-									onScrollEnd : function() {
-										if (pullUpEl) {
-											if (pullUpEl.className
-													.match('flip')) {
-												pullUpEl.className = 'loading';
-												pullUpEl
-														.querySelector('.pullUpLabel').innerHTML = 'Loading...';
-												$(".loadmorebutton").click();
-											}
-										}
-									}
-								});
-					});
+									});
+						});
+	}else{
+		//alert("Not on unplugged so no iScroll");
+	}
 }
 
 function openDialog(id){
@@ -330,12 +340,12 @@ function closeDialog(id){
 }
 
 
-function accordionLoadMore(obj, viewName, catName, xpage){
+function accordionLoadMore(obj, viewName, catName, xpage, dbname){
 	
 	var thisArea = $(obj).nextAll(".summaryDataRow:first").children(".accordionRowSet");		
 	var pos = $(thisArea).find('li').length;
 	thisArea.css('display','block');
-	var thisUrl = "UnpAccordionViewList.xsp?chosenView=" + encodeURIComponent(viewName) + "&catFilter=" + encodeURIComponent(catName) + "&xpageDoc=" + xpage + "&start=" + pos; 
+	var thisUrl = "UnpAccordionViewList.xsp?chosenView=" + encodeURIComponent(viewName) + "&catFilter=" + encodeURIComponent(catName) + "&xpageDoc=" + xpage + "&start=" + pos + "&dbname=" + dbname; 
 	
 	var tempHolder = $(obj).nextAll(".summaryDataRow:first").children(".summaryDataRowHolder");
 	$(tempHolder).load(thisUrl + " #results", function(){
@@ -357,7 +367,7 @@ function accordionLoadMore(obj, viewName, catName, xpage){
 
 }
 
-function fetchDetails(obj, viewName, catName, xpage)
+function fetchDetails(obj, viewName, catName, xpage, dbname)
 {	
 	$('.accordionRowSet').empty();
 	$('.accLoadMoreLink').hide();
@@ -370,12 +380,23 @@ function fetchDetails(obj, viewName, catName, xpage)
 	}
 	else{
 		$('.categoryRow').removeClass("accordianExpanded");
-		accordionLoadMore(obj, viewName, catName, xpage);
+		accordionLoadMore(obj, viewName, catName, xpage, dbname);
 	}
 }
 
-function fetchMoreDetails(obj, viewName, catName, xpage){
+function fetchMoreDetails(obj, viewName, catName, xpage, dbname){
 	
 	var objRow = $(obj).parent().parent().prev();
-	accordionLoadMore(objRow, viewName, catName, xpage);	
+	accordionLoadMore(objRow, viewName, catName, xpage, dbname);	
+}
+
+function syncAllDbs(){
+	$.blockUI({
+		centerY: 0,
+		css: { top: '10px', left: '10px', right: '' }
+	});
+	$.get("UnpSyncAll.xsp", function(data) {
+		$.unblockUI();
+		location.reload();
+	});
 }
