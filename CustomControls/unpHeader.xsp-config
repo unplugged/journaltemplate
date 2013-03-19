@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <faces-config>
   <faces-config-extension>
-    <namespace-uri>http://www.ibm.com/xsp/custom</namespace-uri>
-    <default-prefix>xc</default-prefix>
+    <namespace-uri>http://unplugged.teamstudio.com</namespace-uri>
+    <default-prefix>unp</default-prefix>
   </faces-config-extension>
   <composite-component>
     <component-type>unpHeader</component-type>
@@ -55,6 +55,7 @@
 	&lt;/div&gt;&#xd;
 	&lt;/div&gt;&#xd;
 &lt;/xp:view&gt;</render-markup>
+        <category>Unplugged</category>
       </designer-extension>
     </composite-extension>
     <property>
@@ -111,5 +112,9 @@ database</editor-parameter>
         </designer-extension>
       </property-extension>
     </property>
+    <icon>
+      <small-icon>/icons/defaultLogoSmall.png</small-icon>
+      <large-icon>/icons/defaultLogo.png</large-icon>
+    </icon>
   </composite-component>
 </faces-config>

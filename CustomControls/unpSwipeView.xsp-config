@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <faces-config>
   <faces-config-extension>
-    <namespace-uri>http://www.ibm.com/xsp/custom</namespace-uri>
-    <default-prefix>xc</default-prefix>
+    <namespace-uri>http://unplugged.teamstudio.com</namespace-uri>
+    <default-prefix>unp</default-prefix>
   </faces-config-extension>
   <composite-component>
     <component-type>unpSwipeView</component-type>
@@ -42,6 +42,7 @@
 	&lt;/div&gt;&#xd;
 &lt;/div&gt;&#xd;
 &lt;/xp:view&gt;</render-markup>
+        <category>Unplugged</category>
       </designer-extension>
     </composite-extension>
     <property>
@@ -60,5 +61,13 @@
         <required>true</required>
       </property-extension>
     </property>
+    <property>
+      <property-name>closeXPage</property-name>
+      <property-class>string</property-class>
+    </property>
+    <icon>
+      <small-icon>/icons/defaultLogoSmall.png</small-icon>
+      <large-icon>/icons/defaultLogo.png</large-icon>
+    </icon>
   </composite-component>
 </faces-config>
