@@ -499,7 +499,9 @@ body {
 }
 
 .bordered {
-	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
 }
 
 .bordered>div>ul>li:first-child {
@@ -545,6 +547,7 @@ body {
 */ /* CATEGORISED TABLE VIEW */
 #summaryList {
 	padding: 0px;
+	padding-top: 4px;
 	margin: 10px;
 	list-style: none;
 	border-radius: 10px;
@@ -785,7 +788,7 @@ body {
 */ /** MENU **/
 #menuPane {
 	z-index: 11;
-	padding-top: 10px;
+	padding-top: 24px;
 	background: transparent;
 }
 
@@ -882,7 +885,7 @@ body {
 		left: -700px;
 		display: block;
 		width: 100%;
-		top: 45px;
+		top: 40px;
 		bottom: 45px;
 	}
 	.navScrollArea {
@@ -901,7 +904,7 @@ body {
 		position: absolute;
 		left: -700px;
 		display: block;
-		top: 60px;
+		top: 50px;
 		bottom: 60px;
 	}
 	.navScrollArea ul {
@@ -1083,6 +1086,7 @@ to {
 	position: relative;
 	-webkit-border-radius: 10px;
 	margin: 10px;
+	padding-top: 5px;
 }
 
 #formholder h2 {
@@ -1171,7 +1175,8 @@ to {
 }
 
 #formholder li.proceedButton {
-	width: 100%;
+	width: 50%;
+	padding-left: 25% !important;
 }
 
 #formholder li.proceedButton span {
@@ -1310,7 +1315,7 @@ to {
 }
 */
 #formholder textarea {
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 18px;
 	overflow: visible;
 	width: 93%;
@@ -1318,6 +1323,7 @@ to {
 	padding-bottom: 2%;
 	float: none;
 	height: 100px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #formholder label {
@@ -1917,4 +1923,9 @@ span.deleteicon span {
 
 span.deleteicon input {
 	padding-right: 16px;
+}
+
+#dialogContent {
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
 }
