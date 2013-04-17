@@ -27,7 +27,7 @@
 	</xp:this.data>
 	<xp:this.resources>
 		<xp:script src="/unpCommon.jss" clientSide="false"></xp:script>
-		<xp:script src="/unp/jquery-1.7.2.min.js" clientSide="true"></xp:script>
+		
 		<xp:script src="/unp/jquery.blockUI.min.js" clientSide="true"></xp:script>
 		<xp:script src="/unp/iScroll.min.js" clientSide="true"></xp:script>
 		<xp:script src="/unplugged.js" clientSide="true"></xp:script>
@@ -67,14 +67,24 @@ if (sessionScope.rowcount != null){
 }else{
 	return 20;
 }}]]></xp:this.rows>
-						<xp:panel tagName="li" id="datarow">
+						<xp:text escape="false" tagName="li"
+							styleClass="categoryRowFixed condensed" disableTheme="true"
+							rendered="#{javascript:thisRowData.isCategory()}"
+							value="#{javascript:thisRowData.getColumnValues().elementAt(0)}">
+						</xp:text>
+						<xp:panel tagName="li" id="datarow"
+							rendered="#{javascript:!thisRowData.isCategory()}">
 							<xp:this.attrs>
 								<xp:attr name="onClick">
-									<xp:this.value><![CDATA[#{javascript:var url = getDbPath() + "/" + compositeData.xpageDoc + "?action=openDocument&documentId=" + thisRowData.getDocument().getUniversalID();
-if (compositeData.ajaxload != "No"){
-	return "openDocument('" + url + "', 'content');"
+									<xp:this.value><![CDATA[#{javascript:if (compositeData.collapseRows == "Yes"){
+	return "showListDetails('" + getClientId("rowDetails") + "'); event.stopPropagation();";
 }else{
-	return "document.location.href='" + url + "'";
+	var url = getDbPath() + "/" + compositeData.xpageDoc + "?action=openDocument&documentId=" + thisRowData.getDocument().getUniversalID();
+	if (compositeData.ajaxload != "No"){
+		return "openDocument('" + url + "', 'content');"
+	}else{
+		return "document.location.href='" + url + "'";
+	}
 }}]]></xp:this.value>
 								</xp:attr>
 							</xp:this.attrs>
@@ -87,16 +97,51 @@ var out = "data-row";
 if (viewScope.rowcount == 1 && compositeData.title == null){
 	out += " first-row";
 }
+if (compositeData.collapseRows == "Yes"){
+	out += " collapse-row";
+}
 return out;}]]></xp:this.styleClass>
-							<xp:image url="/unp/right-arrow-circle.png" id="image1">
-								<xp:this.styleClass><![CDATA[#{javascript:if(compositeData.detailColumn == null){ return 'singleLineIcon';} else {return 'multiLineIcon';}}]]></xp:this.styleClass>
+							<xp:image
+								url="#{javascript:thisRowData.getColumnValue(compositeData.photoColumn)}">
+								<xp:this.rendered><![CDATA[#{javascript:if (compositeData.photoColumn != null && compositeData.photoColumn != ""){
+	try{
+		if (thisRowData.getColumnValue(compositeData.photoColumn) != ""){
+			return true;
+		}else{
+			return false;
+		}
+	}catch(e){
+		return false;
+	}
+}else{
+	return false;
+}}]]></xp:this.rendered>
+								<xp:this.styleClass><![CDATA[#{javascript:if (thisRowData.getColumnValue(compositeData.photoColumn) != ""){
+	return "rowphoto";
+}}]]></xp:this.styleClass>
+							</xp:image>
+							<xp:image id="image1">
+								<xp:this.styleClass><![CDATA[#{javascript:if(compositeData.detailColumn == null || compositeData.collapseRows == "Yes"){ 
+	return 'singleLineIcon';
+} else {
+	return 'multiLineIcon';
+}}]]></xp:this.styleClass>
+								<xp:this.url><![CDATA[#{javascript:if (compositeData.collapseRows == "Yes"){
+	return "/unp/arrow-down.png";
+}else{
+	return "/unp/right-arrow-circle.png";
+}}]]></xp:this.url>
 							</xp:image>
 							<xp:label id="label2"
 								value="#{javascript:thisRowData.getColumnValue(compositeData.summaryColumn);}"
 								styleClass="viewlistsummary">
 							</xp:label>
-							<div>
-								<xp:label id="label1" styleClass="viewlistdetail">
+							<xp:div id="rowDetails">
+								<xp:this.style><![CDATA[#{javascript:if (compositeData.collapseRows == "Yes"){
+	return "display: none;";
+}}]]></xp:this.style>
+								<xp:label id="label1"
+									styleClass="viewlistdetail">
 									<xp:this.value><![CDATA[#{javascript:if(compositeData.detailColumn == null){
 	return " ";
 }else{
@@ -104,7 +149,7 @@ return out;}]]></xp:this.styleClass>
 }}]]></xp:this.value>
 
 								</xp:label>
-							</div>
+							</xp:div>
 						</xp:panel>
 					</xp:repeat>
 				</ul>
@@ -129,7 +174,7 @@ return out;}]]></xp:this.styleClass>
 						styleClass="loadmorebutton">
 						<xp:this.attrs>
 							<xp:attr name="onclick">
-								<xp:this.value><![CDATA[#{javascript:"loadmore('" + compositeData.dbName + "', '" + compositeData.viewName + "', '" + compositeData.summaryColumn + "', '" + compositeData.detailColumn + "', '" + compositeData.categoryfilter + "', '" + compositeData.xpageDoc + "', '" + compositeData.refreshmethod + "')"}]]></xp:this.value>
+								<xp:this.value><![CDATA[#{javascript:"loadmore('" + compositeData.dbName + "', '" + compositeData.viewName + "', '" + compositeData.summaryColumn + "', '" + compositeData.detailColumn + "', '" + compositeData.categoryfilter + "', '" + compositeData.xpageDoc + "', '" + compositeData.refreshmethod + "', '" + compositeData.photoColumn + "', '" + compositeData.collapseRows + "')"}]]></xp:this.value>
 							</xp:attr>
 						</xp:this.attrs>
 					</xp:button>

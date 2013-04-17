@@ -13,7 +13,7 @@
 
 <xp:view xmlns:xp="http://www.ibm.com/xsp/core">
 	<xp:this.resources>
-		<xp:script src="/unp/jquery-1.7.2.min.js" clientSide="true"></xp:script>
+		
 		<xp:script src="/unp/jquery.blockUI.min.js" clientSide="true"></xp:script>
 		<xp:script src="/unp/iScroll.min.js" clientSide="true"></xp:script>
 		<xp:script src="/unplugged.js" clientSide="true"></xp:script>
@@ -27,25 +27,23 @@
 		<div id="dialogContent">
 			<xp:callback facetName="facet_1" id="callback1"></xp:callback>
 		</div>
-		<ul class="buttons">
-			<xp:panel tagName="li" styleClass="saveButton">
-				<span>OK</span>
-				<xp:this.attrs>
-					<xp:attr name="onclick">
-						<xp:this.value><![CDATA[#{javascript:var out = "";
+
+		<div class="button cancelbutton" onclick="closeDialog('dialogPopup')" style="float: right;">
+			Cancel
+		</div>
+		<xp:panel tagName="div" styleClass="button savebutton">
+			OK
+			<xp:this.attrs>
+				<xp:attr name="onclick">
+					<xp:this.value><![CDATA[#{javascript:var out = "";
 if (compositeData.callback){
 	out += compositeData.callback + "(); "
 }
-out += "closeDialog('#dialogPopup');";
+out += "closeDialog('dialogPopup');";
 return out;}]]></xp:this.value>
-					</xp:attr>
-				</xp:this.attrs>
-			</xp:panel>
-			<li class="cancelButton" onclick="closeDialog('#dialogPopup')">
-				<span>Cancel</span>
-			</li>
-
-		</ul>
+				</xp:attr>
+			</xp:this.attrs>
+		</xp:panel>
 	</div>
-	<div id="adminCover" style="display: none;"></div>
+	<div id="underlaydialogPopup" class="underlay"></div>
 </xp:view>

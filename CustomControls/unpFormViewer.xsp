@@ -11,7 +11,7 @@ the specific language governing permissions and limitations under the License
 
 <xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom">
 	<xp:this.resources>
-		<xp:script src="/unp/jquery-1.7.2.min.js" clientSide="true"></xp:script>
+		
 		<xp:script src="/unp/jquery.blockUI.min.js" clientSide="true"></xp:script>
 		<xp:script src="/unp/iScroll.min.js" clientSide="true"></xp:script>
 		<xp:script src="/unplugged.js" clientSide="true"></xp:script>
@@ -42,7 +42,7 @@ if (compositeData.editxpagewithajax != "no"){
 }}]]></xp:this.value>
 					</xp:attr>
 				</xp:this.attrs>
-				<span>Edit</span>
+				<span class="formbuttonlabel">Edit</span>
 			</xp:panel>
 			<xp:panel id="closebutton" styleClass="cancelButton" tagName="li">
 				<xp:this.attrs>
@@ -50,7 +50,7 @@ if (compositeData.editxpagewithajax != "no"){
 						<xp:this.value><![CDATA[#{javascript:"$.blockUI();window.location.href='" + compositeData.closexpagename + "';"}]]></xp:this.value>
 					</xp:attr>
 				</xp:this.attrs>
-				<span>Close</span>
+				<span class="formbuttonlabel">Close</span>
 			</xp:panel>
 		</xp:panel>
 		<xp:callback facetName="facet_1" id="callback1"></xp:callback>
@@ -63,7 +63,7 @@ if (compositeData.editxpagewithajax != "no"){
 						<xp:this.value><![CDATA[#{javascript:"openDocument('" + compositeData.newresponsexpagename + "?action=newDocument&parentunid=" + document1.getDocument().getUniversalID() + "', 'content');"}]]></xp:this.value>
 					</xp:attr>
 				</xp:this.attrs>
-				<span>New Response</span>
+				<span class="formbuttonlabel">New Response</span>
 			</xp:panel>
 		</xp:panel>
 		<br />

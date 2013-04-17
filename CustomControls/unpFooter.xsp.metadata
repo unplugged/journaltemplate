@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="1dee" sequence="6" unid="952A8DD35831B70080257B3A003C8164">
-<created><datetime>20130326T110052,84+00</datetime></created>
-<modified><datetime>20130326T110122,58+00</datetime></modified>
-<revised><datetime>20130326T110122,57+00</datetime></revised>
-<lastaccessed><datetime>20130326T110122,58+00</datetime></lastaccessed>
-<addedtofile><datetime>20130326T110052,85+00</datetime></addedtofile></noteinfo>
+<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" replicaid="80257ADB005A7A22" version="9.0">
+<noteinfo noteid="1f8e" sequence="10" unid="86882AA7ACA9C01580257B50002E9281">
+<created><datetime dst="true">20130417T092841,61+01</datetime></created>
+<modified><datetime dst="true">20130417T093356,45+01</datetime></modified>
+<revised><datetime dst="true">20130417T093356,44+01</datetime></revised>
+<lastaccessed><datetime dst="true">20130417T093356,45+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20130417T092841,63+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$TITLE"><text>unpFooter.xsp</text></item>
@@ -14,8 +14,8 @@
 <item name="$FileNames" sign="true"><text>unpFooter.xsp</text></item>
 
 
-<item name="$DesignerVersion"><text>8.5.3</text></item>
 
+<item name="$DesignerVersion"><text>8.5.3</text></item>
 
 
 
