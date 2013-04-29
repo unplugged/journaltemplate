@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" replicaid="80257ADB005A7A22" version="9.0">
-<noteinfo noteid="1f8a" sequence="10" unid="C860376C6576D27880257B50002E9267">
-<created><datetime dst="true">20130417T092841,35+01</datetime></created>
-<modified><datetime dst="true">20130417T093356,53+01</datetime></modified>
-<revised><datetime dst="true">20130417T093356,52+01</datetime></revised>
-<lastaccessed><datetime dst="true">20130417T093356,53+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20130417T092841,36+01</datetime></addedtofile></noteinfo>
+<noteinfo noteid="2156" sequence="4" unid="7B029615F2BD7CA980257B5C002ABD07">
+<created><datetime dst="true">20130429T084649,03+01</datetime></created>
+<modified><datetime dst="true">20130429T084649,51+01</datetime></modified>
+<revised><datetime dst="true">20130429T084649,50+01</datetime></revised>
+<lastaccessed><datetime dst="true">20130429T084649,51+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20130429T084649,04+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$TITLE"><text>unpFlatView.xsp</text></item>
@@ -12,11 +12,5 @@
 
 
 <item name="$FileNames" sign="true"><text>unpFlatView.xsp</text></item>
-
-
-
-<item name="$DesignerVersion"><text>8.5.3</text></item>
-
-
 
 </note>
