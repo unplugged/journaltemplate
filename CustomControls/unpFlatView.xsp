@@ -15,7 +15,7 @@
 	<xp:this.data>
 		<xp:dominoView var="viewList"
 			viewName="#{javascript:compositeData.viewName}">
-			<xp:this.categoryFilter><![CDATA[#{javascript:if (compositeData.categoryfilter == null || compositeData.categoryfilter == ""){
+			<xp:this.categoryFilter><![CDATA[#{javascript:if (isEmpty(compositeData.categoryfilter)){
 	return null;
 }else{
 	return compositeData.categoryfilter;
@@ -27,7 +27,7 @@
 	</xp:this.data>
 	<xp:this.resources>
 		<xp:script src="/unpCommon.jss" clientSide="false"></xp:script>
-		
+
 		<xp:script src="/unp/jquery.blockUI.min.js" clientSide="true"></xp:script>
 		<xp:script src="/unp/iScroll.min.js" clientSide="true"></xp:script>
 		<xp:script src="/unplugged.js" clientSide="true"></xp:script>
@@ -50,7 +50,7 @@ if (out.length > 0){
 			<div id="flatView">
 				<ul id="flatViewRowSet">
 					<xp:panel tagName="li" id="title" styleClass="title">
-						<xp:this.style><![CDATA[#{javascript:if (compositeData.title == null){
+						<xp:this.style><![CDATA[#{javascript:if (isEmpty(compositeData.title)){
 	return "display: none;";
 }}]]></xp:this.style>
 						<xp:label id="label3">
@@ -59,19 +59,25 @@ if (out.length > 0){
 
 						</xp:label>
 					</xp:panel>
-					<xp:repeat id="repeat4" var="thisRowData" value="#{viewList}"
-						disableOutputTag="true">
+					<xp:repeat id="repeat4" var="thisRowData"
+						value="#{viewList}" disableOutputTag="true">
 						<xp:this.rows><![CDATA[${javascript:sessionScope.rowcount = compositeData.numberofrows;
-if (sessionScope.rowcount != null){
-	return sessionScope.rowcount;
+if (compositeData.enableAZPicker == "yes"){
+	return "5000";
 }else{
-	return 20;
+	if (sessionScope.rowcount != null){
+		return sessionScope.rowcount;
+	}else{
+		return 20;
+	}
 }}]]></xp:this.rows>
-						<xp:text escape="false" tagName="li"
+						<xp:panel tagName="li" id="categoryrow"
 							styleClass="categoryRowFixed condensed" disableTheme="true"
-							rendered="#{javascript:thisRowData.isCategory()}"
-							value="#{javascript:thisRowData.getColumnValues().elementAt(0)}">
-						</xp:text>
+							rendered="#{javascript:thisRowData.isCategory()}">
+							<xp:text
+								value="#{javascript:thisRowData.getColumnValues().elementAt(0)}">
+							</xp:text>
+						</xp:panel>
 						<xp:panel tagName="li" id="datarow"
 							rendered="#{javascript:!thisRowData.isCategory()}">
 							<xp:this.attrs>
@@ -94,7 +100,7 @@ if (sessionScope.rowcount != null){
 	viewScope.rowcount = viewScope.rowcount + 1;
 }
 var out = "data-row";
-if (viewScope.rowcount == 1 && compositeData.title == null){
+if (viewScope.rowcount == 1 && isEmpty(compositeData.title)){
 	out += " first-row";
 }
 if (compositeData.collapseRows == "Yes"){
@@ -121,7 +127,7 @@ return out;}]]></xp:this.styleClass>
 }}]]></xp:this.styleClass>
 							</xp:image>
 							<xp:image id="image1">
-								<xp:this.styleClass><![CDATA[#{javascript:if(compositeData.detailColumn == null || compositeData.collapseRows == "Yes"){ 
+								<xp:this.styleClass><![CDATA[#{javascript:if(isEmpty(compositeData.detailColumn) || compositeData.collapseRows == "Yes"){ 
 	return 'singleLineIcon';
 } else {
 	return 'multiLineIcon';
@@ -146,7 +152,7 @@ return out;}]]></xp:this.styleClass>
 }}]]></xp:this.style>
 								<xp:label id="label1"
 									styleClass="viewlistdetail">
-									<xp:this.value><![CDATA[#{javascript:if(compositeData.detailColumn == null){
+									<xp:this.value><![CDATA[#{javascript:if(isEmpty(compositeData.detailColumn)){
 	return " ";
 }else{
   return thisRowData.getColumnValue(compositeData.detailColumn);
@@ -187,6 +193,7 @@ return out;}]]></xp:this.styleClass>
 			</div>
 		</xp:panel>
 	</div>
+
 	<!--
 		<script type="text/javascript" src="unp/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript"

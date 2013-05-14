@@ -14,7 +14,7 @@ the specific language governing permissions and limitations under the License
 	xmlns:unp="http://unplugged.teamstudio.com">
 	<unp:unpScrollableArea>
 		<xp:this.facets>
-			<unp:unpFormEditor showbuttons="yes" xp:key="facet_1"
+			<unp:unpFormEditor showbuttons="yes" xp:key="facet_1" position="menu-aligned"
 				viewxpagename="UnpMain.xsp" formname="JournalEntry" closexpagename="UnpMain.xsp"
 				title="Journal Entry">
 				<xp:this.facets>
