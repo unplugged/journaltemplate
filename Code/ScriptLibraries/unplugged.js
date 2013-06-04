@@ -469,7 +469,12 @@ function accordionLoadMore(obj, viewName, catName, xpage, dbname) {
 
 	$(obj).addClass("accordianExpanded");
 	$(obj).nextAll(".summaryDataRow:first").children(".accLoadMoreLink").show();
+	$(thisArea).append($(".summaryDataRow li"));
 
+	//check if there's only 1 expanded category and set a class to create a rounded bottom border
+	if ( $("#summaryList .categoryrow").length == 1 ) {
+		$("#summaryList div.summaryDataRow ul.accordionRowSet li:last-child").addClass("roundedBottom");
+	}
 }
 
 function fetchDetails(obj, viewName, catName, xpage, dbname) {
@@ -518,7 +523,7 @@ function x$(idTag, param) { // Updated 18 Feb 2012
 }
 // expand/ collapse link
 function showListDetails(id) {
-	var $div = x$(id);
+	var $div = $("." + id);
 	if ($div.text().length == 0) {
 		return;
 	} // no content to show

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" replicaid="80257ADB005A7A22" version="9.0">
-<noteinfo noteid="1f4e" sequence="1" unid="7FFA1C3EBEE5D5CD80257B50002E54D4">
-<created><datetime dst="true">20130417T092603,72+01</datetime></created>
-<modified><datetime dst="true">20130417T092603,76+01</datetime></modified>
-<revised><datetime dst="true">20130417T092603,75+01</datetime></revised>
-<lastaccessed><datetime dst="true">20130417T092603,76+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20130417T092603,76+01</datetime></addedtofile></noteinfo>
+<noteinfo noteid="22d6" sequence="1" unid="2F948E0C1D0295A080257B740034567B">
+<created><datetime dst="true">20130523T103140,11+01</datetime></created>
+<modified><datetime dst="true">20130523T103140,13+01</datetime></modified>
+<revised><datetime dst="true">20130523T103140,12+01</datetime></revised>
+<lastaccessed><datetime dst="true">20130523T103140,13+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20130523T103140,13+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
-<item name="$TITLE" sign="true"><text>unp/iscroll.js</text></item>
-<item name="$MimeCharSet"><text>ISO-2022-JP</text></item>
+<item name="$MimeCharSet" sign="true"><text>ISO-2022-JP</text></item>
 <item name="$FileModDT" sign="true"><datetime dst="true">20130408T111103,69+01</datetime></item>
 <item name="$Flags"><text>g345QC</text></item>
 <item name="$FlagsExt" sign="true"><text>D</text></item>
-<item name="$DesignerVersion"><text>8.5.3</text></item>
 
 
 
-<item name="$FileNames" sign="true"><text>unp_2fiscroll.js</text></item></note>
+<item name="$FileNames" sign="true"><text>unp_2fiscroll.min.js</text></item>
+<item name="$TITLE" sign="true"><text>unp/iscroll.js</text></item>
+<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item></note>
