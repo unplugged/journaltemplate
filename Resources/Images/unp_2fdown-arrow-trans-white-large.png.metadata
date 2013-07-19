@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" replicaid="80257ADB005A7A22" version="9.0">
+<noteinfo noteid="250a" sequence="1" unid="01B4587F0B94257F80257BAC0053501D">
+<created><datetime dst="true">20130718T160959,97+01</datetime></created>
+<modified><datetime dst="true">20130718T161000,28+01</datetime></modified>
+<revised><datetime dst="true">20130718T161000,27+01</datetime></revised>
+<lastaccessed><datetime dst="true">20130718T161000,28+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20130718T161000,28+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<item name="$Flags"><text>34CiQ</text></item>
+<item name="$FlagsExt"><text>D</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+<item name="$FileModDT" sign="true"><datetime dst="true">20130612T154504,00+01</datetime></item>
+<item name="$ImageNames" sign="true"><text>down-arrow-trans-white-large.png</text></item>
+<item name="$TITLE" sign="true"><text>unp/down-arrow-trans-white-large.png</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+</note>

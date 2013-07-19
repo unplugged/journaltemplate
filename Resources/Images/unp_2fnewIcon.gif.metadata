@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><imageresource designerversion="8.5.3" imagename="newIcon.gif" maintenanceversion="3.0" name="unp/newIcon.gif" publicaccess="false" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="1542" sequence="1" unid="9774B12B6861787F80257AFB002B9E08">
-<created><datetime>20130122T075625,04+00</datetime></created>
-<modified><datetime>20130122T075625,36+00</datetime></modified>
-<revised><datetime>20130122T075625,35+00</datetime></revised>
-<lastaccessed><datetime>20130122T075625,36+00</datetime></lastaccessed>
-<addedtofile><datetime>20130122T075625,36+00</datetime></addedtofile></noteinfo>
+<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" replicaid="80257ADB005A7A22" version="9.0">
+<noteinfo noteid="25aa" sequence="1" unid="5F48F33AE36CE92F80257BAC00535045">
+<created><datetime dst="true">20130718T161000,37+01</datetime></created>
+<modified><datetime dst="true">20130718T161001,22+01</datetime></modified>
+<revised><datetime dst="true">20130718T161001,21+01</datetime></revised>
+<lastaccessed><datetime dst="true">20130718T161001,22+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20130718T161001,22+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<item name="$TITLE" sign="true"><text>unp/newIcon.gif</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+<item name="$ImageNames" sign="true"><text>newIcon.gif</text></item>
 <item name="$FileModDT" sign="true"><datetime dst="true">20121001T093622,00-04</datetime></item>
-</imageresource>
+<item name="$Flags"><text>34CiQ</text></item>
+<item name="$FlagsExt" sign="true"><text>D</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+</note>

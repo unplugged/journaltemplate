@@ -9,6 +9,22 @@
  */
 
 $(document).ready(function() {
+	$('#input-search').bind('focus', function() {
+		if ($(window).width() > 700){
+			$('.input-search-frame').width(360);
+			if ($(window).width() < 1000){
+				$(".title.opendialoglink").fadeTo(0.2, 0.0);
+			}
+		}
+	});
+	$('#input-search').bind('blur', function() {
+		if ($(window).width() > 700){
+			if ($('#input-search').val() == "") {
+				$('.input-search-frame').width(150);
+				$(".title.opendialoglink").fadeTo(0.2, 1.0);
+			}
+		}
+	});
 	$('#input-search').keypress( function(e) {
 		if(e.keyCode==13){
 			event.preventDefault();

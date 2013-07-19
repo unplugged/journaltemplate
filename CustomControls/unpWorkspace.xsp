@@ -24,7 +24,8 @@
 			content="black">
 		</xp:metaData>
 		<xp:styleSheet href="/unplugged.css"></xp:styleSheet>
-		<xp:script src="unp/jquery-1.7.2.min.js" clientSide="true"></xp:script>
+		<xp:script src="unp/jquery-2.0.3.min.js" clientSide="true"></xp:script>
+		<xp:script src="unp/fastclick.js" clientSide="true"></xp:script>
 		<xp:script src="unp/jquery.blockUI.min.js" clientSide="true"></xp:script>
 		<xp:script src="unp/iscroll.min.js" clientSide="true"></xp:script>
 		<xp:script src="unp/workspace.js" clientSide="true"></xp:script>
@@ -83,7 +84,11 @@ return sout;}]]></xp:this.styleClass>
 									<xp:this.value><![CDATA[#{javascript:if (compositeData.disabledbadges != "" && compositeData.disabledbadges != null && @IsMember(chiclet.getColumnValue(compositeData.badgeidcol), compositeData.disabledbadges)){
 	return "";
 }else{
-	return "$.blockUI();window.location.href='" + chiclet.getColumnValue(compositeData.linkurlcol) + "';";
+	if (chiclet.getColumnValue("LoadTimeMode") == "Yes"){
+		return "$.blockUI();window.location.href='" + chiclet.getColumnValue(compositeData.linkurlcol) + "?starttime=' + Date.now();";
+	}else{
+		return "$.blockUI();window.location.href='" + chiclet.getColumnValue(compositeData.linkurlcol) + "';";
+	}
 }}]]></xp:this.value>
 								</xp:attr>
 								<xp:attr name="href" value="#"></xp:attr>

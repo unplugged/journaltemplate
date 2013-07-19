@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" replicaid="80257ADB005A7A22" version="9.0">
+<noteinfo noteid="26ba" sequence="1" unid="FEE99B31025C554680257BAD0037F449">
+<created><datetime dst="true">20130719T111110,17+01</datetime></created>
+<modified><datetime dst="true">20130719T111110,20+01</datetime></modified>
+<revised><datetime dst="true">20130719T111110,19+01</datetime></revised>
+<lastaccessed><datetime dst="true">20130719T111110,20+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20130719T111110,20+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<item name="$TITLE" sign="true"><text>unplugged-light.css</text></item>
+<item name="$DesignerVersion"><text>8</text></item>
+<item name="$FileModDT" sign="true"><datetime dst="true">20130719T063945,88+01</datetime></item>
+<item name="$FileNames" sign="true"><text>unplugged-light.css</text></item>
+
+
+<item name="$FileModDT" sign="true"><datetimelist><datetime>20130719T063945,00+00</datetime></datetimelist></item>
+
+
+<item name="$Flags"><text>=34QC</text></item>
+<item name="$FlagsExt" sign="true"><text>D</text></item></note>

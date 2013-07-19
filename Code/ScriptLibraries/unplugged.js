@@ -8,7 +8,7 @@
  * KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the License
  */
-
+var bLoaded = false;
 $(window)
 		.load(
 				function() {
@@ -52,10 +52,43 @@ $(window)
 					} catch (e) {
 
 					}
-
+					try{
+						fixNavigatorBottomCorners();
+					}catch(e){
+						
+					}
+					try{
+						FastClick.attach(document.body);
+					}catch(e){
+						
+					}
+					
+					$(".footerTabtext").each(function(){
+						if ($(this).height() > 15){
+							$(this).parent().css("position", "relative");
+							$(this).parent().css("top", "-7px");
+						}
+					});
+					
+					initHorizontalView();
 					initDeleteable();
 					initAutoComplete();
+					
+					if (!bLoaded && getURLParameter("starttime")){
+						var starttime = parseInt(getURLParameter("starttime"), 10);
+						var endtime = Date.now();
+						if (unpluggedserver){
+							alert("Page load took " + (endtime - starttime) + "ms");
+						}else{
+							console.log("Page load took " + (endtime - starttime) + "ms");
+						}
+						bLoaded = true;
+					}
 				});
+
+function getURLParameter(name) {
+    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+}
 
 $(window).scroll( function() {
 	if ($(window).scrollTop() + $(window).height() == $(document).height()) {
@@ -66,6 +99,7 @@ $(window).scroll( function() {
 window.addEventListener("orientationchange", function() {
 	hideViewsMenu();
 	initiscroll();
+	initHorizontalView();
 }, false);
 
 function allowFormsInIscroll() {
@@ -87,7 +121,7 @@ function stopViewSpinner() {
 }
 
 function loadmore(dbName, viewName, summarycol, detailcol, category, xpage,
-		refreshmethod, photocol, collapserows, wrapsummarycol) {
+		refreshmethod, photocol, collapserows, wrapsummarycol, ajaxload) {
 	try {
 		$(".loadmorelink").hide();
 		$("#loadmorespinner").show();
@@ -112,7 +146,7 @@ function loadmore(dbName, viewName, summarycol, detailcol, category, xpage,
 				+ encodeURIComponent(category) + "&xpage=" + xpage
 				+ "&wrapsummarycol=" + encodeURIComponent(wrapsummarycol)
 				+ "&dbName=" + dbName + "&refreshmethod=" + refreshmethod
-				+ "&start=" + pos;
+				+ "&start=" + pos + "&ajaxload=" + ajaxload;
 		thisArea.load(url + " #results", function() {
 			$("#flatViewRowSet").append($(".summaryDataRow li"));
 			if ($(".summaryDataRow").text().indexOf("NOMORERECORDS") > -1) {
@@ -161,6 +195,7 @@ function openDocument(url, target) {
 				}
 				initDeleteable();
 				initAutoComplete();
+				initHorizontalView();
 				return false;
 			});
 }
@@ -256,6 +291,7 @@ function loadPage(url, target, menuitem) {
 			firedrequests = new Array();
 		}
 		initiscroll();
+		initHorizontalView();
 		initDeleteable();
 		initAutoComplete();
 		return false;
@@ -281,6 +317,35 @@ function initDeleteable() {
 				}));
 	} catch (e) {
 
+	}
+}
+
+var swipers = null;
+function initHorizontalView(){
+	try{
+		if (swipers != null){
+			//We need to destroy the existing swipers and re-init
+			for (var i=0; i<swipers.length; i++){
+				swipers[i].destroy();
+			}
+		}
+		swipers = new Array();
+		$(".swiper-container").each(function(){
+			//First we need to re-size the swipe area
+			var items = $(this).find(".hviewitem").length;
+			$(this).find(".swiper-slide").width((items * 140));
+			//Now init the swiper
+			var mySwiper = $(this).swiper({
+				scrollContainer:true, 
+				freeMode: true,
+				freeModeFluid: true,
+				momentumBounce: true
+			});
+
+			swipers.push(mySwiper);
+		})
+	}catch(e){
+		
 	}
 }
 
@@ -335,7 +400,7 @@ function initiscroll() {
 			});
 		} catch (e) {
 		}
-
+		
 		$(".iscrollcontent")
 				.each(
 						function() {
@@ -387,6 +452,7 @@ function initiscroll() {
 										}
 									});
 							$(".atozpicker").show();
+							return false;
 						});
 		$(".atozpicker").show();
 	} else {
@@ -414,25 +480,29 @@ function jumpToLetter(letterelement, event) {
 }
 
 function openDialog(id) {
-	$("#underlay" + id).css('display', 'block');
-	$("#" + id).css('display', 'block');
-	var boxes = $("div");
-	boxes.click( function() {
-		var el = $(id);
-		var max = 0;
-		boxes.each( function() {
-			var z = parseInt($(this).css("z-index"), 10);
-			max = Math.max(max, z);
+	if (id != null && id != "#"){
+		$("#underlay" + id).css('display', 'block');
+		$("#" + id).css('display', 'block');
+		var boxes = $("div");
+		boxes.click( function() {
+			var el = $(id);
+			var max = 0;
+			boxes.each( function() {
+				var z = parseInt($(this).css("z-index"), 10);
+				max = Math.max(max, z);
+			});
+			el.css("z-index", max + 1);
 		});
-		el.css("z-index", max + 1);
-	});
-	initiscroll();
+		initiscroll();
+		initHorizontalView();
+	}
 }
 
 function closeDialog(id) {
 	$("#" + id).css('display', 'none');
 	$("#underlay" + id).css('display', 'none');
 	initiscroll();
+	initHorizontalView();
 }
 
 function accordionLoadMore(obj, viewName, catName, xpage, dbname) {
@@ -542,5 +612,187 @@ function showListDetails(id) {
 		$image.attr("src", "unp/arrow-down.png");
 	} else {
 		$image.attr("src", "unp/arrow-up.png");
+	}
+}
+
+function doHViewFilter(language, year, primaryview, filterview, xpage, source, toplevelcategory){
+	if (language == null){
+		language = $(".languagelabel").text();
+	}
+	if (year == null){
+		year = $(".yearlabel").text();
+	}
+	var thisArea = $("#repeatholder");
+	var url = ("UnpHorizontalViewFilter.xsp?languagefilter=" + language + 
+											"&yearfilter=" + year).replace(" ", "%20") + 
+											"&primaryview=" + primaryview.replace(" ", "%20") + 
+											"&filterview=" + filterview.replace(" ", "%20") + 
+											"&xpage=" + xpage + 
+											"&source=" + source + 
+											"&toplevelcategory=" + toplevelcategory;
+	thisArea.load(url.replace(" ", "%20") + " #repeatholder",
+			function() {
+				initiscroll();
+				initHorizontalView();
+				closeDialog('hviewPopup');
+				return false;
+			});
+	$(".dropdown-menu").hide();
+	$(".languagelabel").text(language);
+	$(".yearlabel").text(year);
+}
+
+function loadMoreHorizontal(button, category, primaryview, filterview, xpage, source){
+	var language = $(".languagelabel").text().replace(" ", "%20");
+	var year = $(".yearlabel").text().replace(" ", "%20");
+	var categoryrep = category.replace(" ", "-");
+	categoryrep = categoryrep.replace("~", "-");
+	var thisArea = $(".swiper-" + categoryrep);
+	var itemcount = $(".swiper-slide-" + categoryrep + " .hviewitem").length;
+	var url = "UnpHorizontalViewList.xsp?category=" + category.replace(" ", "%20") + 
+										"&languagefilter=" + language + 
+										"&yearfilter=" + year + 
+										"&start=" + (itemcount - 1) + 
+										"&primaryview=" + primaryview.replace(" ", "%20") + 
+										"&filterview=" + filterview.replace(" ", "%20") + 
+										"&xpage=" + xpage + 
+										"&source=" + source;
+	$.ajax({
+	    url: url,
+	    dataType: 'html',
+	    success: function(html) {
+	        $('.swiper-slide-' + categoryrep).append($('#loadmoreresults .hviewitem', $(html)));
+	        if (html.indexOf("NOMORERECORDS") > -1){
+	        	$(".loadmorebutton-" + categoryrep).hide();
+	        }else{
+	        	$(".loadmorebutton-" + categoryrep).appendTo($('.swiper-slide-' + categoryrep));
+	        }
+	        initHorizontalView();
+	    }
+	});
+}
+
+function openHViewDialog(xpage, source, unid){
+	if (xpage.indexOf(".xsp") == -1){
+		xpage += ".xsp";
+	}
+	var url = xpage + "?action=openDocument&documentId=" + unid;
+	$("#hviewitemcontent").load(url.replace(" ", "%20") + " #" + source,
+			function() {
+				openDialog("hviewPopup");
+				return false;
+			});
+}
+
+function expandMenuItem(menuitem){
+	$(".viewMenuItemSub").hide();
+	$(".viewMenuItemSubSub").hide();
+	//$(".navScrollArea .viewMenuItem img").prop("src", "unp/right-arrow-trans-white-large.png");
+	if ($(menuitem).hasClass("viewMenuItemSub")){
+		//We need to toggle a sub-sub menu
+		var bFinishedCategory = false;
+		$(menuitem).show();
+		$(menuitem).nextAll().each(function(i){
+			if (!$(this).hasClass("viewMenuItemSubSub") && !$(this).hasClass("viewMenuItemSub")){
+				return false;
+			}else if($(this).hasClass("viewMenuItemSub")){
+				if ($(this).is(':visible')){
+					//$(menuitem).find("img").prop("src", "unp/right-arrow-trans-white-large.png");
+					bimg = true;
+				}else{
+					//$(menuitem).find("img").prop("src", "unp/down-arrow-trans-white-large.png");
+					bimg = true;
+				}
+				$(this).toggle();
+				bFinishedCategory = true;
+			}else{
+				if ($(this).hasClass("viewMenuItemSubSub") && !bFinishedCategory){
+					if (i==0){
+						if ($(this).is(':visible')){
+							//$(menuitem).find("img").prop("src", "unp/right-arrow-trans-white-large.png");
+							bimg = true;
+						}else{
+							//$(menuitem).find("img").prop("src", "unp/down-arrow-trans-white-large.png");
+							bimg = true;
+						}
+					}
+					$(this).toggle();
+				}
+			}
+		});
+		//Now we need to make sure that any previous sub categories are shown as well
+		$(menuitem).prevAll().each(function(i){
+			if (!$(this).hasClass("viewMenuItemSub") && !$(this).hasClass("viewMenuItemSubSub")){
+				return false;
+			}
+			if($(this).hasClass("viewMenuItemSub")){
+				if ($(this).is(':visible')){
+					//$(menuitem).find("img").prop("src", "unp/right-arrow-trans-white-large.png");
+					bimg = true;
+				}else{
+					//$(menuitem).find("img").prop("src", "unp/down-arrow-trans-white-large.png");
+					bimg = true;
+				}
+				$(this).toggle();
+			}
+		})
+	}else{
+		//We need to toggle a sub menu
+		$(menuitem).nextAll().each(function(i){
+			if (!$(this).hasClass("viewMenuItemSub") && !$(this).hasClass("viewMenuItemSubSub")){
+				return false;
+			}else{
+				if ($(this).hasClass("viewMenuItemSub")){
+					if (i==0){
+						if ($(this).is(':visible')){
+							//$(menuitem).find("img").prop("src", "unp/right-arrow-trans-white-large.png");
+							bimg = true;
+						}else{
+							//$(menuitem).find("img").prop("src", "unp/down-arrow-trans-white-large.png");
+							bimg = true;
+						}
+					}
+					$(this).toggle();
+				}
+			}
+		});
+	}
+	fixNavigatorBottomCorners();
+}
+function fixNavigatorBottomCorners(){
+	$(".navroundedbottom").removeClass("navroundedbottom");
+	$(".navScrollArea .viewMenuItem").not(':hidden').last().addClass("navroundedbottom");
+	$("#menuitems li a").removeClass("navroundedbottom");
+	$("#menuitems li a").not(':hidden').last().addClass("navroundedbottom");
+}
+
+function hviewFavourite(xpage, unid){
+	if (xpage.indexOf(".xsp") == -1){
+		xpage += ".xsp";
+	}
+	var url = xpage + "?favorite=toggle&action=openDocument&documentId=" + unid;
+	$("#hviewitemcontent").load(url.replace(" ", "%20") + " #results");
+	$("[unid='" + unid + "'] .badge-favorite").toggle();
+}
+
+function hviewEmail(xpage, unid){
+	$("#hviewdialogbuttons").toggle();
+	$("#emailholder").toggle();	
+}
+
+function hviewEmailSend(xpage, unid){
+	alert("This needs to be implemented");	
+}
+
+function hviewEmailCancel(xpage, unid){
+	$("#hviewdialogbuttons").toggle();
+	$("#emailholder").toggle();	
+}
+
+function dropdownToggle(element){
+	if (element != null){
+		$(element).next().toggle();
+	}else{
+		$(".dropdown-menu").toggle();
 	}
 }

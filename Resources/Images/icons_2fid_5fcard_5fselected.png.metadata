@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" replicaid="80257ADB005A7A22" version="9.0">
-<noteinfo noteid="236e" sequence="1" unid="4F01814C692A376D80257B8000255049">
-<created><datetime dst="true">20130604T074733,85+01</datetime></created>
-<modified><datetime dst="true">20130604T074733,89+01</datetime></modified>
-<revised><datetime dst="true">20130604T074733,88+01</datetime></revised>
-<lastaccessed><datetime dst="true">20130604T074733,89+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20130604T074733,89+01</datetime></addedtofile></noteinfo>
+<noteinfo noteid="24b2" sequence="1" unid="29FECE307ACD160480257BAC00535007">
+<created><datetime dst="true">20130718T160959,75+01</datetime></created>
+<modified><datetime dst="true">20130718T160959,80+01</datetime></modified>
+<revised><datetime dst="true">20130718T160959,79+01</datetime></revised>
+<lastaccessed><datetime dst="true">20130718T160959,80+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20130718T160959,80+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$FlagsExt"><text>D</text></item>
@@ -12,10 +12,9 @@
 <item name="$ImagesHigh" sign="true"><number>1</number></item>
 <item name="$ImagesColorize" sign="true"><number>0</number></item>
 <item name="$TITLE" sign="true"><text>icons/id_card_selected.png</text></item>
-<item name="$DesignerVersion"><text>8.5.3</text></item>
-
-
-<item name="$MimeType" sign="true"><text>image/png</text></item>
 <item name="$FileModDT" sign="true"><datetime dst="true">20130528T113259,00+01</datetime></item>
 <item name="$Flags"><text>34CiQ</text></item>
-<item name="$ImageNames" sign="true"><text>id_card_selected.png</text></item></note>
+<item name="$ImageNames" sign="true"><text>id_card_selected.png</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+</note>

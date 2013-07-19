@@ -1,19 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><imageresource designerversion="8.5.3" imagename="blackSearchIcon.png" maintenanceversion="3.0" name="unp/blackSearchIcon.png" publicaccess="false" replicaid="80257ADB005A7A22" version="8.5" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="150a" sequence="1" unid="833CE3D0613C892880257AFB002B9DFA">
-<created><datetime>20130122T075624,90+00</datetime></created>
-<modified><datetime>20130122T075625,08+00</datetime></modified>
-<revised><datetime>20130122T075625,07+00</datetime></revised>
-<lastaccessed><datetime>20130122T075625,08+00</datetime></lastaccessed>
-<addedtofile><datetime>20130122T075625,08+00</datetime></addedtofile></noteinfo>
+<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" replicaid="80257ADB005A7A22" version="9.0">
+<noteinfo noteid="24fa" sequence="1" unid="2486F5EBF95E9D4380257BAC00535019">
+<created><datetime dst="true">20130718T160959,93+01</datetime></created>
+<modified><datetime dst="true">20130718T161000,19+01</datetime></modified>
+<revised><datetime dst="true">20130718T161000,18+01</datetime></revised>
+<lastaccessed><datetime dst="true">20130718T161000,19+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20130718T161000,19+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby><jpeg>
-iVBORw0KGgoAAAANSUhEUgAAACEAAAAgCAMAAAHcYdFuAAAAB3RJTUUH3AoGFDELjFPkHwAAAAlw
-SFlzAABOIAAATiABFn2Z3gAAAARnQU1BAACxjwv8YQUAAAAbUExURQD/AGZmZgAAAJnMzMzMzMzM
-/////5mZzMz//3edshoAAAABdFJOUwBA5thmAAAAy0lEQVR42qVTWxKDMAgEguj9T1xIQJFGrVM+
-GGZZXhsFQEQAJCYEFDJP1NBgBFIASL06jZCGGUcz7GyRqIusGzjSyyWCHuVUr3dEcio6Upo7Q1is
-SUYkmh0Im1u/+oy6WWcoCMB+mJ9XGfQrwLFtKLL5gg6wHOsf4t0CPeYM6BA1LnvwQNJiixTgavUi
-Uf9s7uyRMNP9L8Y4Wa1dMEKP/AInRoZPlBcMtucs88oeOn4b+StGXMNtOXHmehh1fVCsMT0w3qle
-fwesf8cH43UJSXXD8MoAAAAASUVORK5CYII=
-</jpeg>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<item name="$TITLE" sign="true"><text>unp/blackSearchIcon.png</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+<item name="$ImageNames" sign="true"><text>blackSearchIcon.png</text></item>
 <item name="$FileModDT" sign="true"><datetime dst="true">20121006T164916,00-04</datetime></item>
-</imageresource>
+<item name="$Flags"><text>34CiQ</text></item>
+<item name="$FlagsExt" sign="true"><text>D</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+</note>

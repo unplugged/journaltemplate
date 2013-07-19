@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" replicaid="80257ADB005A7A22" version="9.0">
+<noteinfo noteid="2516" sequence="1" unid="748B876536B7759D80257BAC00535020">
+<created><datetime dst="true">20130718T161000,00+01</datetime></created>
+<modified><datetime dst="true">20130718T161000,34+01</datetime></modified>
+<revised><datetime dst="true">20130718T161000,33+01</datetime></revised>
+<lastaccessed><datetime dst="true">20130718T161000,34+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20130718T161000,34+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<item name="$Flags"><text>D34CiQ</text></item>
+<item name="$FlagsExt"><text>D</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+
+
+<item name="$MimeType" sign="true"><text>image/png</text></item>
+<item name="$FileModDT" sign="true"><datetime dst="true">20121006T015240,00+01</datetime></item>
+<item name="$ImageNames" sign="true"><text>glyphicons_210_left_arrow@2x.png</text></item>
+<item name="$TITLE" sign="true"><textlist><text>unp/glyphicons_210_left_arrow@2x.png</text></textlist></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item></note>

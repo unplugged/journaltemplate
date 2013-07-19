@@ -45,8 +45,8 @@ for(var i=0; i<attachmentList.length; i++){
   });*/
   images += arraySeparator + "{"
   images += "'img': '" + imageFile + "',"
-  images += "'width': '300',"
-  images += "'height': '250',"
+  //images += "'width': '300',"
+  //images += "'height': '250',"
   images += "'desc': '" + attachmentList[i].getName() + "'" 
   images += "}" 
   
@@ -79,10 +79,14 @@ viewScope.put("images", images);
 	</xp:link>
 	</div>
 	<div id="swipepreviousbutton" onclick="gallery.prev()">
-		&#171;
+		<xp:image url="/unp%2Fglyphicons_210_left_arrow@2x.png"
+			id="image1">
+		</xp:image>
 	</div>
 	<div id="swipenextbutton" onclick="gallery.next()">
-		&#187;
+		<xp:image url="/unp%2Fglyphicons_211_right_arrow@2x.png"
+			id="image2">
+		</xp:image>
 	</div>
 	<xp:scriptBlock id="script1">
 		<xp:this.value>
@@ -104,8 +108,8 @@ for (i=0; i<3; i++) {
 	el = document.createElement('img');
 	el.className = 'loading';
 	el.src = slides[page].img;
-	el.width = slides[page].width;
-	el.height = slides[page].height;
+	//el.width = slides[page].width;
+	//el.height = slides[page].height;
 	el.onload = function () { this.className = ''; }
 	gallery.masterPages[i].appendChild(el);
 
@@ -126,8 +130,8 @@ gallery.onFlip(function () {
 			el = gallery.masterPages[i].querySelector('img');
 			el.className = 'loading';
 			el.src = slides[upcoming].img;
-			el.width = slides[upcoming].width;
-			el.height = slides[upcoming].height;
+			//el.width = slides[upcoming].width;
+			//el.height = slides[upcoming].height;
 			
 			el = gallery.masterPages[i].querySelector('span');
 			el.innerHTML = slides[upcoming].desc;
