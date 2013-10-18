@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" replicaid="80257ADB005A7A22" version="9.0">
-<noteinfo noteid="245a" sequence="1" unid="0826D7C63CB1509180257BAC00530388">
-<created><datetime dst="true">20130718T160643,92+01</datetime></created>
-<modified><datetime dst="true">20130718T160644,04+01</datetime></modified>
-<revised><datetime dst="true">20130718T160644,03+01</datetime></revised>
-<lastaccessed><datetime dst="true">20130718T160644,04+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20130718T160644,04+01</datetime></addedtofile></noteinfo>
+<noteinfo noteid="2a8e" sequence="1" unid="049D0076749FFD7080257C080047618A">
+<created><datetime dst="true">20131018T135940,26+01</datetime></created>
+<modified><datetime dst="true">20131018T135940,38+01</datetime></modified>
+<revised><datetime dst="true">20131018T135940,37+01</datetime></revised>
+<lastaccessed><datetime dst="true">20131018T135940,38+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131018T135940,38+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$MimeCharSet" sign="true"><text>ISO-2022-JP</text></item>

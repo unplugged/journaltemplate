@@ -1,48 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Copyright 2013 Teamstudio Inc 
-Licensed under the Apache License, Version 2.0 (the "License"); 
-you may not use this file except in compliance with the License. You may obtain a copy of the License at
-http://www.apache.org/licenses/LICENSE-2.0 
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed 
-on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
-the specific language governing permissions and limitations under the License
- -->
+	<!--
+		Copyright 2013 Teamstudio Inc Licensed under the Apache License,
+		Version 2.0 (the "License"); you may not use this file except in
+		compliance with the License. You may obtain a copy of the License at
+		http://www.apache.org/licenses/LICENSE-2.0 Unless required by
+		applicable law or agreed to in writing, software distributed under the
+		License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+		CONDITIONS OF ANY KIND, either express or implied. See the License for
+		the specific language governing permissions and limitations under the
+		License
+	-->
 
-<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
-	xmlns:xc="http://www.ibm.com/xsp/custom"
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom"
 	xmlns:unp="http://unplugged.teamstudio.com">
-	<unp:unpScrollableArea>
+	<xc:layout>
 		<xp:this.facets>
-			<unp:unpFormViewer showbuttons="true" xp:key="facet_1" position="menu-aligned"
-				closexpagename="UnpMain.xsp" formname="JournalEntry" editxpagename="UnpDocumentEdit.xsp"
-				title="Journal Entry">
+			<xp:panel xp:key="facet_1">
+				<unp:unpScrollableArea>
+					<xp:this.facets>
+						<unp:unpFormViewer showbuttons="true" xp:key="facet_1"
+							position="menu-aligned" closexpagename="UnpMain.xsp" formname="JournalEntry"
+							editxpagename="UnpDocumentEdit.xsp" title="Journal Entry">
 
-				<xp:this.facets>
-					<xp:panel xp:key="facet_1">
-						<ul class="fieldlist">
-							<li>
-								<xp:label value="Category:" id="label1" for="Category">
-								</xp:label>
-								<xp:text id="Category" value="#{document1.Categories}">
-								</xp:text>
-							</li>
-							<li>
-								<xp:label value="Diary Date:" id="label2" for="Date">
-								</xp:label>
-								<xp:text id="Date" value="#{document1.DiaryDate}">
-								</xp:text>
-							</li>
-							<li>
-								<xp:text id="body" tagName="div" value="#{document1.Body}"
-									escape="false" styleClass="body_richtext">
-								</xp:text>
-							</li>
-						</ul>
-					</xp:panel>
-				</xp:this.facets>
-			</unp:unpFormViewer>
+							<xp:this.facets>
+								<xp:panel xp:key="facet_1">
+									<ul class="fieldlist">
+										<li>
+											<xp:label value="Category:" id="label1" for="Category">
+											</xp:label>
+											<xp:text id="Category" value="#{document1.Categories}">
+											</xp:text>
+										</li>
+										<li>
+											<xp:label value="Diary Date:" id="label2" for="Date">
+											</xp:label>
+											<xp:text id="Date" value="#{document1.DiaryDate}">
+											</xp:text>
+										</li>
+										<li>
+											<xp:text id="body" tagName="div" value="#{document1.Body}"
+												escape="false" styleClass="body_richtext">
+											</xp:text>
+										</li>
+									</ul>
+								</xp:panel>
+							</xp:this.facets>
+						</unp:unpFormViewer>
+					</xp:this.facets>
+
+				</unp:unpScrollableArea>
+			</xp:panel>
 		</xp:this.facets>
-
-	</unp:unpScrollableArea>
+	</xc:layout>
 </xp:view>

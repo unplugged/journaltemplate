@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2013 Teamstudio Inc 
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0 
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed 
+on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+the specific language governing permissions and limitations under the License
+ -->
+
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xc="http://www.ibm.com/xsp/custom"
+	xmlns:unp="http://unplugged.teamstudio.com">
+	<xp:this.resources>
+		<xp:styleSheet href="/unplugged.css"></xp:styleSheet>
+	</xp:this.resources>
+	<unp:unpHeader search="database" searchPage="UnpSearch.xsp"
+		viewsButton="true" title="Notebook">
+	</unp:unpHeader>
+	<unp:unpNavigator>
+		<unp:this.menuItem>
+			<unp:menuItem ajaxloadid="content" ajaxtargetid="content"
+				label="All Documents" page="/UnpMain.xsp">
+			</unp:menuItem>
+			<unp:menuItem ajaxtargetid="content" label="By Diary Date"
+				page="/UnpByDate.xsp" ajaxloadid="content">
+			</unp:menuItem>
+			<unp:menuItem ajaxloadid="content" ajaxtargetid="content"
+				label="By Category" page="/UnpByCategory.xsp">
+			</unp:menuItem>
+			<unp:menuItem ajaxloadid="contentwrapper"
+				ajaxtargetid="content" submenu="no" disabled="no" label="About"
+				page="/UnpAbout.xsp">
+			</unp:menuItem>
+		</unp:this.menuItem>
+	</unp:unpNavigator>
+	<div id="content">
+		<xp:callback facetName="facet_1" id="callback1"></xp:callback>
+	</div>
+	<unp:unpFooter newDocTarget="UnpDocumentEdit.xsp"
+		newDocLoadType="ajax" synctype="currentdb">
+	</unp:unpFooter>
+
+</xp:view>

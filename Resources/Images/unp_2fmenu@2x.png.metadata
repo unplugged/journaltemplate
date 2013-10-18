@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" replicaid="80257ADB005A7A22" version="9.0">
-<noteinfo noteid="259e" sequence="1" unid="4F8508F9AFA1EB0B80257BAC00535042">
-<created><datetime dst="true">20130718T161000,34+01</datetime></created>
-<modified><datetime dst="true">20130718T161001,13+01</datetime></modified>
-<revised><datetime dst="true">20130718T161001,12+01</datetime></revised>
-<lastaccessed><datetime dst="true">20130718T161001,13+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20130718T161001,13+01</datetime></addedtofile></noteinfo>
+<noteinfo noteid="2942" sequence="1" unid="5B11F65457C870CF80257BE100247722">
+<created><datetime dst="true">20130909T073817,94+01</datetime></created>
+<modified><datetime dst="true">20130909T073819,03+01</datetime></modified>
+<revised><datetime dst="true">20130909T073819,02+01</datetime></revised>
+<lastaccessed><datetime dst="true">20130909T073819,03+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20130909T073819,03+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$TITLE" sign="true"><text>unp/menu@2x.png</text></item>
