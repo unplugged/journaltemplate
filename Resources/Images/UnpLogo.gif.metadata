@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" replicaid="80257ADB005A7A22" version="9.0">
-<noteinfo noteid="29ea" sequence="1" unid="9EDC1B2241A7FA5E80257BE10024CBB4">
-<created><datetime dst="true">20130909T074154,44+01</datetime></created>
-<modified><datetime dst="true">20130909T074154,47+01</datetime></modified>
-<revised><datetime dst="true">20130909T074154,46+01</datetime></revised>
-<lastaccessed><datetime dst="true">20130909T074154,47+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20130909T074154,47+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
-<item name="$TITLE"><text>UnpLogo.gif</text></item>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="85257C19006540F0" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="602" sequence="2" unid="5E4088E7C67D8E8785257C1900655AC4">
+<created><datetime>20131104T132703,72-05</datetime></created>
+<modified><datetime>20131104T132714,75-05</datetime></modified>
+<revised><datetime>20131104T132714,74-05</datetime></revised>
+<lastaccessed><datetime>20131104T132714,75-05</datetime></lastaccessed>
+<addedtofile><datetime>20131104T132703,75-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Richard Sharpe/O=Teamstudio</name></updatedby>
+<wassignedby><name>CN=Richard Sharpe/O=Teamstudio</name></wassignedby>
 <item name="$Flags"><text>34CiQ</text></item>
 <item name="$FlagsExt"><text>D</text></item>
 <item name="$ImagesWide" sign="true"><number>1</number></item>
@@ -15,7 +14,7 @@
 <item name="$ImagesColorize" sign="true"><number>0</number></item>
 
 
-<item name="$MimeType" sign="true"><text>image/gif</text></item>
-<item name="$FileModDT" sign="true"><datetime dst="true">20130909T074133,00+01</datetime></item>
-<item name="$ImageNames" sign="true"><text>UnpLogo.gif</text></item>
+<item name="$FileModDT" sign="true"><datetime>20131104T132201,00-05</datetime></item>
+<item name="$ImageNames" sign="true"><text>131104_teamstudio_tempappicon_72x72_Journal.png</text></item>
+<item name="$TITLE" sign="true"><textlist><text>UnpLogo.gif</text></textlist></item>
 <item name="$DesignerVersion"><text>8.5.3</text></item></note>
