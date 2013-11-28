@@ -12,10 +12,14 @@ the specific language governing permissions and limitations under the License
 <xp:view xmlns:xp="http://www.ibm.com/xsp/core"
 	xmlns:xc="http://www.ibm.com/xsp/custom"
 	xmlns:unp="http://unplugged.teamstudio.com">
+		<xc:layout>
+		<xp:this.facets>
+			<xp:panel xp:key="facet_1">
+	
 	<unp:unpScrollableArea>
 		<xp:this.facets>
 			<unp:unpFormEditor showbuttons="yes" xp:key="facet_1" position="menu-aligned"
-				viewxpagename="UnpMain.xsp" formname="JournalEntry" closexpagename="UnpMain.xsp"
+				viewxpagename="UnpMain.xsp" formname="JournalEntry"
 				title="Journal Entry">
 				<xp:this.facets>
 					<xp:panel xp:key="facet_1">
@@ -66,4 +70,7 @@ the specific language governing permissions and limitations under the License
 			</unp:unpFormEditor>
 		</xp:this.facets>
 	</unp:unpScrollableArea>
+	</xp:panel>
+	</xp:this.facets>
+	</xc:layout>
 </xp:view>

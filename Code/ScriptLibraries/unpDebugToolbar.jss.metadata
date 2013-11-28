@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="filter" replicaid="80257ADB005A7A22" version="9.0">
-<noteinfo noteid="2ade" sequence="1" unid="B3896BFEB2F8517180257C0800476CFA">
-<created><datetime dst="true">20131018T140009,54+01</datetime></created>
-<modified><datetime dst="true">20131018T140009,63+01</datetime></modified>
-<revised><datetime dst="true">20131018T140009,62+01</datetime></revised>
-<lastaccessed><datetime dst="true">20131018T140009,63+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20131018T140009,63+01</datetime></addedtofile></noteinfo>
+<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="filter" maintenanceversion="1.0" replicaid="80257ADB005A7A22" version="9.0">
+<noteinfo noteid="3502" sequence="1" unid="3798123143000D8280257C31004DABC4">
+<created><datetime>20131128T140822,44+00</datetime></created>
+<modified><datetime>20131128T140822,55+00</datetime></modified>
+<revised><datetime>20131128T140822,54+00</datetime></revised>
+<lastaccessed><datetime>20131128T140822,55+00</datetime></lastaccessed>
+<addedtofile><datetime>20131128T140822,55+00</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$TITLE" sign="true"><text>unpDebugToolbar</text></item>

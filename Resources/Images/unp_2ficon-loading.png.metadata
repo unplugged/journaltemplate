@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" replicaid="80257ADB005A7A22" version="9.0">
-<noteinfo noteid="2916" sequence="1" unid="0A8597D718F37A8580257BE100247717">
-<created><datetime dst="true">20130909T073817,83+01</datetime></created>
-<modified><datetime dst="true">20130909T073818,71+01</datetime></modified>
-<revised><datetime dst="true">20130909T073818,70+01</datetime></revised>
-<lastaccessed><datetime dst="true">20130909T073818,71+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20130909T073818,71+01</datetime></addedtofile></noteinfo>
+<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257ADB005A7A22" version="9.0">
+<noteinfo noteid="340e" sequence="1" unid="F1DD498E9D2062F280257C31004D977F">
+<created><datetime>20131128T140730,55+00</datetime></created>
+<modified><datetime>20131128T140732,21+00</datetime></modified>
+<revised><datetime>20131128T140732,20+00</datetime></revised>
+<lastaccessed><datetime>20131128T140732,21+00</datetime></lastaccessed>
+<addedtofile><datetime>20131128T140732,21+00</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$Flags"><text>D34CiQ</text></item>

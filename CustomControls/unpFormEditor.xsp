@@ -14,7 +14,7 @@
 <xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom">
 	<xp:this.resources>
 		<xp:script src="/unp/jquery.blockUI.min.js" clientSide="true"></xp:script>
-		<xp:script src="/unp/jquery.autocomplete.min.js" clientSide="true"></xp:script>
+		<xp:script src="/unp/jquery.autocomplete.js" clientSide="true"></xp:script>
 		<xp:script src="/unplugged.js" clientSide="true"></xp:script>
 		<xp:script src="/unpCommon.jss" clientSide="false"></xp:script>
 	</xp:this.resources>
@@ -46,8 +46,8 @@ if (out.length > 0){
 				</h2>
 				<xp:callback facetName="facet_1" id="callback1"></xp:callback>
 				<xp:panel id="buttons" styleClass="buttons" tagName="ul">
-					<xp:this.rendered><![CDATA[#{javascript:compositeData.showbuttons == "yes"}]]></xp:this.rendered>
 					<xp:panel tagName="li" id="saveButton" styleClass="saveButton">
+						<xp:this.rendered><![CDATA[#{javascript:compositeData.showbuttons == "yes"}]]></xp:this.rendered>
 						<xp:this.attrs>
 							<xp:attr name="onclick">
 								<xp:this.value><![CDATA[#{javascript:var out = "saveDocument('" + getClientId("customform") + "', '" + document1.getDocument().getUniversalID() + 
@@ -62,16 +62,19 @@ out += ");"
 return out;}]]></xp:this.value>
 							</xp:attr>
 						</xp:this.attrs>
-						<span class="formbuttonlabel">Save</span>
+						<span class="icon"></span>
+						<span class="label">Save</span>
 					</xp:panel>
 					<xp:panel id="closebutton" styleClass="cancelButton"
 						tagName="li">
+						<xp:this.rendered><![CDATA[#{javascript:compositeData.showbuttons == "yes"}]]></xp:this.rendered>
 						<xp:this.attrs>
 							<xp:attr name="onclick">
 								<xp:this.value><![CDATA[#{javascript:return "history.back()";}]]></xp:this.value>
 							</xp:attr>
 						</xp:this.attrs>
-						<span class="formbuttonlabel">Cancel</span>
+						<span class="icon"></span>
+						<span class="label">Cancel</span>
 					</xp:panel>
 				</xp:panel>
 			</xp:div>

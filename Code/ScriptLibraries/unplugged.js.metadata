@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="filter" replicaid="80257ADB005A7A22" version="9.0">
-<noteinfo noteid="2ae2" sequence="1" unid="DBB8AB96B40119B980257C0800476CFB">
-<created><datetime dst="true">20131018T140009,55+01</datetime></created>
-<modified><datetime dst="true">20131018T140009,66+01</datetime></modified>
-<revised><datetime dst="true">20131018T140009,65+01</datetime></revised>
-<lastaccessed><datetime dst="true">20131018T140009,66+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20131018T140009,66+01</datetime></addedtofile></noteinfo>
+<?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="filter" maintenanceversion="1.0" replicaid="80257ADB005A7A22" version="9.0">
+<noteinfo noteid="3506" sequence="1" unid="C2E8CABD899EA4CC80257C31004DABC5">
+<created><datetime>20131128T140822,45+00</datetime></created>
+<modified><datetime>20131128T140822,61+00</datetime></modified>
+<revised><datetime>20131128T140822,60+00</datetime></revised>
+<lastaccessed><datetime>20131128T140822,61+00</datetime></lastaccessed>
+<addedtofile><datetime>20131128T140822,61+00</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$TITLE" sign="true"><text>unplugged.js</text></item>

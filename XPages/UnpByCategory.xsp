@@ -14,7 +14,10 @@
 <xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom"
 	xmlns:unp="http://unplugged.teamstudio.com" createForm="false"
 	disableTheme="true">
-	<div id="content">
+		<xc:layout>
+		<xp:this.facets>
+			<xp:panel xp:key="facet_1">
+	
 		<unp:unpScrollableArea>
 			<xp:this.facets>
 				<unp:unpAccordion xp:key="facet_1" position="menu-aligned"
@@ -22,5 +25,7 @@
 				</unp:unpAccordion>
 			</xp:this.facets>
 		</unp:unpScrollableArea>
-	</div>
+	</xp:panel>
+	</xp:this.facets>
+	</xc:layout>
 </xp:view>

@@ -13,13 +13,17 @@
 
 <xp:view xmlns:xp="http://www.ibm.com/xsp/core" xmlns:xc="http://www.ibm.com/xsp/custom"
 	xmlns:unp="http://unplugged.teamstudio.com">
+		<xc:layout>
+		<xp:this.facets>
+			<xp:panel xp:key="facet_1">
+	
 	<xc:layout>
 		<xp:this.facets>
 			<xp:panel xp:key="facet_1">
 				<unp:unpScrollableArea>
 					<xp:this.facets>
 						<unp:unpFormViewer showbuttons="true" xp:key="facet_1"
-							position="menu-aligned" closexpagename="UnpMain.xsp" formname="JournalEntry"
+							position="menu-aligned" formname="JournalEntry"
 							editxpagename="UnpDocumentEdit.xsp" title="Journal Entry">
 
 							<xp:this.facets>
@@ -51,5 +55,8 @@
 				</unp:unpScrollableArea>
 			</xp:panel>
 		</xp:this.facets>
+	</xc:layout>
+	</xp:panel>
+	</xp:this.facets>
 	</xc:layout>
 </xp:view>
