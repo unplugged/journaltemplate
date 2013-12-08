@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257ADB005A7A22" version="9.0">
-<noteinfo noteid="3556" sequence="8" unid="6F9685D27BE23C4680257C31004DBC83">
-<created><datetime>20131128T140905,31+00</datetime></created>
-<modified><datetime>20131128T141330,72+00</datetime></modified>
-<revised><datetime>20131128T141330,71+00</datetime></revised>
-<lastaccessed><datetime>20131128T141330,72+00</datetime></lastaccessed>
-<addedtofile><datetime>20131128T140905,33+00</datetime></addedtofile></noteinfo>
+<noteinfo noteid="365e" sequence="8" unid="D6C124CD0DF73C2F80257C3B003E78EA">
+<created><datetime>20131208T112221,86+00</datetime></created>
+<modified><datetime>20131208T112239,63+00</datetime></modified>
+<revised><datetime>20131208T112239,62+00</datetime></revised>
+<lastaccessed><datetime>20131208T112239,63+00</datetime></lastaccessed>
+<addedtofile><datetime>20131208T112221,88+00</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$TITLE"><text>unpTypographyRead.xsp</text></item>

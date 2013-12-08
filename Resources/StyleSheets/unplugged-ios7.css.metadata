@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257ADB005A7A22" version="9.0">
-<noteinfo noteid="3282" sequence="1" unid="0772860E27CA235180257C31004D7D55">
-<created><datetime>20131128T140623,57+00</datetime></created>
-<modified><datetime>20131128T140623,77+00</datetime></modified>
-<revised><datetime>20131128T140623,76+00</datetime></revised>
-<lastaccessed><datetime>20131128T140623,77+00</datetime></lastaccessed>
-<addedtofile><datetime>20131128T140623,77+00</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
-<item name="$TITLE"><text>unplugged-ios7.css</text></item>
+<noteinfo noteid="35aa" sequence="1" unid="83F8570F6C8C9D7780257C350039BAE1">
+<created><datetime>20131202T103033,93+00</datetime></created>
+<modified><datetime>20131202T103033,97+00</datetime></modified>
+<revised><datetime>20131202T103033,96+00</datetime></revised>
+<lastaccessed><datetime>20131202T103033,97+00</datetime></lastaccessed>
+<addedtofile><datetime>20131202T103033,97+00</datetime></addedtofile></noteinfo>
+<updatedby><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name><name>Anonymous</name><name>CN=Unplugged User/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name><name>CN=Unplugged User/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
+<item name="$TITLE"><textlist><text>unplugged-ios7.css</text></textlist></item>
 <item name="$Flags"><text>34C=Q</text></item>
-<item name="$FileModDT"><datetime>20131126T094527,18+00</datetime></item>
-<item name="$DesignerVersion"><text>8.5.3</text></item>
+<item name="$DesignerVersion"><text>6</text></item>
+<item name="$FileNames"><textlist><text>unplugged-ios7.css</text></textlist></item>
 
 
 
 
 
-<item name="$FileNames" sign="true"><text>unplugged-ios7.css</text></item></note>
+<item name="$FileModDT"><datetime>20131129T173826,75+00</datetime></item></note>
