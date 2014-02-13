@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257ADB005A7A22" version="9.0">
-<noteinfo noteid="3336" sequence="1" unid="01DFE0CEC382A25480257C31004D8453">
-<created><datetime>20131128T140641,47+00</datetime></created>
-<modified><datetime>20131128T140643,15+00</datetime></modified>
-<revised><datetime>20131128T140643,14+00</datetime></revised>
-<lastaccessed><datetime>20131128T140643,15+00</datetime></lastaccessed>
-<addedtofile><datetime>20131128T140643,15+00</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+<noteinfo noteid="3cf2" sequence="1" unid="E9EBB0FEC4CECED780257C7E0054A5BF">
+<created><datetime>20140213T152434,55+00</datetime></created>
+<modified><datetime>20140213T152436,17+00</datetime></modified>
+<revised><datetime>20140213T152436,16+00</datetime></revised>
+<lastaccessed><datetime>20140213T152436,17+00</datetime></lastaccessed>
+<addedtofile><datetime>20140213T152436,17+00</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Matt White/O=Exhilarate</name><name>Anonymous</name><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <item name="$TITLE"><text>unplugged-table.less</text></item>
 <item name="$Flags"><text>345CgQ</text></item>
-<item name="$FileModDT"><datetime>20131126T093922,78+00</datetime></item>
+<item name="$FlagsExt"><text>D</text></item>
 <item name="$DesignerVersion"><text>8.5.3</text></item>
+<item name="$FileNames"><textlist><text>unplugged-table.less</text></textlist></item>
 
 
-<item name="$FileNames" sign="true"><text>unplugged-table.less</text></item></note>
+<item name="$FileModDT"><datetime>20140205T145124,92+00</datetime></item></note>
