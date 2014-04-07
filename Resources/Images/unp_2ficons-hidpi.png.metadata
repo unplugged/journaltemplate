@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257ADB005A7A22" version="9.0">
-<noteinfo noteid="3df6" sequence="1" unid="0D921A75F684491980257CB300417E61">
-<created><datetime dst="true">20140407T125521,93+01</datetime></created>
-<modified><datetime dst="true">20140407T125522,50+01</datetime></modified>
-<revised><datetime dst="true">20140407T125522,49+01</datetime></revised>
-<lastaccessed><datetime dst="true">20140407T125522,50+01</datetime></lastaccessed>
-<addedtofile><datetime dst="true">20140407T125522,50+01</datetime></addedtofile></noteinfo>
+<noteinfo noteid="3df2" sequence="1" unid="B19DD3B22674EC4C80257CB300417E60">
+<created><datetime dst="true">20140407T125521,92+01</datetime></created>
+<modified><datetime dst="true">20140407T125522,46+01</datetime></modified>
+<revised><datetime dst="true">20140407T125522,45+01</datetime></revised>
+<lastaccessed><datetime dst="true">20140407T125522,46+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140407T125522,46+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$Flags"><text>D34CiQ</text></item>
@@ -13,8 +13,8 @@
 <item name="$ImagesHigh" sign="true"><number>1</number></item>
 <item name="$ImagesColorize" sign="true"><number>0</number></item>
 <item name="$FileModDT" sign="true"><datetime>20131208T041246,00+00</datetime></item>
-<item name="$ImageNames" sign="true"><text>unp_2ficons.png</text></item>
-<item name="$TITLE" sign="true"><text>unp/icons.png</text></item>
+<item name="$ImageNames" sign="true"><text>unp_2ficons_5fhidpi.png</text></item>
+<item name="$TITLE" sign="true"><text>unp/icons-hidpi.png</text></item>
 <item name="$DesignerVersion"><text>8.5.3</text></item>
 
 </note>

@@ -44,13 +44,15 @@ if (out.length > 0){
 						value="#{javascript:compositeData.title}" styleClass="formtitle">
 					</xp:text>
 				</h2>
+
 				<xp:callback facetName="facet_1" id="callback1"></xp:callback>
+
 				<xp:panel id="buttons" styleClass="buttons" tagName="ul">
 					<xp:panel tagName="li" id="saveButton" styleClass="saveButton">
 						<xp:this.rendered><![CDATA[#{javascript:compositeData.showbuttons == "yes"}]]></xp:this.rendered>
 						<xp:this.attrs>
 							<xp:attr name="onclick">
-								<xp:this.value><![CDATA[#{javascript:var out = "saveDocument('" + getClientId("customform") + "', '" + document1.getDocument().getUniversalID() + 
+								<xp:this.value><![CDATA[#{javascript:var out = "unp.saveDocument('" + getClientId("customform") + "', '" + document1.getDocument().getUniversalID() + 
 "', '" + compositeData.viewxpagename + "', '" + compositeData.formname + "'"
 if (context.getUrlParameter("parentunid") != ""){
 	out += ", '" + context.getUrlParameter("parentunid") + "'";
@@ -72,13 +74,18 @@ return out;}]]></xp:this.value>
 						<xp:this.rendered><![CDATA[#{javascript:compositeData.showbuttons == "yes"}]]></xp:this.rendered>
 						<xp:this.attrs>
 							<xp:attr name="onclick">
-								<xp:this.value><![CDATA[#{javascript:return "history.back()";}]]></xp:this.value>
+								<xp:this.value><![CDATA[#{javascript:if (isEmpty(compositeData.closexpagename)){
+	return "history.back()";
+}else{
+	return "$.blockUI(); window.location.href='" + compositeData.closexpagename + "';";
+}}]]></xp:this.value>
 							</xp:attr>
 						</xp:this.attrs>
 						<span class="icon"></span>
 						<span class="label">Cancel</span>
 					</xp:panel>
 				</xp:panel>
+				
 			</xp:div>
 		</div>
 	</xp:panel>

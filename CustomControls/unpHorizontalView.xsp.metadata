@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257ADB005A7A22" version="9.0">
-<noteinfo noteid="3c1e" sequence="8" unid="E3459D2E1F9D013380257C7E00548967">
-<created><datetime>20140213T152321,99+00</datetime></created>
-<modified><datetime>20140213T152537,35+00</datetime></modified>
-<revised><datetime>20140213T152537,34+00</datetime></revised>
-<lastaccessed><datetime>20140213T152537,35+00</datetime></lastaccessed>
-<addedtofile><datetime>20140213T152322,01+00</datetime></addedtofile></noteinfo>
+<noteinfo noteid="3d76" sequence="8" unid="8991ECC0105C245980257CB300415B51">
+<created><datetime dst="true">20140407T125352,17+01</datetime></created>
+<modified><datetime dst="true">20140407T125715,54+01</datetime></modified>
+<revised><datetime dst="true">20140407T125715,53+01</datetime></revised>
+<lastaccessed><datetime dst="true">20140407T125715,54+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140407T125352,18+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$TITLE"><text>unpHorizontalView.xsp</text></item>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257ADB005A7A22" version="9.0">
-<noteinfo noteid="34d2" sequence="1" unid="39644AEF51DB278A80257C31004D97B0">
-<created><datetime>20131128T140731,04+00</datetime></created>
-<modified><datetime>20131128T140734,65+00</datetime></modified>
-<revised><datetime>20131128T140734,64+00</datetime></revised>
-<lastaccessed><datetime>20131128T140734,65+00</datetime></lastaccessed>
-<addedtofile><datetime>20131128T140734,65+00</datetime></addedtofile></noteinfo>
+<noteinfo noteid="3e1a" sequence="1" unid="AD2A8BE82978364780257CB300417E6A">
+<created><datetime dst="true">20140407T125522,02+01</datetime></created>
+<modified><datetime dst="true">20140407T125522,86+01</datetime></modified>
+<revised><datetime dst="true">20140407T125522,85+01</datetime></revised>
+<lastaccessed><datetime dst="true">20140407T125522,86+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140407T125522,86+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$TITLE" sign="true"><text>workspace/contacts-blue.png</text></item>

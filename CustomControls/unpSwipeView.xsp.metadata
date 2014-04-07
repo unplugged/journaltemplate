@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="80257ADB005A7A22" version="9.0">
-<noteinfo noteid="3c32" sequence="8" unid="54735CDCBFBC049780257C7E00548AC0">
-<created><datetime>20140213T152325,44+00</datetime></created>
-<modified><datetime>20140213T152537,99+00</datetime></modified>
-<revised><datetime>20140213T152537,98+00</datetime></revised>
-<lastaccessed><datetime>20140213T152537,99+00</datetime></lastaccessed>
-<addedtofile><datetime>20140213T152325,46+00</datetime></addedtofile></noteinfo>
+<noteinfo noteid="3d86" sequence="8" unid="1F6F481AEBABFF0380257CB300415C4B">
+<created><datetime dst="true">20140407T125354,67+01</datetime></created>
+<modified><datetime dst="true">20140407T125716,10+01</datetime></modified>
+<revised><datetime dst="true">20140407T125716,09+01</datetime></revised>
+<lastaccessed><datetime dst="true">20140407T125716,10+01</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20140407T125354,68+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
 <wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
 <item name="$TITLE"><text>unpSwipeView.xsp</text></item>

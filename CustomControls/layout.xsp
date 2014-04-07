@@ -18,23 +18,14 @@ the specific language governing permissions and limitations under the License
 	<unp:unpHeader search="database" searchPage="UnpSearch.xsp"
 		viewsButton="true" title="Journal">
 	</unp:unpHeader>
-	<unp:unpNavigator>
-		<unp:this.menuItem>
-			<unp:menuItem ajaxloadid="content" ajaxtargetid="content"
-				label="All Documents" page="/UnpMain.xsp">
-			</unp:menuItem>
-			<unp:menuItem ajaxtargetid="content" label="By Diary Date"
-				page="/UnpByDate.xsp" ajaxloadid="content">
-			</unp:menuItem>
-			<unp:menuItem ajaxloadid="content" ajaxtargetid="content"
-				label="By Category" page="/UnpByCategory.xsp">
-			</unp:menuItem>
-			<unp:menuItem ajaxloadid="contentwrapper"
-				ajaxtargetid="content" submenu="no" disabled="no" label="About"
-				page="/UnpAbout.xsp">
-			</unp:menuItem>
-		</unp:this.menuItem>
-	</unp:unpNavigator>
+	<unp:unpNavigatorComputed>
+		<unp:this.computedmenuitems><![CDATA[#{javascript:[
+        {label: "All Documents", hasSubMenu: false, page: "/UnpMain.xsp", ajaxloadid: "contentwrapper", ajaxtargetid: "content"},
+        {label: "By Diary Date", hasSubMenu: false, page: "/UnpByDate.xsp", ajaxloadid: "contentwrapper", ajaxtargetid: "content"},
+        {label: "By Category", hasSubMenu: false, page: "/UnpByCategory.xsp", ajaxloadid: "contentwrapper", ajaxtargetid: "content"},
+        {label: "About", hasSubMenu: false, page: "/UnpAbout.xsp", ajaxloadid: "contentwrapper", ajaxtargetid: "content"}
+]}]]></unp:this.computedmenuitems>
+	</unp:unpNavigatorComputed>
 	<div id="content">
 		<div id="contentwrapper">
 		<xp:callback facetName="facet_1" id="callback1"></xp:callback>

@@ -46,6 +46,10 @@ body {
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
 
+	&.dialogactive {
+		z-index: 999; /* Display above menu (e.g. overlays/modals) */
+	}
+
 	@media screen and (min-width: 701px) {
 		top: 57px;
 		bottom: 60px;
@@ -833,7 +837,7 @@ legend {
 	background: #fff;
 	-webkit-border-radius: 10px;
 	-webkit-box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.2);
-	left: 100px;
+	left: 10px;
 	top: 70px;
 	right: 10px;
 	padding: 10px;
